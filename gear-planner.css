@@ -2632,9 +2632,66 @@ button {
 }
 
 .gear-planner__loading {
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 18vh 1.5rem 2rem;
   text-align: center;
   color: var(--gp-muted);
+}
+
+.gear-planner__loading-spinner {
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+  border: 3px solid color-mix(in srgb, var(--gp-accent) 22%, transparent);
+  border-top-color: var(--gp-accent);
+  animation: gp-loading-spin 0.9s linear infinite;
+}
+
+@keyframes gp-loading-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.gear-planner__loading-bar {
+  width: min(320px, 80vw);
+  height: 6px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--gp-accent) 14%, transparent);
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.gear-planner__loading-bar--active {
+  opacity: 1;
+}
+
+.gear-planner__loading-fill {
+  width: 0%;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--gp-accent);
+  transition: width 0.2s ease;
+}
+
+.gear-planner__loading-text {
+  margin: 0;
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gear-planner__loading-spinner {
+    animation-duration: 2.4s;
+  }
+
+  .gear-planner__loading-fill {
+    transition: none;
+  }
 }
 
 .gear-planner__error {

@@ -15784,18 +15784,115 @@
     },
   };
 
+  /**
+   * Aggregate download progress across the runtime data payloads. Resources with an unknown
+   * `Content-Length` simply do not contribute to the percentage (the bar stays indeterminate
+   * until at least one total is known). Loaded bytes are clamped per resource because
+   * compressed transfers can deliver more decoded bytes than the header advertises.
+   */
+  function createLoadingProgress(onRender) {
+    const resources = [];
+    let lastPct = -1;
+    function render() {
+      let total = 0;
+      let loaded = 0;
+      for (let i = 0; i < resources.length; i++) {
+        const r = resources[i];
+        if (!(r.total > 0)) continue;
+        total += r.total;
+        loaded += Math.min(r.loaded, r.total);
+      }
+      const pct = total > 0 ? Math.max(0, Math.min(100, Math.round((loaded / total) * 100))) : null;
+      if (pct !== lastPct) {
+        lastPct = pct;
+        onRender(pct);
+      }
+    }
+    return {
+      track(total) {
+        const r = { total: Number.isFinite(total) && total > 0 ? total : 0, loaded: 0 };
+        resources.push(r);
+        render();
+        return {
+          advance(bytes) {
+            r.loaded += bytes;
+            render();
+          },
+          finish() {
+            if (r.total > 0) r.loaded = r.total;
+            render();
+          },
+        };
+      },
+    };
+  }
+
+  /** Fetch + parse a JSON payload while reporting streamed download progress. Throws on HTTP errors. */
+  async function fetchJsonWithProgress(url, progress) {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(res.status + " " + res.statusText);
+    const lenHeader = res.headers && typeof res.headers.get === "function" ? res.headers.get("content-length") : null;
+    const total = lenHeader ? parseInt(lenHeader, 10) : NaN;
+    const tracker = progress ? progress.track(total) : null;
+    if (!res.body || typeof res.body.getReader !== "function") {
+      const text = await res.text();
+      if (tracker) tracker.finish();
+      return JSON.parse(text);
+    }
+    const reader = res.body.getReader();
+    const chunks = [];
+    let received = 0;
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      chunks.push(value);
+      received += value.length;
+      if (tracker) tracker.advance(value.length);
+    }
+    if (tracker) tracker.finish();
+    const buf = new Uint8Array(received);
+    let offset = 0;
+    for (let i = 0; i < chunks.length; i++) {
+      buf.set(chunks[i], offset);
+      offset += chunks[i].length;
+    }
+    return JSON.parse(new TextDecoder("utf-8").decode(buf));
+  }
+
   async function main() {
     const root = document.getElementById("gear-planner-root");
-    root.innerHTML = `<div class="gear-planner__loading">Loading data.cdb…</div>`;
+    root.innerHTML = `
+<div class="gear-planner__loading" role="status" aria-live="polite">
+  <div class="gear-planner__loading-spinner" aria-hidden="true"></div>
+  <div class="gear-planner__loading-bar" aria-hidden="true"><div class="gear-planner__loading-fill" id="gp-loading-fill"></div></div>
+  <p class="gear-planner__loading-text" id="gp-loading-text">Loading game data…</p>
+</div>`;
+    const loadingFill = root.querySelector("#gp-loading-fill");
+    const loadingText = root.querySelector("#gp-loading-text");
+    const progress = createLoadingProgress((pct) => {
+      if (!loadingFill || !loadingText) return;
+      if (pct == null) return;
+      loadingFill.style.width = pct + "%";
+      loadingFill.parentNode.classList.add("gear-planner__loading-bar--active");
+      loadingText.textContent = `Loading game data… ${pct}%`;
+    });
+
+    // Start every runtime payload download in parallel; hydration still happens in order below.
+    const cdbPromise = fetchJsonWithProgress(CDB_URL, progress);
+    const foePromise = fetchJsonWithProgress(FOE_DEFENSES_URL, progress);
+    const dungeonPromise = fetchJsonWithProgress(DUNGEON_REGIONS_URL, progress);
+    const lootPromise = fetchJsonWithProgress(LOOT_TABLES_URL, progress);
+    // Side handlers so an early fatal return (cdb failure) cannot surface unhandled rejections.
+    foePromise.catch(() => {});
+    dungeonPromise.catch(() => {});
+    lootPromise.catch(() => {});
 
     let cdb;
     try {
-      const res = await fetch(CDB_URL);
-      if (!res.ok) throw new Error(res.status + " " + res.statusText);
-      cdb = await res.json();
+      cdb = await cdbPromise;
     } catch (e) {
-      root.innerHTML = `<div class="gear-planner__error"><strong>Could not load ${CDB_URL}</strong><br>${String(
-        e.message || e
+      root.innerHTML = `<div class="gear-planner__error"><strong>Could not load ${escapeHtml(CDB_URL)}</strong><br>${escapeHtml(
+        String((e && e.message) || e)
       )}<br><small>Open this page via a local server so fetch can read game data.</small></div>`;
       return;
     }
@@ -15803,68 +15900,59 @@
     try {
       hydratePlannerFromCdb(cdb);
     } catch (e) {
-      root.innerHTML = `<div class="gear-planner__error">Missing required sheets in CDB.<br>${String(
-        e.message || e
+      root.innerHTML = `<div class="gear-planner__error">Missing required sheets in CDB.<br>${escapeHtml(
+        String((e && e.message) || e)
       )}</div>`;
       return;
     }
 
     try {
-      const fr = await fetch(FOE_DEFENSES_URL);
-      if (fr.ok) {
-        foeDefensesPayload = await fr.json();
-        recordPayloadValidationDiagnostics(
-          "Foe defense",
-          FOE_DEFENSES_URL,
-          validateFoeDefensesPayload(foeDefensesPayload)
-        );
-        foeUnitById = {};
-        const units = (foeDefensesPayload && foeDefensesPayload.units) || [];
-        for (let ui = 0; ui < units.length; ui++) {
-          const u = units[ui];
-          if (u && u.id) foeUnitById[u.id] = u;
-        }
-        if (foeUnitById["Dummy"]) {
-          const dD = foeUnitById["Dummy"];
-          dD.lvl = 1;
-          dD.maxLvl = 1;
-          dD.spawnLevelSpan = [1, 1];
-          if (!dD.resolvedByLevel || typeof dD.resolvedByLevel !== "object") {
-            dD.resolvedByLevel = {
-              "1": { foePower: 0, armorPts: 0, magicArmorPts: 0 },
-            };
-          } else {
-            const r1 =
-              dD.resolvedByLevel["1"] || {
-                foePower: 0,
-                armorPts: 0,
-                magicArmorPts: 0,
-              };
-            dD.resolvedByLevel = { "1": r1 };
-          }
-        }
-        if (foeDefensesPayload && Array.isArray(foeDefensesPayload.units) && !foeUnitById["Dummy"]) {
-          const dummyResolved = {
+      foeDefensesPayload = await foePromise;
+      recordPayloadValidationDiagnostics(
+        "Foe defense",
+        FOE_DEFENSES_URL,
+        validateFoeDefensesPayload(foeDefensesPayload)
+      );
+      foeUnitById = {};
+      const units = (foeDefensesPayload && foeDefensesPayload.units) || [];
+      for (let ui = 0; ui < units.length; ui++) {
+        const u = units[ui];
+        if (u && u.id) foeUnitById[u.id] = u;
+      }
+      if (foeUnitById["Dummy"]) {
+        const dD = foeUnitById["Dummy"];
+        dD.lvl = 1;
+        dD.maxLvl = 1;
+        dD.spawnLevelSpan = [1, 1];
+        if (!dD.resolvedByLevel || typeof dD.resolvedByLevel !== "object") {
+          dD.resolvedByLevel = {
             "1": { foePower: 0, armorPts: 0, magicArmorPts: 0 },
           };
-          const dummy = {
-            id: "Dummy",
-            unitType: "Dummy",
-            name: "Training Dummy",
-            lvl: 1,
-            maxLvl: 1,
-            spawnLevelSpan: [1, 1],
-            resolvedByLevel: dummyResolved,
-          };
-          foeUnitById["Dummy"] = dummy;
-          foeDefensesPayload.units.unshift(dummy);
+        } else {
+          const r1 =
+            dD.resolvedByLevel["1"] || {
+              foePower: 0,
+              armorPts: 0,
+              magicArmorPts: 0,
+            };
+          dD.resolvedByLevel = { "1": r1 };
         }
-      } else {
-        recordPlannerDiagnostic(
-          "warning",
-          "Foe defense data unavailable",
-          `${FOE_DEFENSES_URL} returned ${fr.status}; combat previews will use estimated armor.`
-        );
+      }
+      if (foeDefensesPayload && Array.isArray(foeDefensesPayload.units) && !foeUnitById["Dummy"]) {
+        const dummyResolved = {
+          "1": { foePower: 0, armorPts: 0, magicArmorPts: 0 },
+        };
+        const dummy = {
+          id: "Dummy",
+          unitType: "Dummy",
+          name: "Training Dummy",
+          lvl: 1,
+          maxLvl: 1,
+          spawnLevelSpan: [1, 1],
+          resolvedByLevel: dummyResolved,
+        };
+        foeUnitById["Dummy"] = dummy;
+        foeDefensesPayload.units.unshift(dummy);
       }
     } catch (e) {
       foeDefensesPayload = null;
@@ -15879,25 +15967,13 @@
     }
 
     try {
-      const dr = await fetch(DUNGEON_REGIONS_URL);
-      if (dr.ok) {
-        const dungeonPayload = await dr.json();
-        recordPayloadValidationDiagnostics(
-          "Dungeon region",
-          DUNGEON_REGIONS_URL,
-          validateDungeonRegionsPayload(dungeonPayload)
-        );
-        hydrateDungeonBossLookup(dungeonPayload);
-      }
-      else {
-        dungeonBossByUnitId = {};
-        dungeonBossLabelsByFactionId = null;
-        recordPlannerDiagnostic(
-          "warning",
-          "Dungeon region data unavailable",
-          `${DUNGEON_REGIONS_URL} returned ${dr.status}; boss labels may be incomplete.`
-        );
-      }
+      const dungeonPayload = await dungeonPromise;
+      recordPayloadValidationDiagnostics(
+        "Dungeon region",
+        DUNGEON_REGIONS_URL,
+        validateDungeonRegionsPayload(dungeonPayload)
+      );
+      hydrateDungeonBossLookup(dungeonPayload);
     } catch (e) {
       dungeonBossByUnitId = {};
       dungeonBossLabelsByFactionId = null;
@@ -15911,25 +15987,13 @@
     }
 
     try {
-      const lr = await fetch(LOOT_TABLES_URL);
-      if (lr.ok) {
-        const lootPayload = await lr.json();
-        recordPayloadValidationDiagnostics(
-          "Loot table",
-          LOOT_TABLES_URL,
-          validateLootTablesPayload(lootPayload)
-        );
-        hydrateItemBossDropIndexFromLootTables(lootPayload);
-      }
-      else {
-        lootTableItemExpansionMemo = null;
-        itemDungeonBossDropsByItemId = null;
-        recordPlannerDiagnostic(
-          "warning",
-          "Loot table data unavailable",
-          `${LOOT_TABLES_URL} returned ${lr.status}; boss drop hints may be incomplete.`
-        );
-      }
+      const lootPayload = await lootPromise;
+      recordPayloadValidationDiagnostics(
+        "Loot table",
+        LOOT_TABLES_URL,
+        validateLootTablesPayload(lootPayload)
+      );
+      hydrateItemBossDropIndexFromLootTables(lootPayload);
     } catch (e) {
       lootTableItemExpansionMemo = null;
       itemDungeonBossDropsByItemId = null;
@@ -15982,7 +16046,7 @@
 <div class="gear-planner">
   <header class="gear-planner__header">
     <div class="gear-planner__header-main">
-      <a class="gear-planner__title-logo-link" href="https://terekt.github.io/Farever-Planner/" target="_blank" rel="noopener noreferrer" aria-label="Open Farever Planner home page">
+      <a class="gear-planner__title-logo-link" href="./" aria-label="Farever Planner home">
         <div class="gear-planner__title-logo" id="gp-title-logo"></div>
       </a>
       <a class="gear-planner__discord-link" href="https://discord.gg/Rsgf62YAQG" target="_blank" rel="noopener noreferrer" aria-label="Join the Farever Planner Discord server">
@@ -16405,7 +16469,23 @@
     sanitizeClassSkillMasteriesForClass(selClass.value);
 
     if (gpTitleLogo) {
-      mountPlannerImage(gpTitleLogo, "UI/Window/TitleScreen/title.png", "Farever");
+      // Slim pre-scaled logo (assets/title-logo.png) instead of the 1584×672 extracted
+      // title screen art — the header renders it at ≤320px wide.
+      gpTitleLogo.textContent = "";
+      const logoImg = document.createElement("img");
+      logoImg.alt = "Farever";
+      logoImg.decoding = "async";
+      logoImg.width = 320;
+      logoImg.height = 136;
+      logoImg.src = "assets/title-logo.png";
+      logoImg.addEventListener(
+        "error",
+        () => {
+          mountPlannerImage(gpTitleLogo, "UI/Window/TitleScreen/title.png", "Farever");
+        },
+        { once: true }
+      );
+      gpTitleLogo.appendChild(logoImg);
     }
 
     /** @type {HTMLElement[]} */

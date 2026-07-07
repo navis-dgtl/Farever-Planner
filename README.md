@@ -27,6 +27,16 @@ Publish this folder as its own GitHub repository, then enable GitHub Pages from 
 
 The site entry point is `index.html`, so no build step is required.
 
+## Deploy To Vercel
+
+The repository also deploys as-is to Vercel (no build step, output = repository root). `vercel.json` adds Vercel-specific response headers:
+
+- `Content-Type: application/json` for `data.cdb` so the edge compresses it (as `application/octet-stream` it would ship uncompressed, ~4 MB instead of ~700 KB).
+- `Cache-Control: public, max-age=600` for game data, mirroring GitHub Pages' cache window.
+- Longer caching for icons and static image assets.
+
+GitHub Pages ignores `vercel.json`, so the file is safe to keep for both hosts.
+
 Keep the planner compatible with GitHub Pages constraints:
 
 - Use relative asset and `fetch` URLs so both `https://owner.github.io/` and `https://owner.github.io/repo/` deployments work.

@@ -4,11 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Farever Planner</title>
+  <meta name="description" content="Gear and talent planner for Farever — build your character, preview skill damage against real foes, and share builds with a link.">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <link rel="icon" type="image/png" href="favicon.png">
+  <meta name="theme-color" content="#e8eaee">
+  <meta property="og:title" content="Farever Planner">
+  <meta property="og:description" content="Build your Farever character, preview skill damage against real foes, and share builds with a link.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="apple-touch-icon.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preload" href="game-data/extracted/res.light/data.cdb" as="fetch" crossorigin="anonymous">
   <link rel="stylesheet" href="gear-planner.css">
 </head>
 <body>
+  <noscript>
+    <p style="max-width: 32rem; margin: 4rem auto; padding: 1rem 1.25rem; font-family: system-ui, sans-serif; text-align: center; border: 1px solid rgba(0,0,0,0.15); border-radius: 10px;">
+      Farever Planner needs JavaScript to compute builds and damage previews.
+      Please enable JavaScript and reload the page.
+    </p>
+  </noscript>
   <div id="gear-planner-root"></div>
   <script src="planner-static-config.js"></script>
   <script src="gear-planner.js"></script>
