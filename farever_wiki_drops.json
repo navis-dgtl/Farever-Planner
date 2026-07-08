@@ -1,0 +1,4875 @@
+{
+ "dungeon": {
+  "Lost City of Mayda": {
+   "Warrior": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Crown of the Sea"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Abyssal Shoulderplates"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Fin Armor",
+     "hard": "Fin Armor"
+    },
+    {
+     "slot": "Back",
+     "normal": "Jenny Hanibal's Armored Cape",
+     "hard": "Jenny Hanibal's Armored Cape"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Palm of the Lagoon",
+     "hard": "Palm of the Lagoon"
+    },
+    {
+     "slot": "Waist",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Vesture of the Mussel Hunter",
+     "hard": "Vesture of the Mussel Hunter"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Boots of Abyssal Essence",
+     "hard": "Boots of Abyssal Essence"
+    }
+   ],
+   "Mage": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Tides Hood"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Fins of the First Fish Delicate Marine"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Fin Armor",
+     "hard": "Fin Armor"
+    },
+    {
+     "slot": "Back",
+     "normal": "Cloak of the Third Wave Apostle  Wings of the Prophet",
+     "hard": "Cloak of the Third Wave Apostle  Wings of the Prophet"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Ceremonial Siren Gloves",
+     "hard": "Ceremonial Siren Gloves"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Emblem of the Third Wave  Ceremonial Nepsid Belt",
+     "hard": "Emblem of the Third Wave  Ceremonial Nepsid Belt"
+    },
+    {
+     "slot": "Legs",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Spare Sandals of Young Nephisto  Boots of Abyssal Essence",
+     "hard": "Spare Sandals of Young Nephisto  Boots of Abyssal Essence"
+    }
+   ],
+   "Rogue": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Submarine Torpedo Helmet"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Fins of the First Fish  Abyssal Shoulderplates"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Jacket of the Last Pirate",
+     "hard": "Jacket of the Last Pirate"
+    },
+    {
+     "slot": "Back",
+     "normal": "Cloak of the Third Wave Apostle",
+     "hard": "Cloak of the Third Wave Apostle"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Burden of the Abyss",
+     "hard": "Burden of the Abyss"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Emblem of the Third Wave",
+     "hard": "Emblem of the Third Wave"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Vesture of the Mussel Hunter  Nepicur's Vacation Shorts",
+     "hard": "Vesture of the Mussel Hunter  Nepicur's Vacation Shorts"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Bleak Shell's Knee Pads",
+     "hard": "Bleak Shell's Knee Pads"
+    }
+   ],
+   "Priest": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Delicate Marine Aiglets"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Charm of the Fisher King  Jacket of the Last Pirate",
+     "hard": "Charm of the Fisher King  Jacket of the Last Pirate"
+    },
+    {
+     "slot": "Back",
+     "normal": "Jenny Hanibal's Armored Cape  Wings of the Prophet",
+     "hard": "Jenny Hanibal's Armored Cape  Wings of the Prophet"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Palm of the Lagoon",
+     "hard": "Palm of the Lagoon"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Ceremonial Nepsid Belt",
+     "hard": "Ceremonial Nepsid Belt"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Nepicur's Vacation Shorts  High-speed Clamdiggers",
+     "hard": "Nepicur's Vacation Shorts  High-speed Clamdiggers"
+    },
+    {
+     "slot": "Feet",
+     "normal": "—",
+     "hard": "—"
+    }
+   ]
+  },
+  "Mine Estrone": {
+   "Warrior": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Armored Docker Cap"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Miner Ramparts"
+    },
+    {
+     "slot": "Chest",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Back",
+     "normal": "Brie von de Cape",
+     "hard": "Brie von de Cape"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Diskobold's Discus Throw Gloves",
+     "hard": "Diskobold's Discus Throw Gloves"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Unity of the Thirty Kingdoms",
+     "hard": "Unity of the Thirty Kingdoms"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Wrong Trousers",
+     "hard": "Wrong Trousers"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Buskins of Essential Emptiness",
+     "hard": "Buskins of Essential Emptiness"
+    }
+   ],
+   "Mage": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Vision of the Cheeseslicer  Dust Scarf"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Treasure Hunter's Straps"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Spirit of the Spelunker",
+     "hard": "Spirit of the Spelunker"
+    },
+    {
+     "slot": "Back",
+     "normal": "Brie von de Cape",
+     "hard": "Brie von de Cape"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Diskobold's Discus Throw Gloves  Vows of Prosperity",
+     "hard": "Diskobold's Discus Throw Gloves  Vows of Prosperity"
+    },
+    {
+     "slot": "Waist",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Garment of the Aurock Master  Rat-Vachol's Patched Up Pants",
+     "hard": "Garment of the Aurock Master  Rat-Vachol's Patched Up Pants"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Gold Pouches",
+     "hard": "Gold Pouches"
+    }
+   ],
+   "Rogue": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Vision of the Cheeseslicer"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Cheese-Covered Shoulderpads"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Spirit of the Spelunker",
+     "hard": "Spirit of the Spelunker"
+    },
+    {
+     "slot": "Back",
+     "normal": "Reversible Bib of the Cheese Taster",
+     "hard": "Reversible Bib of the Cheese Taster"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Gloves of Ninkilim the Envoy",
+     "hard": "Gloves of Ninkilim the Envoy"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Relic of the Four Hundred",
+     "hard": "Relic of the Four Hundred"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Garment of the Aurock Master",
+     "hard": "Garment of the Aurock Master"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Buskins of Essential Emptiness  Spelunking Shoes of Emmen Tunnel",
+     "hard": "Buskins of Essential Emptiness  Spelunking Shoes of Emmen Tunnel"
+    }
+   ],
+   "Priest": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Armored Docker Cap  Dust Scarf"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Goldilock's Thrice Latched Jacket",
+     "hard": "Goldilock's Thrice Latched Jacket"
+    },
+    {
+     "slot": "Back",
+     "normal": "Mystical Placemat of the Gourmet",
+     "hard": "Mystical Placemat of the Gourmet"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Vows of Prosperity  Gloves of Ninkilim the Envoy",
+     "hard": "Vows of Prosperity  Gloves of Ninkilim the Envoy"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Unity of the Thirty Kingdoms  Knotr'Edam",
+     "hard": "Unity of the Thirty Kingdoms  Knotr'Edam"
+    },
+    {
+     "slot": "Legs",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Gold Pouches  Spelunking Shoes of Emmen Tunnel",
+     "hard": "Gold Pouches  Spelunking Shoes of Emmen Tunnel"
+    }
+   ]
+  },
+  "Crabgantua's Gorge": {
+   "Warrior": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Crown of the Sea"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Abyssal Shoulderplates"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Fin Armor",
+     "hard": "Fin Armor"
+    },
+    {
+     "slot": "Back",
+     "normal": "Jenny Hanibal's Armored Cape",
+     "hard": "Jenny Hanibal's Armored Cape"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Palm of the Lagoon",
+     "hard": "Palm of the Lagoon"
+    },
+    {
+     "slot": "Waist",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Vesture of the Mussel Hunter",
+     "hard": "Vesture of the Mussel Hunter"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Boots of Abyssal Essence",
+     "hard": "Boots of Abyssal Essence"
+    }
+   ],
+   "Mage": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Tides Hood"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Fins of the First Fish  Delicate Marine Aiglets"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Fin Armor",
+     "hard": "Fin Armor"
+    },
+    {
+     "slot": "Back",
+     "normal": "Cloak of the Third Wave Apostle  Wings of the Prophet",
+     "hard": "Cloak of the Third Wave Apostle  Wings of the Prophet"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Ceremonial Siren Gloves",
+     "hard": "Ceremonial Siren Gloves"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Emblem of the Third Wave  Ceremonial Nepsid Belt",
+     "hard": "Emblem of the Third Wave  Ceremonial Nepsid Belt"
+    },
+    {
+     "slot": "Legs",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Spare Sandals of Young Nephisto  Boots of Abyssal Essence",
+     "hard": "Spare Sandals of Young Nephisto  Boots of Abyssal Essence"
+    }
+   ],
+   "Rogue": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Submarine Torpedo Helmet"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Fins of the First Fish  Abyssal Shoulderplates"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Jacket of the Last Pirate",
+     "hard": "Jacket of the Last Pirate"
+    },
+    {
+     "slot": "Back",
+     "normal": "Cloak of the Third Wave Apostle",
+     "hard": "Cloak of the Third Wave Apostle"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Burden of the Abyss",
+     "hard": "Burden of the Abyss"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Emblem of the Third Wave",
+     "hard": "Emblem of the Third Wave"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Vesture of the Mussel Hunter  Nepicur's Vacation Shorts",
+     "hard": "Vesture of the Mussel Hunter  Nepicur's Vacation Shorts"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Bleak Shell's Knee Pads",
+     "hard": "Bleak Shell's Knee Pads"
+    }
+   ],
+   "Priest": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Delicate Marine Aiglets"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Charm of the Fisher King  Jacket of the Last Pirate",
+     "hard": "Charm of the Fisher King  Jacket of the Last Pirate"
+    },
+    {
+     "slot": "Back",
+     "normal": "Jenny Hanibal's Armored Cape  Wings of the Prophet",
+     "hard": "Jenny Hanibal's Armored Cape  Wings of the Prophet"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Palm of the Lagoon",
+     "hard": "Palm of the Lagoon"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Ceremonial Nepsid Belt",
+     "hard": "Ceremonial Nepsid Belt"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Nepicur's Vacation Shorts  High-speed Clamdiggers",
+     "hard": "Nepicur's Vacation Shorts  High-speed Clamdiggers"
+    },
+    {
+     "slot": "Feet",
+     "normal": "—",
+     "hard": "—"
+    }
+   ]
+  },
+  "Ratsar's Lair": {
+   "Warrior": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Armored Docker Cap"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Miner Ramparts"
+    },
+    {
+     "slot": "Chest",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Back",
+     "normal": "Brie von de Cape",
+     "hard": "Brie von de Cape"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Diskobold's Discus Throw Gloves",
+     "hard": "Diskobold's Discus Throw Gloves"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Unity of the Thirty Kingdoms",
+     "hard": "Unity of the Thirty Kingdoms"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Wrong Trousers",
+     "hard": "Wrong Trousers"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Buskins of Essential Emptiness",
+     "hard": "Buskins of Essential Emptiness"
+    }
+   ],
+   "Mage": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Vision of the Cheeseslicer  Dust Scarf"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Treasure Hunter's Straps"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Spirit of the Spelunker",
+     "hard": "Spirit of the Spelunker"
+    },
+    {
+     "slot": "Back",
+     "normal": "Brie von de Cape",
+     "hard": "Brie von de Cape"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Diskobold's Discus Throw Gloves  Vows of Prosperity",
+     "hard": "Diskobold's Discus Throw Gloves  Vows of Prosperity"
+    },
+    {
+     "slot": "Waist",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Garment of the Aurock Master  Rat-Vachol's Patched Up Pants",
+     "hard": "Garment of the Aurock Master  Rat-Vachol's Patched Up Pants"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Gold Pouches",
+     "hard": "Gold Pouches"
+    }
+   ],
+   "Rogue": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Vision of the Cheeseslicer"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "Cheese-Covered Shoulderpads"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Spirit of the Spelunker",
+     "hard": "Spirit of the Spelunker"
+    },
+    {
+     "slot": "Back",
+     "normal": "Reversible Bib of the Cheese Taster",
+     "hard": "Reversible Bib of the Cheese Taster"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Gloves of Ninkilim the Envoy",
+     "hard": "Gloves of Ninkilim the Envoy"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Relic of the Four Hundred",
+     "hard": "Relic of the Four Hundred"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Garment of the Aurock Master",
+     "hard": "Garment of the Aurock Master"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Buskins of Essential Emptiness  Spelunking Shoes of Emmen Tunnel",
+     "hard": "Buskins of Essential Emptiness  Spelunking Shoes of Emmen Tunnel"
+    }
+   ],
+   "Priest": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "Armored Docker Cap  Dust Scarf"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Goldilock's Thrice Latched Jacket",
+     "hard": "Goldilock's Thrice Latched Jacket"
+    },
+    {
+     "slot": "Back",
+     "normal": "Mystical Placemat of the Gourmet",
+     "hard": "Mystical Placemat of the Gourmet"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Vows of Prosperity  Gloves of Ninkilim the Envoy",
+     "hard": "Vows of Prosperity  Gloves of Ninkilim the Envoy"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Unity of the Thirty Kingdoms  Knotr'Edam",
+     "hard": "Unity of the Thirty Kingdoms  Knotr'Edam"
+    },
+    {
+     "slot": "Legs",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Gold Pouches  Spelunking Shoes of Emmen Tunnel",
+     "hard": "Gold Pouches  Spelunking Shoes of Emmen Tunnel"
+    }
+   ]
+  },
+  "Trunk of the Hivetree": {
+   "Warrior": [
+    {
+     "slot": "Head",
+     "normal": "x",
+     "hard": "Royal Chamber Helmet"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "x",
+     "hard": "Queen Spikes"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Whirring Gem of Apix",
+     "hard": "Whirring Gem of Apix"
+    },
+    {
+     "slot": "Back",
+     "normal": "Reflective Vest of the Hive Worker",
+     "hard": "Reflective Vest of the Hive Worker"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Gauntlets of the Royal Guard",
+     "hard": "Gauntlets of the Royal Guard"
+    },
+    {
+     "slot": "Waist",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Flying Trousers Prototype",
+     "hard": "Flying Trousers Prototype"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Melain's Golden Greaves",
+     "hard": "Melain's Golden Greaves"
+    }
+   ],
+   "Mage": [
+    {
+     "slot": "Head",
+     "normal": "x",
+     "hard": "Royal Chamber Helmet   Scout Antennae  Vision of the Beekeeper"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "x",
+     "hard": "Hive Sprouts"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Casual Clothes of the Pollincess",
+     "hard": "Casual Clothes of the Pollincess"
+    },
+    {
+     "slot": "Back",
+     "normal": "Veil of the Royal Nymph",
+     "hard": "Veil of the Royal Nymph"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Vambraces of the Swarm",
+     "hard": "Vambraces of the Swarm"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Dancing Hivetree Belt",
+     "hard": "Dancing Hivetree Belt"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Zenobee's Breeches",
+     "hard": "Zenobee's Breeches"
+    },
+    {
+     "slot": "Feet",
+     "normal": "War Sabatons of Apix",
+     "hard": "War Sabatons of Apix"
+    }
+   ],
+   "Rogue": [
+    {
+     "slot": "Head",
+     "normal": "x",
+     "hard": "Scout Antennae"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "x",
+     "hard": "Beewings"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Emblem of Radiant Nectar",
+     "hard": "Emblem of Radiant Nectar"
+    },
+    {
+     "slot": "Back",
+     "normal": "Reflective Vest of the Hive Worker  Flight of the Rumblebee",
+     "hard": "Reflective Vest of the Hive Worker  Flight of the Rumblebee"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Gauntlets of the Royal Guard  Vambraces of the Swarm",
+     "hard": "Gauntlets of the Royal Guard  Vambraces of the Swarm"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Propolis Heart of Apix",
+     "hard": "Propolis Heart of Apix"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Silhouette of Apix",
+     "hard": "Silhouette of Apix"
+    },
+    {
+     "slot": "Feet",
+     "normal": "War Sabatons of Apix",
+     "hard": "War Sabatons of Apix"
+    }
+   ],
+   "Priest": [
+    {
+     "slot": "Head",
+     "normal": "x",
+     "hard": "Vision of the Beekeeper"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "x",
+     "hard": "Queen Spikes"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Casual Clothes of the Pollincess  Emblem of Radiant Nectar",
+     "hard": "Casual Clothes of the Pollincess  Emblem of Radiant Nectar"
+    },
+    {
+     "slot": "Back",
+     "normal": "Flight of the Rumblebee",
+     "hard": "Flight of the Rumblebee"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Palmaryllis",
+     "hard": "Palmaryllis"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Propolis Heart of Apix",
+     "hard": "Propolis Heart of Apix"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Flying Trousers Prototype  Zenobee's Breeches",
+     "hard": "Flying Trousers Prototype  Zenobee's Breeches"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Cleo's Ethereal Blossoms",
+     "hard": "Cleo's Ethereal Blossoms"
+    }
+   ]
+  },
+  "Lady Bee's Palace": {
+   "Warrior": [
+    {
+     "slot": "Head",
+     "normal": "Royal Chamber Helmet",
+     "hard": "Royal Chamber Helmet"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Queen Spikes",
+     "hard": "Queen Spikes"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Whirring Gem of Apix",
+     "hard": "Whirring Gem of Apix"
+    },
+    {
+     "slot": "Back",
+     "normal": "Reflective Vest of the Hive Worker",
+     "hard": "Reflective Vest of the Hive Worker"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Gauntlets of the Royal Guard",
+     "hard": "Gauntlets of the Royal Guard"
+    },
+    {
+     "slot": "Waist",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Flying Trousers Prototype",
+     "hard": "Flying Trousers Prototype"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Melain's Golden Greaves",
+     "hard": "Melain's Golden Greaves"
+    }
+   ],
+   "Mage": [
+    {
+     "slot": "Head",
+     "normal": "Royal Chamber Helmet  Scout Antennae  Vision of the Beekeeper",
+     "hard": "Royal Chamber Helmet   Scout Antennae  Vision of the Beekeeper"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Hive Sprouts",
+     "hard": "Hive Sprouts"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Casual Clothes of the Pollincess",
+     "hard": "Casual Clothes of the Pollincess"
+    },
+    {
+     "slot": "Back",
+     "normal": "Veil of the Royal Nymph",
+     "hard": "Veil of the Royal Nymph"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Vambraces of the Swarm",
+     "hard": "Vambraces of the Swarm"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Dancing Hivetree Belt",
+     "hard": "Dancing Hivetree Belt"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Zenobee's Breeches",
+     "hard": "Zenobee's Breeches"
+    },
+    {
+     "slot": "Feet",
+     "normal": "War Sabatons of Apix",
+     "hard": "War Sabatons of Apix"
+    }
+   ],
+   "Rogue": [
+    {
+     "slot": "Head",
+     "normal": "Scout Antennae",
+     "hard": "Scout Antennae"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Beewings",
+     "hard": "Beewings"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Emblem of Radiant Nectar",
+     "hard": "Emblem of Radiant Nectar"
+    },
+    {
+     "slot": "Back",
+     "normal": "Reflective Vest of the Hive Worker  Flight of the Rumblebee",
+     "hard": "Reflective Vest of the Hive Worker  Flight of the Rumblebee"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Gauntlets of the Royal Guard  Vambraces of the Swarm",
+     "hard": "Gauntlets of the Royal Guard  Vambraces of the Swarm"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Propolis Heart of Apix",
+     "hard": "Propolis Heart of Apix"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Silhouette of Apix",
+     "hard": "Silhouette of Apix"
+    },
+    {
+     "slot": "Feet",
+     "normal": "War Sabatons of Apix",
+     "hard": "War Sabatons of Apix"
+    }
+   ],
+   "Priest": [
+    {
+     "slot": "Head",
+     "normal": "Vision of the Beekeeper",
+     "hard": "Vision of the Beekeeper"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Queen Spikes",
+     "hard": "Queen Spikes"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Casual Clothes of the Pollincess  Emblem of Radiant Nectar",
+     "hard": "Casual Clothes of the Pollincess  Emblem of Radiant Nectar"
+    },
+    {
+     "slot": "Back",
+     "normal": "Flight of the Rumblebee",
+     "hard": "Flight of the Rumblebee"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Palmaryllis",
+     "hard": "Palmaryllis"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Propolis Heart of Apix",
+     "hard": "Propolis Heart of Apix"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Flying Trousers Prototype  Zenobee's Breeches",
+     "hard": "Flying Trousers Prototype  Zenobee's Breeches"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Cleo's Ethereal Blossoms",
+     "hard": "Cleo's Ethereal Blossoms"
+    }
+   ]
+  },
+  "Ruins of Gorgon's Hollow": {
+   "Warrior": [
+    {
+     "slot": "Head",
+     "normal": "Armored Docker Cap",
+     "hard": "Armored Docker Cap"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Miner Ramparts",
+     "hard": "Miner Ramparts"
+    },
+    {
+     "slot": "Chest",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Back",
+     "normal": "Brie von de Cape",
+     "hard": "Brie von de Cape"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Diskobold's Discus Throw Gloves",
+     "hard": "Diskobold's Discus Throw Gloves"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Unity of the Thirty Kingdoms",
+     "hard": "Unity of the Thirty Kingdoms"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Wrong Trousers",
+     "hard": "Wrong Trousers"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Buskins of Essential Emptiness",
+     "hard": "Buskins of Essential Emptiness"
+    }
+   ],
+   "Mage": [
+    {
+     "slot": "Head",
+     "normal": "Vision of the Cheeseslicer",
+     "hard": "Vision of the Cheeseslicer  Dust Scarf"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Treasure Hunter's Straps",
+     "hard": "Treasure Hunter's Straps"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Spirit of the Spelunker",
+     "hard": "Spirit of the Spelunker"
+    },
+    {
+     "slot": "Back",
+     "normal": "Brie von de Cape",
+     "hard": "Brie von de Cape"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Diskobold's Discus Throw Gloves   Vows of Prosperity",
+     "hard": "Diskobold's Discus Throw Gloves  Vows of Prosperity"
+    },
+    {
+     "slot": "Waist",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Garment of the Aurock Master  Rat-Vachol's Patched Up Pants",
+     "hard": "Garment of the Aurock Master  Rat-Vachol's Patched Up Pants"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Gold Pouches",
+     "hard": "Gold Pouches"
+    }
+   ],
+   "Rogue": [
+    {
+     "slot": "Head",
+     "normal": "Vision of the Cheeseslicer",
+     "hard": "Vision of the Cheeseslicer"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Cheese-Covered Shoulderpads",
+     "hard": "Cheese-Covered Shoulderpads"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Spirit of the Spelunker",
+     "hard": "Spirit of the Spelunker"
+    },
+    {
+     "slot": "Back",
+     "normal": "Reversible Bib of the Cheese Taster",
+     "hard": "Reversible Bib of the Cheese Taster"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Gloves of Ninkilim the Envoy",
+     "hard": "Gloves of Ninkilim the Envoy"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Relic of the Four Hundred",
+     "hard": "Relic of the Four Hundred"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Garment of the Aurock Master",
+     "hard": "Garment of the Aurock Master"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Buskins of Essential Emptiness  Spelunking Shoes of Emmen Tunnel",
+     "hard": "Buskins of Essential Emptiness  Spelunking Shoes of Emmen Tunnel"
+    }
+   ],
+   "Priest": [
+    {
+     "slot": "Head",
+     "normal": "Armored Docker Cap  Dust Scarf",
+     "hard": "Armored Docker Cap  Dust Scarf"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Goldilock's Thrice Latched Jacket",
+     "hard": "Goldilock's Thrice Latched Jacket"
+    },
+    {
+     "slot": "Back",
+     "normal": "Mystical Placemat of the Gourmet",
+     "hard": "Mystical Placemat of the Gourmet"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Vows of Prosperity  Gloves of Ninkilim the Envoy",
+     "hard": "Vows of Prosperity  Gloves of Ninkilim the Envoy"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Unity of the Thirty Kingdoms   Knotr'Edam",
+     "hard": "Unity of the Thirty Kingdoms  Knotr'Edam"
+    },
+    {
+     "slot": "Legs",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Gold Pouches  Spelunking Shoes of Emmen Tunnel",
+     "hard": "Gold Pouches  Spelunking Shoes of Emmen Tunnel"
+    }
+   ]
+  },
+  "Abyss of New Atlaan": {
+   "Warrior": [
+    {
+     "slot": "Head",
+     "normal": "Crown of the Sea",
+     "hard": "Crown of the Sea"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Abyssal Shoulderplates",
+     "hard": "Abyssal Shoulderplates"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Fin Armor",
+     "hard": "Fin Armor"
+    },
+    {
+     "slot": "Back",
+     "normal": "Jenny Hanibal's Armored Cape",
+     "hard": "Jenny Hanibal's Armored Cape"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Palm of the Lagoon",
+     "hard": "Palm of the Lagoon"
+    },
+    {
+     "slot": "Waist",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Vesture of the Mussel Hunter",
+     "hard": "Vesture of the Mussel Hunter"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Boots of Abyssal Essence",
+     "hard": "Boots of Abyssal Essence"
+    }
+   ],
+   "Mage": [
+    {
+     "slot": "Head",
+     "normal": "Tides Hood",
+     "hard": "Tides Hood"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Fins of the First Fish  Delicate Marine Aiglets",
+     "hard": "Fins of the First Fish  Delicate Marine Aiglets"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Fin Armor",
+     "hard": "Fin Armor"
+    },
+    {
+     "slot": "Back",
+     "normal": "Cloak of the Third Wave Apostle  Wings of the Prophet",
+     "hard": "Cloak of the Third Wave Apostle  Wings of the Prophet"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Ceremonial Siren Gloves",
+     "hard": "Ceremonial Siren Gloves"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Emblem of the Third Wave  Ceremonial Nepsid Belt",
+     "hard": "Emblem of the Third Wave  Ceremonial Nepsid Belt"
+    },
+    {
+     "slot": "Legs",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Spare Sandals of Young Nephisto  Boots of Abyssal Essence",
+     "hard": "Spare Sandals of Young Nephisto  Boots of Abyssal Essence"
+    }
+   ],
+   "Rogue": [
+    {
+     "slot": "Head",
+     "normal": "Submarine Torpedo Helmet",
+     "hard": "Submarine Torpedo Helmet"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Fins of the First Fish  Abyssal Shoulderplates",
+     "hard": "Fins of the First Fish  Abyssal Shoulderplates"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Jacket of the Last Pirate",
+     "hard": "Jacket of the Last Pirate"
+    },
+    {
+     "slot": "Back",
+     "normal": "Cloak of the Third Wave Apostle",
+     "hard": "Cloak of the Third Wave Apostle"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Burden of the Abyss",
+     "hard": "Burden of the Abyss"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Emblem of the Third Wave",
+     "hard": "Emblem of the Third Wave"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Vesture of the Mussel Hunter  Nepicur's Vacation Shorts",
+     "hard": "Vesture of the Mussel Hunter  Nepicur's Vacation Shorts"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Bleak Shell's Knee Pads",
+     "hard": "Bleak Shell's Knee Pads"
+    }
+   ],
+   "Priest": [
+    {
+     "slot": "Head",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Delicate Marine Aiglets",
+     "hard": "Delicate Marine Aiglets"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Charm of the Fisher King  Jacket of the Last Pirate",
+     "hard": "Charm of the Fisher King  Jacket of the Last Pirate"
+    },
+    {
+     "slot": "Back",
+     "normal": "Jenny Hanibal's Armored Cape  Wings of the Prophet",
+     "hard": "Jenny Hanibal's Armored Cape  Wings of the Prophet"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Palm of the Lagoon",
+     "hard": "Palm of the Lagoon"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Ceremonial Nepsid Belt",
+     "hard": "Ceremonial Nepsid Belt"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Nepicur's Vacation Shorts  High-speed Clamdiggers",
+     "hard": "Nepicur's Vacation Shorts  High-speed Clamdiggers"
+    },
+    {
+     "slot": "Feet",
+     "normal": "—",
+     "hard": "—"
+    }
+   ]
+  },
+  "Honeyzabeth's Hivetrunk": {
+   "Warrior": [
+    {
+     "slot": "Head",
+     "normal": "Royal Chamber Helmet",
+     "hard": "Royal Chamber Helmet"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Queen Spikes",
+     "hard": "Queen Spikes"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Whirring Gem of Apix",
+     "hard": "Whirring Gem of Apix"
+    },
+    {
+     "slot": "Back",
+     "normal": "Reflective Vest of the Hive Worker",
+     "hard": "Reflective Vest of the Hive Worker"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Gauntlets of the Royal Guard",
+     "hard": "Gauntlets of the Royal Guard"
+    },
+    {
+     "slot": "Waist",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Flying Trousers Prototype",
+     "hard": "Flying Trousers Prototype"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Melain's Golden Greaves",
+     "hard": "Melain's Golden Greaves"
+    }
+   ],
+   "Mage": [
+    {
+     "slot": "Head",
+     "normal": "Royal Chamber Helmet   Scout Antennae  Vision of the Beekeeper",
+     "hard": "Royal Chamber Helmet   Scout Antennae  Vision of the Beekeeper"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Hive Sprouts",
+     "hard": "Hive Sprouts"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Casual Clothes of the Pollincess",
+     "hard": "Casual Clothes of the Pollincess"
+    },
+    {
+     "slot": "Back",
+     "normal": "Veil of the Royal Nymph",
+     "hard": "Veil of the Royal Nymph"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Vambraces of the Swarm",
+     "hard": "Vambraces of the Swarm"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Dancing Hivetree Belt",
+     "hard": "Dancing Hivetree Belt"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Zenobee's Breeches",
+     "hard": "Zenobee's Breeches"
+    },
+    {
+     "slot": "Feet",
+     "normal": "War Sabatons of Apix",
+     "hard": "War Sabatons of Apix"
+    }
+   ],
+   "Rogue": [
+    {
+     "slot": "Head",
+     "normal": "Scout Antennae",
+     "hard": "Scout Antennae"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Beewings",
+     "hard": "Beewings"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Emblem of Radiant Nectar",
+     "hard": "Emblem of Radiant Nectar"
+    },
+    {
+     "slot": "Back",
+     "normal": "Reflective Vest of the Hive Worker  Flight of the Rumblebee",
+     "hard": "Reflective Vest of the Hive Worker  Flight of the Rumblebee"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Gauntlets of the Royal Guard  Vambraces of the Swarm",
+     "hard": "Gauntlets of the Royal Guard  Vambraces of the Swarm"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Propolis Heart of Apix",
+     "hard": "Propolis Heart of Apix"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Silhouette of Apix",
+     "hard": "Silhouette of Apix"
+    },
+    {
+     "slot": "Feet",
+     "normal": "War Sabatons of Apix",
+     "hard": "War Sabatons of Apix"
+    }
+   ],
+   "Priest": [
+    {
+     "slot": "Head",
+     "normal": "Vision of the Beekeeper",
+     "hard": "Vision of the Beekeeper"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Queen Spikes",
+     "hard": "Queen Spikes"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Casual Clothes of the Pollincess  Emblem of Radiant Nectar",
+     "hard": "Casual Clothes of the Pollincess  Emblem of Radiant Nectar"
+    },
+    {
+     "slot": "Back",
+     "normal": "Flight of the Rumblebee",
+     "hard": "Flight of the Rumblebee"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Palmaryllis",
+     "hard": "Palmaryllis"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Propolis Heart of Apix",
+     "hard": "Propolis Heart of Apix"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Flying Trousers Prototype  Zenobee's Breeches",
+     "hard": "Flying Trousers Prototype  Zenobee's Breeches"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Cleo's Ethereal Blossoms",
+     "hard": "Cleo's Ethereal Blossoms"
+    }
+   ]
+  },
+  "Cheese Station": {
+   "Warrior": [
+    {
+     "slot": "Head",
+     "normal": "Armored Docker Cap",
+     "hard": "Armored Docker Cap"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Miner Ramparts",
+     "hard": "Miner Ramparts"
+    },
+    {
+     "slot": "Chest",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Back",
+     "normal": "Brie von de Cape",
+     "hard": "Brie von de Cape"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Diskobold's Discus Throw Gloves",
+     "hard": "Diskobold's Discus Throw Gloves"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Unity of the Thirty Kingdoms",
+     "hard": "Unity of the Thirty Kingdoms"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Wrong Trousers",
+     "hard": "Wrong Trousers"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Buskins of Essential Emptiness",
+     "hard": "Buskins of Essential Emptiness"
+    }
+   ],
+   "Mage": [
+    {
+     "slot": "Head",
+     "normal": "Vision of the Cheeseslicer",
+     "hard": "Vision of the Cheeseslicer  Dust Scarf"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Treasure Hunter's Straps",
+     "hard": "Treasure Hunter's Straps"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Spirit of the Spelunker",
+     "hard": "Spirit of the Spelunker"
+    },
+    {
+     "slot": "Back",
+     "normal": "Brie von de Cape",
+     "hard": "Brie von de Cape"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Diskobold's Discus Throw Gloves   Vows of Prosperity",
+     "hard": "Diskobold's Discus Throw Gloves  Vows of Prosperity"
+    },
+    {
+     "slot": "Waist",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Garment of the Aurock Master  Rat-Vachol's Patched Up Pants",
+     "hard": "Garment of the Aurock Master  Rat-Vachol's Patched Up Pants"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Gold Pouches",
+     "hard": "Gold Pouches"
+    }
+   ],
+   "Rogue": [
+    {
+     "slot": "Head",
+     "normal": "Vision of the Cheeseslicer",
+     "hard": "Vision of the Cheeseslicer"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "Cheese-Covered Shoulderpads",
+     "hard": "Cheese-Covered Shoulderpads"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Spirit of the Spelunker",
+     "hard": "Spirit of the Spelunker"
+    },
+    {
+     "slot": "Back",
+     "normal": "Reversible Bib of the Cheese Taster",
+     "hard": "Reversible Bib of the Cheese Taster"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Gloves of Ninkilim the Envoy",
+     "hard": "Gloves of Ninkilim the Envoy"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Relic of the Four Hundred",
+     "hard": "Relic of the Four Hundred"
+    },
+    {
+     "slot": "Legs",
+     "normal": "Garment of the Aurock Master",
+     "hard": "Garment of the Aurock Master"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Buskins of Essential Emptiness  Spelunking Shoes of Emmen Tunnel",
+     "hard": "Buskins of Essential Emptiness  Spelunking Shoes of Emmen Tunnel"
+    }
+   ],
+   "Priest": [
+    {
+     "slot": "Head",
+     "normal": "Armored Docker Cap  Dust Scarf",
+     "hard": "Armored Docker Cap  Dust Scarf"
+    },
+    {
+     "slot": "Shoulders",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Chest",
+     "normal": "Goldilock's Thrice Latched Jacket",
+     "hard": "Goldilock's Thrice Latched Jacket"
+    },
+    {
+     "slot": "Back",
+     "normal": "Mystical Placemat of the Gourmet",
+     "hard": "Mystical Placemat of the Gourmet"
+    },
+    {
+     "slot": "Hands",
+     "normal": "Vows of Prosperity  Gloves of Ninkilim the Envoy",
+     "hard": "Vows of Prosperity  Gloves of Ninkilim the Envoy"
+    },
+    {
+     "slot": "Waist",
+     "normal": "Unity of the Thirty Kingdoms  Knotr'Edam",
+     "hard": "Unity of the Thirty Kingdoms  Knotr'Edam"
+    },
+    {
+     "slot": "Legs",
+     "normal": "—",
+     "hard": "—"
+    },
+    {
+     "slot": "Feet",
+     "normal": "Gold Pouches  Spelunking Shoes of Emmen Tunnel",
+     "hard": "Gold Pouches  Spelunking Shoes of Emmen Tunnel"
+    }
+   ]
+  }
+ },
+ "world": {
+  "table0": [
+   {
+    "": "World\nfaction",
+    "Weapons": "Glory  Dominion  Credence  Radiance",
+    "Source Drop Activities": "It's a Trap! (lvl20 Chest fight)  The Cliff Snout (lvl20 Miniboss)"
+   },
+   {
+    "": "Crimson\nfaction",
+    "Weapons": "Ramulus & Ramus",
+    "Source Drop Activities": "West of the Fields (lvl14 Orb chest)  The Fieldkeeper (lvl15 Miniboss)  Coast Guards (lvl16 Miniboss)  The Crimson Outpost (lvl17 Enemmy camp)  One Big Piece (lvl17 Miniboss)"
+   }
+  ],
+  "table1": [
+   {
+    "": "Head",
+    "Warrior": "Ram Faceshield",
+    "Mage": "—",
+    "Rogue": "Ram Faceshield  High-Ranking Official's Hat",
+    "Priest": "Clerical Veil  High-Ranking Official's Hat",
+    "Source Drop Activities": "Crimson Outpost (lv9 Enemy camp)\nCrimson Magical Orbs (lvl9 Orb chest)\nThe Adjudant  (lvl10 Miniboss)\nWest of the Fields  (lvl14 Orb chest)\nThe Fieldkeeper  (lvl15 Miniboss)\nCoast Guards  (lvl16 Miniboss)\nThe Crimson Outpost  (lvl17 Enemy camp)\nOne Big Piece  (lvl17 Miniboss)"
+   },
+   {
+    "": "Shoulders",
+    "Warrior": "Spaulders of Intangible Faith",
+    "Mage": "Spaulders of Intangible Faith",
+    "Rogue": "Noble Mantle",
+    "Priest": "Noble Mantle  Judgment Spaulders"
+   },
+   {
+    "": "Chest",
+    "Warrior": "Breastplate of Recklessness",
+    "Mage": "Krisomal's Golden Fleece",
+    "Rogue": "Gambeson of the Flying Ram",
+    "Priest": "Breastplate of Recklessness"
+   },
+   {
+    "": "Back",
+    "Warrior": "Crimson Wings",
+    "Mage": "Diamond of the Order",
+    "Rogue": "Diamond of the Order  Sacrificial Cape",
+    "Priest": "Sacrificial Cape"
+   },
+   {
+    "": "Hands",
+    "Warrior": "Unholy Crimson Gloves",
+    "Mage": "Robin Hoof's Archery Gloves",
+    "Rogue": "Touch of Menas the Thaumaturge",
+    "Priest": "—"
+   },
+   {
+    "": "Waist",
+    "Warrior": "Forbidden Insignia of Silence",
+    "Mage": "Curse of the Immortal  Relic of Cernoros the Lost King",
+    "Rogue": "Forbidden Insignia of Silence  Relic of Cernoros the Lost King",
+    "Priest": "Curse of the Immortal"
+   },
+   {
+    "": "Legs",
+    "Warrior": "Crimson Pants",
+    "Mage": "Crimson Pants",
+    "Rogue": "Ubu's Galligaskins",
+    "Priest": "Ubu's Galligaskins  Entommeure's Spiritual Breeches"
+   },
+   {
+    "": "Feet",
+    "Warrior": "—",
+    "Mage": "Curse of the Immortal",
+    "Rogue": "Galoshes of Fortune",
+    "Priest": "—"
+   },
+   {
+    "": "Trinket",
+    "Warrior": "Lost Relic Found"
+   }
+  ]
+ },
+ "byItem": {
+  "Crown of the Sea": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Head",
+    "cls": "Warrior",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Head",
+    "cls": "Warrior",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Head",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Abyssal Shoulderplates": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Shoulders",
+    "cls": "Warrior",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Shoulders",
+    "cls": "Warrior",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Shoulders",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Fin Armor": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Chest",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Chest",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Chest",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Chest",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Chest",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Chest",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Jenny Hanibal's Armored Cape": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Back",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Back",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Back",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Back",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Back",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Back",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Palm of the Lagoon": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Hands",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Hands",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Hands",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Vesture of the Mussel Hunter": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Legs",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Legs",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Legs",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Boots of Abyssal Essence": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Feet",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Feet",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Feet",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Feet",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Feet",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Feet",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Tides Hood": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Fins of the First Fish Delicate Marine": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   }
+  ],
+  "Cloak of the Third Wave Apostle": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Back",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Back",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Back",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Back",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Back",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Back",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Wings of the Prophet": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Back",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Back",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Back",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Back",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Back",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Back",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Ceremonial Siren Gloves": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Emblem of the Third Wave": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Waist",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Waist",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Waist",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Waist",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Waist",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Waist",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Ceremonial Nepsid Belt": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Waist",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Waist",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Waist",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Spare Sandals of Young Nephisto": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Feet",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Feet",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Feet",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Submarine Torpedo Helmet": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Head",
+    "cls": "Rogue",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Head",
+    "cls": "Rogue",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Head",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Fins of the First Fish": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Jacket of the Last Pirate": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Chest",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Chest",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Chest",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Burden of the Abyss": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Nepicur's Vacation Shorts": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Legs",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Legs",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Legs",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Bleak Shell's Knee Pads": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Delicate Marine Aiglets": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Shoulders",
+    "cls": "Priest",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Shoulders",
+    "cls": "Priest",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Shoulders",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Charm of the Fisher King": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "High-speed Clamdiggers": [
+   {
+    "source": "Lost City of Mayda",
+    "slot": "Legs",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Crabgantua's Gorge",
+    "slot": "Legs",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Abyss of New Atlaan",
+    "slot": "Legs",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Armored Docker Cap": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Head",
+    "cls": "Warrior",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Mine Estrone",
+    "slot": "Head",
+    "cls": "Priest",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Head",
+    "cls": "Warrior",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Head",
+    "cls": "Priest",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Head",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Head",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Head",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Head",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Miner Ramparts": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Shoulders",
+    "cls": "Warrior",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Shoulders",
+    "cls": "Warrior",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Shoulders",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Shoulders",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Brie von de Cape": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Back",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Mine Estrone",
+    "slot": "Back",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Back",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Back",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Back",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Back",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Back",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Back",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Diskobold's Discus Throw Gloves": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Hands",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Mine Estrone",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Hands",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Hands",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Hands",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   }
+  ],
+  "Unity of the Thirty Kingdoms": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Waist",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Mine Estrone",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Waist",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Waist",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Waist",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Wrong Trousers": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Legs",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Legs",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Legs",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Legs",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Buskins of Essential Emptiness": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Feet",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Mine Estrone",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Feet",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Feet",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Feet",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Vision of the Cheeseslicer": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Mine Estrone",
+    "slot": "Head",
+    "cls": "Rogue",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Head",
+    "cls": "Rogue",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Head",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Head",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Dust Scarf": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Mine Estrone",
+    "slot": "Head",
+    "cls": "Priest",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Head",
+    "cls": "Priest",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Head",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Head",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Treasure Hunter's Straps": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Spirit of the Spelunker": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Chest",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Mine Estrone",
+    "slot": "Chest",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Chest",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Chest",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Chest",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Chest",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Chest",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Chest",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Vows of Prosperity": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Mine Estrone",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Garment of the Aurock Master": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Legs",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Mine Estrone",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Legs",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Legs",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Legs",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Rat-Vachol's Patched Up Pants": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Legs",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Legs",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Legs",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Legs",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Gold Pouches": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Feet",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Mine Estrone",
+    "slot": "Feet",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Feet",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Feet",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Feet",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Feet",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Feet",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Feet",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Cheese-Covered Shoulderpads": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Reversible Bib of the Cheese Taster": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Back",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Back",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Back",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Back",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Gloves of Ninkilim the Envoy": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Mine Estrone",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Relic of the Four Hundred": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Waist",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Waist",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Waist",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Waist",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Spelunking Shoes of Emmen Tunnel": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Mine Estrone",
+    "slot": "Feet",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Feet",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Feet",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Feet",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Goldilock's Thrice Latched Jacket": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Mystical Placemat of the Gourmet": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Back",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Back",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Back",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Back",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Knotr'Edam": [
+   {
+    "source": "Mine Estrone",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ratsar's Lair",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Ruins of Gorgon's Hollow",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Cheese Station",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "x": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Head",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Shoulders",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Head",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Head",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Shoulders",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Royal Chamber Helmet": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Head",
+    "cls": "Warrior",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Head",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Head",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Queen Spikes": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Shoulders",
+    "cls": "Warrior",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Shoulders",
+    "cls": "Priest",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Shoulders",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Shoulders",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Shoulders",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Shoulders",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Whirring Gem of Apix": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Chest",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Chest",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Chest",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Reflective Vest of the Hive Worker": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Back",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Back",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Back",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Back",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Back",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Back",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Gauntlets of the Royal Guard": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Hands",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Hands",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Hands",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Flying Trousers Prototype": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Legs",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Legs",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Legs",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Legs",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Legs",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Legs",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Melain's Golden Greaves": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Feet",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Feet",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Feet",
+    "cls": "Warrior",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Scout Antennae": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Head",
+    "cls": "Rogue",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Head",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Head",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Vision of the Beekeeper": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Head",
+    "cls": "Priest",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Head",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Head",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Head",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Hive Sprouts": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Casual Clothes of the Pollincess": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Chest",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Chest",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Chest",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Veil of the Royal Nymph": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Back",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Back",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Back",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Vambraces of the Swarm": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Hands",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Dancing Hivetree Belt": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Waist",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Waist",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Waist",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Zenobee's Breeches": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Legs",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Legs",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Legs",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Legs",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Legs",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Legs",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "War Sabatons of Apix": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Feet",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Feet",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Feet",
+    "cls": "Mage",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Beewings": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "hard",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Emblem of Radiant Nectar": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Chest",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Chest",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Chest",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Chest",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Flight of the Rumblebee": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Back",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Back",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Back",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Back",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Back",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Back",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Propolis Heart of Apix": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Waist",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Waist",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Waist",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Waist",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Silhouette of Apix": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Palmaryllis": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Hands",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Cleo's Ethereal Blossoms": [
+   {
+    "source": "Trunk of the Hivetree",
+    "slot": "Feet",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Lady Bee's Palace",
+    "slot": "Feet",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   },
+   {
+    "source": "Honeyzabeth's Hivetrunk",
+    "slot": "Feet",
+    "cls": "Priest",
+    "difficulty": "normal",
+    "kind": "dungeon"
+   }
+  ],
+  "Ram Faceshield": [
+   {
+    "source": "Crimson Outpost (lv9 Enemy camp); Crimson Magical Orbs (lvl9 Orb chest); The Adjudant  (lvl10 Miniboss); West of the Fields  (lvl14 Orb chest); The Fieldkeeper  (lvl15 Miniboss); Coast Guards  (lvl16 Miniboss); The Crimson Outpost  (lvl17 Enemy camp); One Big Piece  (lvl17 Miniboss)",
+    "slot": "Head",
+    "cls": "Warrior",
+    "kind": "world/crimson"
+   },
+   {
+    "source": "Crimson Outpost (lv9 Enemy camp); Crimson Magical Orbs (lvl9 Orb chest); The Adjudant  (lvl10 Miniboss); West of the Fields  (lvl14 Orb chest); The Fieldkeeper  (lvl15 Miniboss); Coast Guards  (lvl16 Miniboss); The Crimson Outpost  (lvl17 Enemy camp); One Big Piece  (lvl17 Miniboss)",
+    "slot": "Head",
+    "cls": "Rogue",
+    "kind": "world/crimson"
+   }
+  ],
+  "High-Ranking Official's Hat": [
+   {
+    "source": "Crimson Outpost (lv9 Enemy camp); Crimson Magical Orbs (lvl9 Orb chest); The Adjudant  (lvl10 Miniboss); West of the Fields  (lvl14 Orb chest); The Fieldkeeper  (lvl15 Miniboss); Coast Guards  (lvl16 Miniboss); The Crimson Outpost  (lvl17 Enemy camp); One Big Piece  (lvl17 Miniboss)",
+    "slot": "Head",
+    "cls": "Rogue",
+    "kind": "world/crimson"
+   },
+   {
+    "source": "Crimson Outpost (lv9 Enemy camp); Crimson Magical Orbs (lvl9 Orb chest); The Adjudant  (lvl10 Miniboss); West of the Fields  (lvl14 Orb chest); The Fieldkeeper  (lvl15 Miniboss); Coast Guards  (lvl16 Miniboss); The Crimson Outpost  (lvl17 Enemy camp); One Big Piece  (lvl17 Miniboss)",
+    "slot": "Head",
+    "cls": "Priest",
+    "kind": "world/crimson"
+   }
+  ],
+  "Clerical Veil": [
+   {
+    "source": "Crimson Outpost (lv9 Enemy camp); Crimson Magical Orbs (lvl9 Orb chest); The Adjudant  (lvl10 Miniboss); West of the Fields  (lvl14 Orb chest); The Fieldkeeper  (lvl15 Miniboss); Coast Guards  (lvl16 Miniboss); The Crimson Outpost  (lvl17 Enemy camp); One Big Piece  (lvl17 Miniboss)",
+    "slot": "Head",
+    "cls": "Priest",
+    "kind": "world/crimson"
+   }
+  ],
+  "Spaulders of Intangible Faith": [
+   {
+    "source": "table1",
+    "slot": "Shoulders",
+    "cls": "Warrior",
+    "kind": "world/crimson"
+   },
+   {
+    "source": "table1",
+    "slot": "Shoulders",
+    "cls": "Mage",
+    "kind": "world/crimson"
+   }
+  ],
+  "Noble Mantle": [
+   {
+    "source": "table1",
+    "slot": "Shoulders",
+    "cls": "Rogue",
+    "kind": "world/crimson"
+   },
+   {
+    "source": "table1",
+    "slot": "Shoulders",
+    "cls": "Priest",
+    "kind": "world/crimson"
+   }
+  ],
+  "Judgment Spaulders": [
+   {
+    "source": "table1",
+    "slot": "Shoulders",
+    "cls": "Priest",
+    "kind": "world/crimson"
+   }
+  ],
+  "Breastplate of Recklessness": [
+   {
+    "source": "table1",
+    "slot": "Chest",
+    "cls": "Warrior",
+    "kind": "world/crimson"
+   },
+   {
+    "source": "table1",
+    "slot": "Chest",
+    "cls": "Priest",
+    "kind": "world/crimson"
+   }
+  ],
+  "Krisomal's Golden Fleece": [
+   {
+    "source": "table1",
+    "slot": "Chest",
+    "cls": "Mage",
+    "kind": "world/crimson"
+   }
+  ],
+  "Gambeson of the Flying Ram": [
+   {
+    "source": "table1",
+    "slot": "Chest",
+    "cls": "Rogue",
+    "kind": "world/crimson"
+   }
+  ],
+  "Crimson Wings": [
+   {
+    "source": "table1",
+    "slot": "Back",
+    "cls": "Warrior",
+    "kind": "world/crimson"
+   }
+  ],
+  "Diamond of the Order": [
+   {
+    "source": "table1",
+    "slot": "Back",
+    "cls": "Mage",
+    "kind": "world/crimson"
+   },
+   {
+    "source": "table1",
+    "slot": "Back",
+    "cls": "Rogue",
+    "kind": "world/crimson"
+   }
+  ],
+  "Sacrificial Cape": [
+   {
+    "source": "table1",
+    "slot": "Back",
+    "cls": "Rogue",
+    "kind": "world/crimson"
+   },
+   {
+    "source": "table1",
+    "slot": "Back",
+    "cls": "Priest",
+    "kind": "world/crimson"
+   }
+  ],
+  "Unholy Crimson Gloves": [
+   {
+    "source": "table1",
+    "slot": "Hands",
+    "cls": "Warrior",
+    "kind": "world/crimson"
+   }
+  ],
+  "Robin Hoof's Archery Gloves": [
+   {
+    "source": "table1",
+    "slot": "Hands",
+    "cls": "Mage",
+    "kind": "world/crimson"
+   }
+  ],
+  "Touch of Menas the Thaumaturge": [
+   {
+    "source": "table1",
+    "slot": "Hands",
+    "cls": "Rogue",
+    "kind": "world/crimson"
+   }
+  ],
+  "Forbidden Insignia of Silence": [
+   {
+    "source": "table1",
+    "slot": "Waist",
+    "cls": "Warrior",
+    "kind": "world/crimson"
+   },
+   {
+    "source": "table1",
+    "slot": "Waist",
+    "cls": "Rogue",
+    "kind": "world/crimson"
+   }
+  ],
+  "Curse of the Immortal": [
+   {
+    "source": "table1",
+    "slot": "Waist",
+    "cls": "Mage",
+    "kind": "world/crimson"
+   },
+   {
+    "source": "table1",
+    "slot": "Waist",
+    "cls": "Priest",
+    "kind": "world/crimson"
+   },
+   {
+    "source": "table1",
+    "slot": "Feet",
+    "cls": "Mage",
+    "kind": "world/crimson"
+   }
+  ],
+  "Relic of Cernoros the Lost King": [
+   {
+    "source": "table1",
+    "slot": "Waist",
+    "cls": "Mage",
+    "kind": "world/crimson"
+   },
+   {
+    "source": "table1",
+    "slot": "Waist",
+    "cls": "Rogue",
+    "kind": "world/crimson"
+   }
+  ],
+  "Crimson Pants": [
+   {
+    "source": "table1",
+    "slot": "Legs",
+    "cls": "Warrior",
+    "kind": "world/crimson"
+   },
+   {
+    "source": "table1",
+    "slot": "Legs",
+    "cls": "Mage",
+    "kind": "world/crimson"
+   }
+  ],
+  "Ubu's Galligaskins": [
+   {
+    "source": "table1",
+    "slot": "Legs",
+    "cls": "Rogue",
+    "kind": "world/crimson"
+   },
+   {
+    "source": "table1",
+    "slot": "Legs",
+    "cls": "Priest",
+    "kind": "world/crimson"
+   }
+  ],
+  "Entommeure's Spiritual Breeches": [
+   {
+    "source": "table1",
+    "slot": "Legs",
+    "cls": "Priest",
+    "kind": "world/crimson"
+   }
+  ],
+  "Galoshes of Fortune": [
+   {
+    "source": "table1",
+    "slot": "Feet",
+    "cls": "Rogue",
+    "kind": "world/crimson"
+   }
+  ],
+  "Lost Relic Found": [
+   {
+    "source": "table1",
+    "slot": "Trinket",
+    "cls": "Warrior",
+    "kind": "world/crimson"
+   }
+  ]
+ }
+}

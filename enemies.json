@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Manfish",
+    "status": "needs-verification",
+    "image": "",
+    "family": "Manfish",
+    "behavior": "Enemy family name found in local data. Exact behavior needs verification.",
+    "attacks": ["Water Breath appears in boss-related leads", "General melee/ranged behavior needs verification"],
+    "weaknesses": [],
+    "drops": []
+  },
+  {
+    "name": "Kobold",
+    "status": "needs-verification",
+    "image": "",
+    "family": "Kobold / Imp",
+    "behavior": "Enemy/faction family name found in local data. Exact behavior needs verification.",
+    "attacks": ["Boss leads include Great Slam and Nova Impact", "Common enemy attacks need in-game notes"],
+    "weaknesses": [],
+    "drops": []
+  },
+  {
+    "name": "Bee",
+    "status": "needs-verification",
+    "image": "",
+    "family": "Bee / Faerie",
+    "behavior": "Enemy/faction family name found in local data. Exact behavior needs verification.",
+    "attacks": ["Mokshi leads include Blossom, Cocoon, Sharp Leaves, and Barrage"],
+    "weaknesses": [],
+    "drops": []
+  },
+  {
+    "name": "Crimson",
+    "status": "needs-verification",
+    "image": "",
+    "family": "Crimson",
+    "behavior": "Enemy/faction family name found in local data. Exact behavior needs verification.",
+    "attacks": ["Crimson arrows appear in asset leads"],
+    "weaknesses": [],
+    "drops": []
+  },
+  {
+    "name": "Herald",
+    "status": "needs-verification",
+    "image": "",
+    "family": "Herald",
+    "behavior": "Enemy/faction family name found in local data. Exact behavior needs verification.",
+    "attacks": ["Discharge", "Keekoho", "Luon Blast", "Manifest"],
+    "weaknesses": [],
+    "drops": []
+  },
+  {
+    "name": "Crawler",
+    "status": "needs-verification",
+    "image": "",
+    "family": "Crawler",
+    "behavior": "Enemy family name found in local data. Exact behavior needs verification.",
+    "attacks": ["Common crawler attacks need verification"],
+    "weaknesses": [],
+    "drops": []
+  }
+]

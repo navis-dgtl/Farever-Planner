@@ -1,0 +1,2837 @@
+{
+"Warrior": {
+"name": "Warrior",
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"Rogue": {
+"name": "Rogue",
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"Mage": {
+"name": "Mage",
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"Priest": {
+"name": "Priest",
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"Totem_Tidal": {
+"name": "Tidal Totem",
+"lvl": null,
+"maxLvl": null,
+"type": "Totem",
+"faction": null
+},
+"Totem_BeaconOfHope": {
+"name": "Tidal Totem",
+"lvl": null,
+"maxLvl": null,
+"type": "Totem",
+"faction": null
+},
+"Summon_Bee": {
+"name": "Angry Bee",
+"lvl": null,
+"maxLvl": null,
+"type": "Totem",
+"faction": null
+},
+"Staff_SummonDemon_Imp": {
+"name": "Vile Imp",
+"lvl": null,
+"maxLvl": null,
+"type": "Totem",
+"faction": null
+},
+"TODO_BaseNPC_01": {
+"name": "Tyra Firma",
+"lvl": 100,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"TODO_WanderingMerchant": {
+"name": "Guild Merchant",
+"lvl": 100,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"TODO_StableMaster": {
+"name": "Guild Merchant",
+"lvl": 100,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"TODO_ProfessionTrainer": {
+"name": "Job Welldon",
+"lvl": 100,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"TODO_Toad": {
+"name": "Toad",
+"lvl": 100,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"HildaLambert": {
+"name": "Hilda Lambert",
+"lvl": 100,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"HunterShepherd": {
+"name": "Hunter Shepherd",
+"lvl": 100,
+"maxLvl": null,
+"type": "Crimson",
+"faction": null
+},
+"YellowRabbits": {
+"name": null,
+"lvl": 100,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"MountWolf_01": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Mount",
+"faction": null
+},
+"MountWolf_04": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Mount",
+"faction": null
+},
+"MountWolf_06": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Mount",
+"faction": null
+},
+"MountGoat_01": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Mount",
+"faction": null
+},
+"MountGoat_02": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Mount",
+"faction": null
+},
+"MountGoat_03": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Mount",
+"faction": null
+},
+"MountGoat_04": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Mount",
+"faction": null
+},
+"Dummy": {
+"name": "Dummy",
+"lvl": null,
+"maxLvl": null,
+"type": "Environment",
+"faction": null
+},
+"PunchingBag": {
+"name": "Punching Bag",
+"lvl": null,
+"maxLvl": null,
+"type": "Demon",
+"faction": null
+},
+"PunchingBagArmor": {
+"name": "Armor",
+"lvl": null,
+"maxLvl": null,
+"type": "Demon",
+"faction": null
+},
+"PunchingBagMagicRes": {
+"name": "MagicRes",
+"lvl": null,
+"maxLvl": null,
+"type": "Demon",
+"faction": null
+},
+"PunchingBagInvulnerable": {
+"name": "Invu",
+"lvl": null,
+"maxLvl": null,
+"type": "Demon",
+"faction": null
+},
+"PunchingBagShield": {
+"name": "Shielded",
+"lvl": null,
+"maxLvl": null,
+"type": "Demon",
+"faction": null
+},
+"Dummy_Runner": {
+"name": "Fleeing Bag",
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"Dummy_Support": {
+"name": "Ally dummy",
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"Dummy_FX": {
+"name": "FXTest",
+"lvl": 1,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"Boar_Z1W": {
+"name": "Boar",
+"lvl": 11,
+"maxLvl": 12,
+"type": "Boar",
+"faction": null
+},
+"Boar_Z2W": {
+"name": "Reclusive Boar",
+"lvl": 13,
+"maxLvl": 14,
+"type": "Boar",
+"faction": null
+},
+"Boar_Z2W_2": {
+"name": "Hermitic Boar",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Boar",
+"faction": null
+},
+"Boar_Z2W_U": {
+"name": "Sparkling Boar",
+"lvl": 14,
+"maxLvl": null,
+"type": "Boar",
+"faction": null
+},
+"Boar_Z1W_E": {
+"name": "Niels Boar",
+"lvl": 6,
+"maxLvl": null,
+"type": "Boar",
+"faction": null
+},
+"Boar_Z4W_E": {
+"name": "Boar Burnham",
+"lvl": 10,
+"maxLvl": null,
+"type": "Boar",
+"faction": null
+},
+"Boar_Z2W_E": {
+"name": "Venerer's Hog",
+"lvl": 20,
+"maxLvl": null,
+"type": "Boar",
+"faction": null
+},
+"Crocopork_Z1W": {
+"name": "Crocoboar",
+"lvl": 2,
+"maxLvl": null,
+"type": "Boar",
+"faction": null
+},
+"TODO_Crocopork_Spark": {
+"name": "Crocoboar",
+"lvl": 2,
+"maxLvl": null,
+"type": "Boar",
+"faction": null
+},
+"Skunk_Z1W": {
+"name": "Skunk",
+"lvl": 6,
+"maxLvl": 7,
+"type": "Skunk",
+"faction": null
+},
+"Skunk_Z1W_2": {
+"name": "Unpopular Skunk",
+"lvl": 10,
+"maxLvl": 11,
+"type": "Skunk",
+"faction": null
+},
+"Skunk_Z1W_U": {
+"name": "Sparkling Skunk",
+"lvl": 6,
+"maxLvl": null,
+"type": "Skunk",
+"faction": null
+},
+"Skunk_Z1W_FS": {
+"name": "Invoked Skunk",
+"lvl": 7,
+"maxLvl": null,
+"type": "Skunk",
+"faction": null
+},
+"Skunk_Z1W_FS_2": {
+"name": "Unpopular Invoked Skunk",
+"lvl": 10,
+"maxLvl": null,
+"type": "Skunk",
+"faction": null
+},
+"TODO_SnowPanther_White": {
+"name": "Snow Leopard",
+"lvl": 5,
+"maxLvl": 6,
+"type": "Wolf",
+"faction": null
+},
+"TODO_SnowPanther_Black": {
+"name": "Cave Leopard",
+"lvl": 5,
+"maxLvl": 6,
+"type": "Wolf",
+"faction": null
+},
+"TODO_SnowPanther_DarkBrown": {
+"name": "Cliff Leopard",
+"lvl": 5,
+"maxLvl": 6,
+"type": "Wolf",
+"faction": null
+},
+"TODO_SnowPanther_Grey": {
+"name": "Rock Leopard",
+"lvl": 5,
+"maxLvl": 6,
+"type": "Wolf",
+"faction": null
+},
+"TODO_SnowPanther_LightBrown": {
+"name": "Volcano Leopard",
+"lvl": 5,
+"maxLvl": 6,
+"type": "Wolf",
+"faction": null
+},
+"TODO_SnowPanther_Yellow": {
+"name": "Hill Leopard",
+"lvl": 5,
+"maxLvl": 6,
+"type": "Wolf",
+"faction": null
+},
+"TODO_SnowPanther_Spark": {
+"name": "Hill Leopard",
+"lvl": 5,
+"maxLvl": 6,
+"type": "Wolf",
+"faction": null
+},
+"Wolf_Z1W": {
+"name": "Wolf",
+"lvl": 11,
+"maxLvl": 12,
+"type": "Wolf",
+"faction": null
+},
+"Wolf_Z1W_Alpha": {
+"name": "Alpha Wolf",
+"lvl": 11,
+"maxLvl": null,
+"type": "Wolf",
+"faction": null
+},
+"Wolf_Z2W": {
+"name": "Coyote",
+"lvl": 13,
+"maxLvl": 14,
+"type": "Coyote",
+"faction": null
+},
+"Wolf_Z2W_2": {
+"name": "Starving Coyote",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Coyote",
+"faction": null
+},
+"Wolf_Z2W_U": {
+"name": "Sparkling Coyote",
+"lvl": 19,
+"maxLvl": null,
+"type": "Coyote",
+"faction": null
+},
+"Wolf_Z1W_E": {
+"name": "Fangandog",
+"lvl": 12,
+"maxLvl": null,
+"type": "Wolf",
+"faction": null
+},
+"Dog_Z2W_Azuram": {
+"name": "Carmine Hound",
+"lvl": 13,
+"maxLvl": 14,
+"type": "Wolf",
+"faction": null
+},
+"Dog_Z2W_Citadelle": {
+"name": "Bloodred Hound",
+"lvl": 23,
+"maxLvl": 24,
+"type": "Wolf",
+"faction": null
+},
+"Dog_Z1D_Crimson": {
+"name": "Dogma",
+"lvl": 25,
+"maxLvl": null,
+"type": "Wolf",
+"faction": null
+},
+"Manfish_Z1W_Claws": {
+"name": "Nepsid Fighter",
+"lvl": 4,
+"maxLvl": 5,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z1W_Claws_2": {
+"name": "Adept Nepsid Fighter",
+"lvl": 9,
+"maxLvl": 10,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z1D_Claws": {
+"name": "Fighter of the Lost City",
+"lvl": 5,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z2W_Claws": {
+"name": "Expert Nepsid Fighter",
+"lvl": 16,
+"maxLvl": 17,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z1W_Spear": {
+"name": "Nepsid Runner",
+"lvl": 4,
+"maxLvl": 5,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z1W_Spear_3": {
+"name": "Agile Nepsid Runner",
+"lvl": 14,
+"maxLvl": 15,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z1D_Spear": {
+"name": "Runner of the Lost City",
+"lvl": 5,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z1W_E_Spear": {
+"name": "Skuttle Goldengill",
+"lvl": 4,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z2W_E_Spear_2": {
+"name": "Scummy BlackGill",
+"lvl": 15,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z2D_Spear": {
+"name": "Runner of New Atlaan",
+"lvl": 15,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z2W_Spear": {
+"name": "Acrobatic Nepsid Runner",
+"lvl": 16,
+"maxLvl": 17,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z2W_Sword": {
+"name": "Nepsid Breakwater",
+"lvl": 16,
+"maxLvl": 17,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z2D_Tank": {
+"name": "Breakwater of New Atlaan",
+"lvl": 15,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z2W_FS_Tank": {
+"name": "Confident Invoked Breakwater",
+"lvl": 17,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z1W_Caster": {
+"name": "Nepsid Wavemonger",
+"lvl": 4,
+"maxLvl": 5,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z1W_Caster_3": {
+"name": "Educated Nepsid Wavemonger",
+"lvl": 13,
+"maxLvl": 14,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z1D_Caster": {
+"name": "Wavemonger of the Lost City",
+"lvl": 5,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z1W_U_Caster": {
+"name": "Sparkling Wavemonger",
+"lvl": 4,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z1W_FS": {
+"name": "Invoked Wavemonger",
+"lvl": 8,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z2D_Caster": {
+"name": "Wavemonger of New Atlaan",
+"lvl": 16,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z2W_Caster": {
+"name": "Erudite Nepsid Wavemonger",
+"lvl": 16,
+"maxLvl": 17,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z1D_FS_Healer": {
+"name": "Invoked Oracle",
+"lvl": 8,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z2D_Healer": {
+"name": "Oracle of New Atlaan",
+"lvl": 15,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Manfish_Z2W_Healer": {
+"name": "Nepsid Oracle",
+"lvl": 16,
+"maxLvl": 17,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Demon_Z3W_Claws": {
+"name": "Nightling Slayer",
+"lvl": 20,
+"maxLvl": 21,
+"type": "Demon",
+"faction": "Demon"
+},
+"TODO_DemonElite": {
+"name": "Lord Osis",
+"lvl": 25,
+"maxLvl": null,
+"type": "Demon",
+"faction": null
+},
+"TODO_DemonSuperElite": {
+"name": null,
+"lvl": 25,
+"maxLvl": null,
+"type": "Demon",
+"faction": null
+},
+"Kobold_Z1W_Mace": {
+"name": "Kobold Miner",
+"lvl": 6,
+"maxLvl": 7,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z1W_Mace_2": {
+"name": "Freelance Kobold Miner",
+"lvl": 9,
+"maxLvl": 10,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z1D_Mace": {
+"name": "Kobold Miner of Estrone",
+"lvl": 7,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z2D_Mace_2": {
+"name": "Gorgon's Hollow Miner",
+"lvl": 14,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z1W_Mace_U": {
+"name": "Sparkling Miner",
+"lvl": 7,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z2W_Mace": {
+"name": "Senior Kobold Miner",
+"lvl": 19,
+"maxLvl": 20,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z1W_Daggers": {
+"name": "Kobold Thief",
+"lvl": 7,
+"maxLvl": 8,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z1W_Daggers_2": {
+"name": "Trustworthy Kobold Thief",
+"lvl": 10,
+"maxLvl": 11,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z1D_Daggers": {
+"name": "Kobold Thief of Estrone",
+"lvl": 7,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z2W_Daggers": {
+"name": "Cleanhanded Kobold Thief",
+"lvl": 19,
+"maxLvl": 20,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z1W_Caster": {
+"name": "Kobold Overseer",
+"lvl": 7,
+"maxLvl": 8,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z1W_Caster_2": {
+"name": "Unpredictable Kobold Overseer",
+"lvl": 10,
+"maxLvl": 11,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z2W_Caster": {
+"name": "Lunatic Kobold Overseer",
+"lvl": 19,
+"maxLvl": 20,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Ratsar_Caster": {
+"name": "Ratsar Lighter",
+"lvl": 10,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z2D_Caster": {
+"name": "Gorgon's Hollow Overseer",
+"lvl": 14,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Kobold_Z1D_FS_Caster": {
+"name": "Invoked Overseer",
+"lvl": 10,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"TODO_Kobold_Tank": {
+"name": "Kobold Raider",
+"lvl": 6,
+"maxLvl": 7,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"TODO_Kobold_Z2W_Tank": {
+"name": "Nervous Kobold Raider",
+"lvl": 19,
+"maxLvl": 20,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"ImpDemon_Red": {
+"name": "Nightling Terror",
+"lvl": 10,
+"maxLvl": 11,
+"type": "Demon",
+"faction": "Demon"
+},
+"ImpDemon_GreyBlue": {
+"name": "Nightling Shadow",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Demon",
+"faction": "Demon"
+},
+"OgreHuman_Z2W_Peasant": {
+"name": "Crimson Plow Hauler",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Ogre",
+"faction": null
+},
+"OgreHuman_Z2W_Peasant_E": {
+"name": "Gruffy",
+"lvl": 17,
+"maxLvl": null,
+"type": "Ogre",
+"faction": null
+},
+"OgreKobold_Z1W_Claws": {
+"name": "Kobold Docker",
+"lvl": 7,
+"maxLvl": 8,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"OgreKobold_Z1W_Claws_3": {
+"name": "Steady Kobold Docker",
+"lvl": 9,
+"maxLvl": 10,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"OgreKobold_Z1W_Claws_U": {
+"name": "Sparkling Docker",
+"lvl": 11,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"OgreKobold_Z1D_Claws": {
+"name": "Kobold Docker of Estrone",
+"lvl": 7,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"OgreKobold_Z2D_Docker": {
+"name": "Stationmaster",
+"lvl": 19,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"OgreKobold_Z1D_FS_Claws": {
+"name": "Invoked Docker",
+"lvl": 11,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"OgreKobold_Z2W_Claws": {
+"name": "Reliable Kobold Docker",
+"lvl": 19,
+"maxLvl": 20,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"OgreKobold_Z1W_E_Claws": {
+"name": "Heraclette",
+"lvl": 9,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"OgreKobold_Z2W_GM": {
+"name": "Kobold Crusher",
+"lvl": 19,
+"maxLvl": 20,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"OgreManfish_Z1W_Claws": {
+"name": "Nepsid Whale",
+"lvl": 5,
+"maxLvl": 6,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"OgreManfish_Z1W_Claws_U": {
+"name": "Sparkling Whale",
+"lvl": 8,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"OgreManfish_Z1D_Claws": {
+"name": "Nepsid Whale of the Lost City",
+"lvl": 5,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"OgreManfish_Z1W_FS_Claws": {
+"name": "Slippery Invoked Whale",
+"lvl": 10,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"OgreManfish_Z2D_Claws": {
+"name": "Slick Nepsid Whale",
+"lvl": 16,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"OgreManfish_Z2W_Claws_E": {
+"name": "Gilliver",
+"lvl": 23,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"OgreManfish_Z2W_Claws": {
+"name": "Slick Nepsid Whale",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"OgreManfish_Z2W_FS_Claws": {
+"name": "Slick Nepsid Whale",
+"lvl": 18,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"TODO_OgreBagon_Grey": {
+"name": "Slick Nepsid Whale",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"TODO_OgreBagon_Brown": {
+"name": "Slick Nepsid Whale",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"TODO_OgreBagon_Brown02": {
+"name": "Slick Nepsid Whale",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"TODO_OgreBagon_DarkBlue": {
+"name": "Slick Nepsid Whale",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"TODO_OgreBagon_BlueGrey": {
+"name": "Slick Nepsid Whale",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"TODO_OgreBagon_Beige": {
+"name": "Slick Nepsid Whale",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"TODO_OgreBagon_Spark": {
+"name": "Slick Nepsid Whale",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Crab_Z1W": {
+"name": "Crab",
+"lvl": 1,
+"maxLvl": null,
+"type": "Crab",
+"faction": null
+},
+"Crab_Z1W_2": {
+"name": "Fiddler Crab",
+"lvl": 3,
+"maxLvl": 4,
+"type": "Crab",
+"faction": null
+},
+"Crab_Z1W_3": {
+"name": "Snapping Crab",
+"lvl": 7,
+"maxLvl": 8,
+"type": "Crab",
+"faction": null
+},
+"Crab_Z1W_U": {
+"name": "Sparkling Crab",
+"lvl": 11,
+"maxLvl": null,
+"type": "Crab",
+"faction": null
+},
+"Crab_Z1W_5": {
+"name": "Solist Crab",
+"lvl": 10,
+"maxLvl": 11,
+"type": "Crab",
+"faction": null
+},
+"Crawler_Z1W_E": {
+"name": "Krabby Jacob",
+"lvl": 11,
+"maxLvl": null,
+"type": "Crab",
+"faction": null
+},
+"Crab_Z1D": {
+"name": "Crab of the Lost City",
+"lvl": 4,
+"maxLvl": null,
+"type": "Crab",
+"faction": null
+},
+"Crab_Z1W_FS": {
+"name": "Snapping Invoked Crab",
+"lvl": 7,
+"maxLvl": null,
+"type": "Crab",
+"faction": null
+},
+"Crab_Z1W_FS_1": {
+"name": "Virtuoso Invoked Crab",
+"lvl": 9,
+"maxLvl": null,
+"type": "Crab",
+"faction": null
+},
+"Crab_Z2D_2": {
+"name": "Abyssal Crab",
+"lvl": 14,
+"maxLvl": null,
+"type": "Crab",
+"faction": null
+},
+"Crab_Z2W": {
+"name": "Ruins Crab",
+"lvl": 14,
+"maxLvl": 15,
+"type": "Crab",
+"faction": null
+},
+"Crab_Z1W_E": {
+"name": "Belzebubbles",
+"lvl": 3,
+"maxLvl": null,
+"type": "Crab",
+"faction": null
+},
+"Crab_Z1W_E_2": {
+"name": "Kraba the Sorceress",
+"lvl": 11,
+"maxLvl": null,
+"type": "Crab",
+"faction": null
+},
+"Crab_Z1W_E_3": {
+"name": "Fiddle Crabstro",
+"lvl": 9,
+"maxLvl": null,
+"type": "Crab",
+"faction": null
+},
+"GiantCrab_Z1W_U": {
+"name": "Sparkling Crustacean",
+"lvl": 11,
+"maxLvl": null,
+"type": "Crab",
+"faction": null
+},
+"Crab_Z2W_E": {
+"name": "Carcinos the Proud",
+"lvl": 17,
+"maxLvl": null,
+"type": "Crab",
+"faction": null
+},
+"Bee_Z1W": {
+"name": "Apix Harvester",
+"lvl": 3,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"Bee_Z1W_2": {
+"name": "Bibulous Apix Harvester",
+"lvl": 11,
+"maxLvl": 12,
+"type": "Bee",
+"faction": "Bee"
+},
+"Bee_Z1W_3": {
+"name": "Tipsy Apix Harvester",
+"lvl": 10,
+"maxLvl": 11,
+"type": "Bee",
+"faction": "Bee"
+},
+"Bee_Z1D": {
+"name": "Hivetree Harvester",
+"lvl": 10,
+"maxLvl": 11,
+"type": "Bee",
+"faction": "Bee"
+},
+"Bee_Z1W_U": {
+"name": "Sparkling Harvester",
+"lvl": 3,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"Bee_Z2W_U": {
+"name": "Sparkling Harvester",
+"lvl": 18,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"Bee_Z1W_E": {
+"name": "Beelial",
+"lvl": 12,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"Bee_Z1_FS": {
+"name": "Bibulous Invoked Harvester",
+"lvl": 11,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"Bee_Z2W": {
+"name": "Intoxicated Apix Harvester",
+"lvl": 18,
+"maxLvl": 19,
+"type": "Bee",
+"faction": "Bee"
+},
+"TODO_FaerieSwarowl_Z3W_Claws": {
+"name": "Blackbird Harpy",
+"lvl": 11,
+"maxLvl": 12,
+"type": "Bee",
+"faction": "Bee"
+},
+"TODO_FaerieDemon_Red": {
+"name": "Blackbird Harpy",
+"lvl": 11,
+"maxLvl": 12,
+"type": "Bee",
+"faction": "Bee"
+},
+"TODO_FaerieDemon_Red02": {
+"name": "Blackbird Harpy",
+"lvl": 11,
+"maxLvl": 12,
+"type": "Bee",
+"faction": "Bee"
+},
+"TODO_FaerieDemon_Blue": {
+"name": "Blackbird Harpy",
+"lvl": 11,
+"maxLvl": 12,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Base": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z1W_Claws": {
+"name": "Apix Watcher",
+"lvl": 11,
+"maxLvl": 12,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z1D_Claws": {
+"name": "Hivetree Watcher",
+"lvl": 11,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z1W_Claws_E": {
+"name": "Honey Mucha",
+"lvl": 12,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z2W_Claws": {
+"name": "Overzealous Apix Watcher",
+"lvl": 18,
+"maxLvl": 19,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z1W_Spear": {
+"name": "Apix Builder",
+"lvl": 11,
+"maxLvl": 12,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z1W_Spear_U": {
+"name": "Sparkling Builder",
+"lvl": 12,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z1D_Spear": {
+"name": "Hivetree Builder",
+"lvl": 10,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z2W_Spear_U": {
+"name": "Sparkling Builder",
+"lvl": 19,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z2W_Spear": {
+"name": "Overworked Apix Builder",
+"lvl": 18,
+"maxLvl": 19,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z2_FS_Tank_2": {
+"name": "Overworked Invoked Builder",
+"lvl": 18,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z1W_GreatMace": {
+"name": "Apix Royal Guard",
+"lvl": 12,
+"maxLvl": 13,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z1D_GreatMace": {
+"name": "Royal Guard of the Hivetree",
+"lvl": 11,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z1W_GreatMace_E": {
+"name": "Honey Zucca",
+"lvl": 13,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z1_FS": {
+"name": "Invoked Royal Guard",
+"lvl": 12,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z2W_GreatMace": {
+"name": "Overqualified Apix Royal Guard",
+"lvl": 19,
+"maxLvl": 20,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z2W_GreatMace_E": {
+"name": "Bartlebee",
+"lvl": 19,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z2W_GreatMace_U": {
+"name": "Left Wing",
+"lvl": 19,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z2W_GreatMace_U_2": {
+"name": "Right Wing",
+"lvl": 19,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z1W_Tank": {
+"name": "Apix Defender",
+"lvl": 10,
+"maxLvl": 11,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z2W_Tank": {
+"name": "Overprotective Apix Defender",
+"lvl": 19,
+"maxLvl": 20,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z2W_FS_Tank": {
+"name": "Invoked Defender",
+"lvl": 18,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"TODO_FaerieBee": {
+"name": "Invoked Defender",
+"lvl": 18,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"FaerieBee_Z2W_Champ_E": {
+"name": "Notorious Bee",
+"lvl": 20,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"Sprout_Rice_Z2W": {
+"name": "Rice Seedling",
+"lvl": 13,
+"maxLvl": 14,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_DarkRice_Z2W": {
+"name": "Black Rice Seedling",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Rice_Z2W_U": {
+"name": "Sparkling Rice Seedling",
+"lvl": 15,
+"maxLvl": null,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Rice_Z2_FS": {
+"name": "Invoked Rice Seedling",
+"lvl": 15,
+"maxLvl": null,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Onion_Z2W": {
+"name": "Onion Seedling",
+"lvl": 13,
+"maxLvl": 14,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Onion_Z2_FS": {
+"name": "Invoked Onion Seedling",
+"lvl": 15,
+"maxLvl": null,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Onion_Z2W_2": {
+"name": "Controversial  Onion Seedling",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Sprouts",
+"faction": null
+},
+"TODO_Sprout_Onion_Spark": {
+"name": "Controversial  Onion Seedling",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Garlic_Z2W": {
+"name": "Garlic Seedling",
+"lvl": 13,
+"maxLvl": 14,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Garlic_Z2W_2": {
+"name": "Fragrant Garlic Seedling",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Sprouts",
+"faction": null
+},
+"TODO_Sprout_Garlic_Spark": {
+"name": "Fragrant Garlic Seedling",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Turnip_Z2W": {
+"name": "Turnip Seedling",
+"lvl": 13,
+"maxLvl": 14,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Turnip_Z2W_2": {
+"name": "Lucrative Turnip Seedling",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Sprouts",
+"faction": null
+},
+"TODO_Sprout_Turnip_Spark": {
+"name": "Lucrative Turnip Seedling",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Rice_Z2W_E": {
+"name": "Beet the Maul",
+"lvl": 19,
+"maxLvl": null,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Rice_Z2W_Plantivore": {
+"name": "Seed Barrett",
+"lvl": 15,
+"maxLvl": null,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Rice_Z2W_Plantivore_2": {
+"name": "Seed Vicious",
+"lvl": 15,
+"maxLvl": null,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Rice_Z2W_Plantivore_3": {
+"name": "Turnip Arker ",
+"lvl": 16,
+"maxLvl": null,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Rice_Z2W_Plantivore_4": {
+"name": "Garlic Hooper",
+"lvl": 18,
+"maxLvl": null,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Rice_Z2W_Plantivore_5": {
+"name": "Charles Cabbage",
+"lvl": 18,
+"maxLvl": null,
+"type": "Sprouts",
+"faction": null
+},
+"Sprout_Rice_Z2W_Plantivore_6": {
+"name": "Jared Lettuce",
+"lvl": 18,
+"maxLvl": null,
+"type": "Sprouts",
+"faction": null
+},
+"Elemental_Z1W_Earth": {
+"name": "Sparkle",
+"lvl": 7,
+"maxLvl": 8,
+"type": "Golem",
+"faction": null
+},
+"Elemental_Z1W_Earth_2": {
+"name": "Loamy Sparkle",
+"lvl": 21,
+"maxLvl": 22,
+"type": "Golem",
+"faction": null
+},
+"Elemental_Z1D_Earth": {
+"name": "Sparkle of Estrone",
+"lvl": 6,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"Elemental_Z1_FS_Earth": {
+"name": "Invoked Sparkle",
+"lvl": 7,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"Elemental_Z1_FS_Earth_2": {
+"name": "Loamy Invoked Sparkle",
+"lvl": 22,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"Elemental_Z1W_Earth_U": {
+"name": "Sparkling Sparkle",
+"lvl": 8,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"Elemental_Z3W_Earth_U": {
+"name": "Sparkling Sparkle",
+"lvl": 30,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"Elemental_Z1W_Underwater": {
+"name": "Naya Sparkle",
+"lvl": 7,
+"maxLvl": 8,
+"type": "WaterGolems",
+"faction": null
+},
+"Elemental_Z2D_Underwater": {
+"name": "New Atlaan Sparkle",
+"lvl": 16,
+"maxLvl": null,
+"type": "WaterGolems",
+"faction": null
+},
+"Elemental_Z1_FS_Underwater": {
+"name": "Invoked Naya Sparkle",
+"lvl": 9,
+"maxLvl": null,
+"type": "WaterGolems",
+"faction": null
+},
+"Elemental_Z2W_Underwater": {
+"name": "Naya Sparkle",
+"lvl": 15,
+"maxLvl": 16,
+"type": "WaterGolems",
+"faction": null
+},
+"Elemental_Z2W_Underwater_U": {
+"name": "Aquamarine Sparkle",
+"lvl": 18,
+"maxLvl": null,
+"type": "WaterGolems",
+"faction": null
+},
+"Elemental_Z2W": {
+"name": "Aoyl Sparkle",
+"lvl": 14,
+"maxLvl": 15,
+"type": "WindGolems",
+"faction": null
+},
+"Elemental_Z2W_2": {
+"name": "Lightweight Aoyl Sparkle",
+"lvl": 19,
+"maxLvl": 20,
+"type": "WindGolems",
+"faction": null
+},
+"Elemental_Z2_FS": {
+"name": "Invoked Aoyl Sparkle",
+"lvl": 20,
+"maxLvl": null,
+"type": "WindGolems",
+"faction": null
+},
+"Elemental_Z2W_Lava": {
+"name": "Pyrh Sparkle",
+"lvl": 15,
+"maxLvl": 16,
+"type": "FireGolems",
+"faction": null
+},
+"Elemental_Z1D_Lava": {
+"name": "Gorgon's Hollow Sparkle",
+"lvl": 16,
+"maxLvl": null,
+"type": "FireGolems",
+"faction": null
+},
+"Elemental_Z2W_Lava_2": {
+"name": "Molten Pyrh Sparkle",
+"lvl": 19,
+"maxLvl": 20,
+"type": "FireGolems",
+"faction": null
+},
+"Elemental_Z2_FS_Lava": {
+"name": "Pyrh Sparkle",
+"lvl": 18,
+"maxLvl": null,
+"type": "FireGolems",
+"faction": null
+},
+"Elemental_Z2_FS_Lava_2": {
+"name": "Molten Invoked Pyrh Sparkle",
+"lvl": 20,
+"maxLvl": null,
+"type": "FireGolems",
+"faction": null
+},
+"Golem_Base": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"Golem_Z1W_Earth1": {
+"name": "Golem",
+"lvl": 7,
+"maxLvl": 8,
+"type": "Golem",
+"faction": null
+},
+"Golem_Z1W_Earth_2": {
+"name": "Solid  Golem",
+"lvl": 10,
+"maxLvl": 12,
+"type": "Golem",
+"faction": null
+},
+"Golem_Z1_FS": {
+"name": "Invoked Golem",
+"lvl": 7,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"Golem_Z1_FS_2": {
+"name": "Solid Invoked Golem",
+"lvl": 11,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"Golem_Z1W_Earth_E": {
+"name": "Smeagolem",
+"lvl": 8,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"Golem_Z1W_Earth_E_2": {
+"name": "Goledeneye",
+"lvl": 12,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"Golem_Z2D_FireExplosive": {
+"name": "Gorgon's Hollow Golem",
+"lvl": 15,
+"maxLvl": null,
+"type": "FireGolems",
+"faction": null
+},
+"Golem_Z2D_FireExplosive_2": {
+"name": "Gorgon's Hollow Pyrh Golem",
+"lvl": 15,
+"maxLvl": null,
+"type": "FireGolems",
+"faction": null
+},
+"Golem_Z2W_FireExplosive": {
+"name": "Pyrh Golem",
+"lvl": 15,
+"maxLvl": 16,
+"type": "FireGolems",
+"faction": null
+},
+"Golem_Z2W_FireExplosive_2": {
+"name": "Incandescent Pyrh Golem",
+"lvl": 19,
+"maxLvl": 20,
+"type": "FireGolems",
+"faction": null
+},
+"Golem_Z2W_FireExplosive_E": {
+"name": "Blaze Rascal",
+"lvl": 16,
+"maxLvl": null,
+"type": "FireGolems",
+"faction": null
+},
+"Golem_Z2W_FireExplosive_E_2": {
+"name": "Grill Arson",
+"lvl": 20,
+"maxLvl": null,
+"type": "FireGolems",
+"faction": null
+},
+"Golem_Z2_FS_FireExplosive": {
+"name": "Invoked Pyrh Golem",
+"lvl": 16,
+"maxLvl": null,
+"type": "FireGolems",
+"faction": null
+},
+"Golem_Z2_FS_FireExplosive_2": {
+"name": "Incandescent Invoked Pyrh Golem",
+"lvl": 19,
+"maxLvl": null,
+"type": "FireGolems",
+"faction": null
+},
+"Golem_Z2W_Wind1": {
+"name": "Aoyl Golem",
+"lvl": 14,
+"maxLvl": 15,
+"type": "WindGolems",
+"faction": null
+},
+"Golem_Z2W_Wind2": {
+"name": "Breezy Aoyl Golem",
+"lvl": 19,
+"maxLvl": 20,
+"type": "WindGolems",
+"faction": null
+},
+"Golem_Z2_FS": {
+"name": "Invoked Aoyl Golem",
+"lvl": 16,
+"maxLvl": null,
+"type": "WindGolems",
+"faction": null
+},
+"Golem_Z2_FS_2": {
+"name": "Invoked Aoyl Golem",
+"lvl": 20,
+"maxLvl": null,
+"type": "WindGolems",
+"faction": null
+},
+"Golem_Z2W_E": {
+"name": "Golatea",
+"lvl": 15,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"Golem_Z2W_E_2": {
+"name": "Jimmy Crater",
+"lvl": 18,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"Golem_Z2W_U": {
+"name": "Sparkling Amethyst Golem",
+"lvl": 15,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"TODO_Slime_King": {
+"name": "Slime King",
+"lvl": 1,
+"maxLvl": 2,
+"type": "Slime",
+"faction": null
+},
+"TODO_Slime_Demonic_Z2W": {
+"name": "Night Slime",
+"lvl": 22,
+"maxLvl": 23,
+"type": "Slime",
+"faction": null
+},
+"TODO_Slime_Demonic_Z2W_2": {
+"name": "Knight Slime",
+"lvl": 25,
+"maxLvl": 26,
+"type": "Slime",
+"faction": null
+},
+"Slime_Z1W": {
+"name": "Green Slime",
+"lvl": 2,
+"maxLvl": 3,
+"type": "Slime",
+"faction": null
+},
+"Slime_Z1W_2": {
+"name": "Sap Slime",
+"lvl": 6,
+"maxLvl": 7,
+"type": "Slime",
+"faction": null
+},
+"Slime_Z1W_4": {
+"name": "Barrel-aged Sap Slime",
+"lvl": 9,
+"maxLvl": 10,
+"type": "Slime",
+"faction": null
+},
+"Slime_Z1W_U": {
+"name": "Sparkling Slime",
+"lvl": 2,
+"maxLvl": null,
+"type": "Slime",
+"faction": null
+},
+"Slime_Z1W_FS": {
+"name": "Invoked Slime",
+"lvl": 6,
+"maxLvl": null,
+"type": "Slime",
+"faction": null
+},
+"Slime_Z1W_FS_2": {
+"name": "Barrel-aged Invoked Slime",
+"lvl": 9,
+"maxLvl": null,
+"type": "Slime",
+"faction": null
+},
+"Slime_Z2W_FS": {
+"name": "Ripe Invoked Slime",
+"lvl": 17,
+"maxLvl": null,
+"type": "Slime",
+"faction": null
+},
+"Slime_Z1W_E": {
+"name": "Blob Dylan",
+"lvl": 3,
+"maxLvl": null,
+"type": "Slime",
+"faction": null
+},
+"Slime_Z1W_E_2": {
+"name": "Jelly Lewis",
+"lvl": 10,
+"maxLvl": null,
+"type": "Slime",
+"faction": null
+},
+"Slime_Z1D_U": {
+"name": "Royal Jelly Slime",
+"lvl": 11,
+"maxLvl": null,
+"type": "Slime",
+"faction": null
+},
+"Slime_Z1W_Honey": {
+"name": "Honey Slime",
+"lvl": 10,
+"maxLvl": 12,
+"type": "Slime",
+"faction": null
+},
+"Slime_Z1D_Honey": {
+"name": "Honey Slime of the Hivetree",
+"lvl": 10,
+"maxLvl": null,
+"type": "Slime",
+"faction": null
+},
+"Slime_Z1D_Honey_NoXP": {
+"name": "Honey Slime of the Hivetree",
+"lvl": 10,
+"maxLvl": null,
+"type": "Slime",
+"faction": null
+},
+"Spirit_Z2W_Claws": {
+"name": "Spirit of Tiocha",
+"lvl": 15,
+"maxLvl": 16,
+"type": "Spirit",
+"faction": null
+},
+"Spirit_Z2W_FS_Claws": {
+"name": "Invoked Spirit of Tiocha",
+"lvl": 17,
+"maxLvl": null,
+"type": "Spirit",
+"faction": null
+},
+"Spirit_Z2W_Claws2": {
+"name": "Spirit of Night",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Spirit",
+"faction": null
+},
+"Spirit_Z2W_Claws_E": {
+"name": "da'Lida",
+"lvl": 18,
+"maxLvl": null,
+"type": "Spirit",
+"faction": null
+},
+"Spirit_Z2W_Claws_E2": {
+"name": "da'Mascus",
+"lvl": 17,
+"maxLvl": null,
+"type": "Spirit",
+"faction": null
+},
+"Crimson_Base": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z1W_Sword": {
+"name": "Crimson Soldier",
+"lvl": 8,
+"maxLvl": 10,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Sword": {
+"name": "Devout Crimson Soldier",
+"lvl": 15,
+"maxLvl": 16,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Sword_2": {
+"name": "Fervent Crimson Soldier",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Sword_3": {
+"name": "Obsessive Crimson Soldier",
+"lvl": 22,
+"maxLvl": 23,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z1W_Bow": {
+"name": "Crimson Archer",
+"lvl": 8,
+"maxLvl": 10,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Bow": {
+"name": "Observant Crimson Archer",
+"lvl": 15,
+"maxLvl": 16,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Bow_2": {
+"name": "Sighted Crimson Archer",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Bow_3": {
+"name": "Eagle-eyed Crimson Archer",
+"lvl": 23,
+"maxLvl": 24,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Peasant": {
+"name": "Crimson Farmhand",
+"lvl": 13,
+"maxLvl": 14,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Peasant_E": {
+"name": "Celeryman Pumpkintaro",
+"lvl": 15,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Peasant2": {
+"name": "Bucolic Crimson Farmhand",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Peasant_FS": {
+"name": "Invoked Crimson Farmhand",
+"lvl": 18,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z1W_Captain_U": {
+"name": "Crimson Captain Agamemnon",
+"lvl": 10,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z1W_Captain_E": {
+"name": "Ram Page",
+"lvl": 10,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Captain_E": {
+"name": "Captain Ramshackle",
+"lvl": 16,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Captain_E_2": {
+"name": "Captain Wolfram",
+"lvl": 24,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Captain_U": {
+"name": "Crimson Captain Miranda",
+"lvl": 16,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Captain_U_2": {
+"name": "Crimson Captain Sensabille",
+"lvl": 16,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Captain_U_3": {
+"name": "Crimson Captain Clover",
+"lvl": 18,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Captain_U_4": {
+"name": "Crimson Captain Carmine",
+"lvl": 16,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Captain_U_5": {
+"name": "Crimson Captain Hector",
+"lvl": 22,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Captain_U_6": {
+"name": "Crimson Captain Ben",
+"lvl": 20,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Monk": {
+"name": "Crimson Preacher",
+"lvl": 15,
+"maxLvl": 16,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Monk_2": {
+"name": "Trained Crimson Preacher",
+"lvl": 17,
+"maxLvl": 18,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"TODO_Crimson_Z2W_Mage_3": {
+"name": "Shrewd Crimson Geomancer",
+"lvl": 24,
+"maxLvl": 25,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Beekeeper": {
+"name": "Crimson Beekeeper",
+"lvl": 13,
+"maxLvl": 14,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Crimson_Z2W_Beekeeper2": {
+"name": "Beekept Crimson",
+"lvl": 15,
+"maxLvl": 16,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Swarowl_Bat": {
+"name": "Blackbird Volture",
+"lvl": 3,
+"maxLvl": null,
+"type": "Swarowl",
+"faction": null
+},
+"Nepsilon": {
+"name": "Nepsilon",
+"lvl": 5,
+"maxLvl": null,
+"type": "Manfish",
+"faction": "Manfish"
+},
+"Reblochonk": {
+"name": "Reblochonk",
+"lvl": 8,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Gatsbee": {
+"name": "Gatsbee",
+"lvl": 12,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"Crabgantua": {
+"name": "Crabgantua",
+"lvl": 8,
+"maxLvl": null,
+"type": "Crab",
+"faction": "Manfish"
+},
+"Crab_Crabgantua": {
+"name": "Crab of the Lost City",
+"lvl": 8,
+"maxLvl": null,
+"type": "Crab",
+"faction": "Manfish"
+},
+"MunsterChuck": {
+"name": "Munster Chuck",
+"lvl": 19,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"Mokshi": {
+"name": "Lady Bee",
+"lvl": 13,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"Bees_Mokshi": {
+"name": "Chamber Guardian",
+"lvl": 13,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"SpongeBlob": {
+"name": "Sponge Blob",
+"lvl": 16,
+"maxLvl": null,
+"type": "Golem",
+"faction": "Manfish"
+},
+"Golcano": {
+"name": "Golcano",
+"lvl": 15,
+"maxLvl": null,
+"type": "Golem",
+"faction": "Kobold"
+},
+"Golcano_Minion": {
+"name": "Golcanito",
+"lvl": 15,
+"maxLvl": null,
+"type": "Golem",
+"faction": null
+},
+"PhrixesP1": {
+"name": "High Inquisitor Chakram",
+"lvl": 10,
+"maxLvl": null,
+"type": "Crimson",
+"faction": "Crimson"
+},
+"Phrixes": {
+"name": null,
+"lvl": 10,
+"maxLvl": null,
+"type": "Human",
+"faction": "Crimson"
+},
+"Ulserous": {
+"name": "ul'Serous, Herald Avatar",
+"lvl": 13,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"Egglektra": {
+"name": "Egglektra",
+"lvl": 3,
+"maxLvl": null,
+"type": "Swarowl",
+"faction": null
+},
+"Cleodora": {
+"name": "Queen Honeyzabeth",
+"lvl": 20,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"Cleodora_ChampionEgg": {
+"name": "Champion's Chrysalid",
+"lvl": 9,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"Cleodora_Champion": {
+"name": "Prince Beelliams",
+"lvl": 19,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"Cleodora_Champion2": {
+"name": "Prince Beeter",
+"lvl": 19,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"Cleodora_Champion3": {
+"name": "Princess Beeatrice",
+"lvl": 19,
+"maxLvl": null,
+"type": "Bee",
+"faction": "Bee"
+},
+"Cleodora_Feeder": {
+"name": "Feeder Bee",
+"lvl": 19,
+"maxLvl": null,
+"type": "Bee",
+"faction": null
+},
+"Ratsar": {
+"name": "King Ratsar",
+"lvl": 10,
+"maxLvl": null,
+"type": "Kobold",
+"faction": "Kobold"
+},
+"R1KoboldBoss_Sparkling": {
+"name": "Snack of Ratsar",
+"lvl": 10,
+"maxLvl": null,
+"type": "Golem",
+"faction": "Kobold"
+},
+"Base_Critter": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Rabbit_Yellow": {
+"name": "Buttontail",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Rabbit_Brown": {
+"name": "Brown Buttontail",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Rabbit_Green": {
+"name": "Woods Buttontail",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Rabbit_Grey": {
+"name": "Misty Buttontail",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Rabbit_Yellow02": {
+"name": "Yellow Buttontail",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Rabbit_Pink": {
+"name": "Pink Buttontail",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Rabbit_Demon": {
+"name": "Night Buttontail",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Rabbit_Spark": {
+"name": "Sparkling Buttontail",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Rabbit_EarlyAccess_Spark": {
+"name": "Sparktail",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Sheep_Beige": {
+"name": "Woolybell",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Sheep_Black": {
+"name": "Black Woolybell",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Sheep_Brown": {
+"name": "Brown Woolybell",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Sheep_Brown02": {
+"name": "Fields Woolybell",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Sheep_Demon": {
+"name": "Night Woolybell",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Sheep_Black02": {
+"name": "Radiated Woolybell",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Sheep_Spark": {
+"name": "Sparkling Woolybell",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Squirrel_Brown": {
+"name": "Brown Leafcutter",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Squirrel_Blue": {
+"name": "Green Leafcutter",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Squirrel_Demon": {
+"name": "Demonic Leafcutter",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Squirrel_Green": {
+"name": "Autumnal Leafcutter",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Squirrel_Grey": {
+"name": "Grey Leafcutter",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Squirrel_Red": {
+"name": "Red Leafcutter",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Squirrel_Spark": {
+"name": "Sparkling Leafcutter",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Frog_BlueGreen": {
+"name": "Grassflopper",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Frog_Blue": {
+"name": "Aqua Grassflopper",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Frog_BluePurple": {
+"name": "Cloudy Grassflopper",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Frog_Brown": {
+"name": "Brown Grassflopper",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Frog_Green": {
+"name": "Swamp Grassflopper",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Frog_Yellow": {
+"name": "Yellow Grassflopper",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Frog_RedOrange": {
+"name": "Orange Grassflopper",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Frog_Demon": {
+"name": "Night Grassflopper",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Frog_Spark": {
+"name": "Sparkling Grassflopper",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Ladybug_Red": {
+"name": "Red Leggybug",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Ladybug_Blue": {
+"name": "Blue Leggybug",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Ladybug_Green": {
+"name": "Grass Leggybug",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Ladybug_Purple": {
+"name": "Purple Leggybug",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Ladybug_Yellow": {
+"name": "Yellow Leggybug",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Ladybug_Demon": {
+"name": "Night Leggybug",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Ladybug_Spark": {
+"name": "Sparkling Leggybug",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Turtle_Grey": {
+"name": "Tortrock",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Turtle_Green": {
+"name": "Green Tortrock",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Turtle_Blue": {
+"name": "Aqua Tortrock",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Turtle_Pink": {
+"name": "Pink Tortrock",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Turtle_Red": {
+"name": "Red Tortrock",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Turtle_Yellow": {
+"name": "Yellow Tortrock",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Turtle_Spark": {
+"name": "Sparkling Tortrock",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Turtle_Demon": {
+"name": "Night Tortrock",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Lizard_Green": {
+"name": "Saladmander",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Lizard_Blue": {
+"name": "Blue Saladmander",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Lizard_Yellow": {
+"name": "Yellow Saladmander",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Lizard_RedOrange": {
+"name": "Crimson Saladmander",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Lizard_Demon": {
+"name": "Night Saladmander",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Lizard_BlueOrange": {
+"name": "Clown Saladmander",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"Lizard_Spark": {
+"name": "Sparkling Saladmander",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"StinkBug_Green": {
+"name": "Aromabug",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"StinkBug_Purple": {
+"name": "Purple Aromabug",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"StinkBug_Blue": {
+"name": "Aqua Aromabug",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"StinkBug_RedOrange": {
+"name": "Crimson Aromabug",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"StinkBug_Demon": {
+"name": "Night Aromabug",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"StinkBug_Spark": {
+"name": "Sparkling Aromabug",
+"lvl": null,
+"maxLvl": null,
+"type": "Critter",
+"faction": null
+},
+"CannonHoney": {
+"name": "Honey Cannon",
+"lvl": null,
+"maxLvl": null,
+"type": "Bee",
+"faction": null
+},
+"Cannon_Mokshi": {
+"name": "Honey Cannon",
+"lvl": null,
+"maxLvl": null,
+"type": "Bee",
+"faction": null
+},
+"CannonPlant": {
+"name": "Cannon Plant",
+"lvl": null,
+"maxLvl": null,
+"type": "Bee",
+"faction": null
+},
+"BaseHero": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"BaseMount": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"BaseMob": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"BaseSummon": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"W_Base": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"W_Base_Small": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"W_Base_Big": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"W_Base_Unique": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"W_Base_Elite": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"D_Base": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"D_Base_Small": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"D_Base_Big": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"D_Base_Elite": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"W_Assassin": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"W_Assassin_U": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"D_Assassin": {
+"name": null,
+"lvl": null,
+"maxLvl": null,
+"type": "Human",
+"faction": null
+},
+"World": {
+"name": "Environment",
+"lvl": null,
+"maxLvl": null,
+"type": "Environment",
+"faction": null
+}
+}

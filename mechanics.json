@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Language and server region",
+    "status": "verified-local-config",
+    "summary": "The local options file includes language selection and server region settings.",
+    "evidence": [
+      "Observed in local options.ini."
+    ]
+  },
+  {
+    "name": "Map filters",
+    "status": "verified-local-config",
+    "summary": "The local options file includes filters for suggested activities, discovered activities, completed activities, obelisks, and respawn points.",
+    "evidence": [
+      "Observed in local options.ini."
+    ]
+  },
+  {
+    "name": "Accessibility options",
+    "status": "verified-local-config",
+    "summary": "The local options file includes color-blind mode, color-blind amount, magnifier, and magnifier zoom amount settings.",
+    "evidence": [
+      "Observed in local options.ini."
+    ]
+  },
+  {
+    "name": "Dungeon difficulties",
+    "status": "derived-from-data",
+    "summary": "Dungeon references include Default, Heroic, and Level Max difficulty/status labels.",
+    "evidence": [
+      "Dungeon difficulty labels found in local game data."
+    ]
+  },
+  {
+    "name": "Weapon skill progression",
+    "status": "derived-from-data",
+    "summary": "Local data references weapon progress, weapon skills, weapon skill ranks, and adding skill points to weapons.",
+    "evidence": [
+      "Weapon skill/progression references found in local game data."
+    ]
+  },
+  {
+    "name": "Job progression",
+    "status": "derived-from-data",
+    "summary": "Local data references jobs, job levels, job max level achievements, and job-related crafting actions.",
+    "evidence": [
+      "Job/progression references found in local game data."
+    ]
+  },
+  {
+    "name": "Checkpoints and respawn points",
+    "status": "derived-from-data",
+    "summary": "Local data references checkpoints, start points, respawn points, and teleporting to the last checkpoint.",
+    "evidence": [
+      "Checkpoint/respawn references found in local game data."
+    ]
+  },
+  {
+    "name": "Secret orbs",
+    "status": "derived-from-data",
+    "summary": "Local data references secret orb POIs and dungeon secret orb collection achievements.",
+    "evidence": [
+      "Secret orb references found in local game data."
+    ]
+  }
+]
