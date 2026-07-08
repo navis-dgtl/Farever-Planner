@@ -207,3 +207,15 @@ assert.ok(
   bestManfishFinDrop.chance > 0.2,
   `Fin_Z1 Manfish drop chance should exceed 0.2 (got ${bestManfishFinDrop.chance})`
 );
+
+// ---------------------------------------------------------------------------
+// 3D viewer — committed model index is present and non-trivial
+// ---------------------------------------------------------------------------
+const modelIndex = JSON.parse(
+  fs.readFileSync(path.join(rootDir, "game-data/models/model_index.json"), "utf8")
+);
+const modelCount = api.setModelIndexForTest(modelIndex);
+assert.ok(modelCount > 300, `model_index.json should map > 300 items (got ${modelCount})`);
+// A weapon (models[].prefab path) and armor (modelPath) both resolve.
+assert.ok(api.modelPathForItemId("Staff_Craft"), "Staff_Craft should have a resolved model path");
+assert.match(api.modelPathForItemId("Staff_Craft"), /\.glb$/, "model path should point at a GLB");

@@ -15,12 +15,15 @@
   const LOOT_TABLES_URL = RUNTIME_URLS.lootTables || "game-data/loot_tables.json";
   /** `tools/build-item-sources.mjs` — wiki-sourced "where to get it" index keyed by item id. */
   const ITEM_SOURCES_URL = RUNTIME_URLS.itemSources || "game-data/wiki/item_sources.json";
+  /** `tools/build-model-index.mjs` — item id → GLB path for the "View in 3D" viewer. */
+  const MODEL_INDEX_URL = RUNTIME_URLS.modelIndex || "game-data/models/model_index.json";
   const RUNTIME_FETCH_URLS = Object.freeze([
     CDB_URL,
     FOE_DEFENSES_URL,
     DUNGEON_REGIONS_URL,
     LOOT_TABLES_URL,
     ITEM_SOURCES_URL,
+    MODEL_INDEX_URL,
   ]);
   const RUNTIME_ASSET_PREFIXES = Object.freeze(
     ((STATIC_CONFIG && STATIC_CONFIG.assetPrefixes) || [
@@ -180,6 +183,8 @@
   let dungeonBossLabelsByFactionId = null;
   /** `itemId` → wiki source payload (`game-data/wiki/item_sources.json`); null until loaded. */
   let itemWikiSourcesByItemId = null;
+  /** `itemId` → GLB path relative to `game-data/models/` (`model_index.json`); null until loaded. */
+  let itemModelPathByItemId = null;
   /** @type {Record<string, { id: string, name: string, resolvedByLevel?: Record<string, { armorPts: number, magicArmorPts: number }> }>} */
   let foeUnitById = {};
   /**
@@ -4004,6 +4009,19 @@
     const drops = itemDropChanceLines(item, 4);
     if (drops.length) lines.push({ label: "Drops", text: drops.join(" · ") });
     return lines;
+  }
+
+  /**
+   * Relative GLB url for an item's in-game model, or `null` when the 3D viewer can't show it —
+   * module missing, WebGL unsupported, or the model index has no entry for this id.
+   */
+  function itemModelViewerUrl(item) {
+    if (!item || typeof item.id !== "string" || !itemModelPathByItemId) return null;
+    const rel = itemModelPathByItemId[item.id];
+    if (typeof rel !== "string" || !rel) return null;
+    const viewer = typeof window !== "undefined" ? window.FareverPlanner3D : null;
+    if (!viewer || typeof viewer.canRender !== "function" || !viewer.canRender()) return null;
+    return "game-data/models/" + rel;
   }
 
   /**
@@ -11231,6 +11249,7 @@
         card.className = "gp-item-finder__card";
         const effR = it.rarity || "Common";
         const typeLabel = typeof it.type === "string" ? it.type.replace(/([a-z])([A-Z])/g, "$1 $2") : "";
+        const modelUrl = itemModelViewerUrl(it);
         const linesHtml = lines.length
           ? lines
               .map(
@@ -11248,10 +11267,21 @@
               <div class="gp-item-pick__name ${rarityTextClass(effR)}">${escapeHtml(itemDisplayName(it))}</div>
               ${typeLabel ? `<div class="gp-item-finder__type-tag">${escapeHtml(typeLabel)}</div>` : ""}
             </div>
+            ${modelUrl ? `<button type="button" class="gp-3d-open-btn" title="View this item's 3D model">View in 3D</button>` : ""}
           </div>
           <div class="gp-item-finder__lines">${linesHtml}</div>
         `;
         mountLootIcon(card.querySelector(".gp-item-finder__icon"), it.gfx, "");
+        if (modelUrl) {
+          const btn3d = card.querySelector(".gp-3d-open-btn");
+          if (btn3d) {
+            btn3d.addEventListener("click", () => {
+              if (window.FareverPlanner3D) {
+                window.FareverPlanner3D.open({ glbUrl: modelUrl, title: itemDisplayName(it) });
+              }
+            });
+          }
+        }
         results.appendChild(card);
       }
       if (!shown) {
@@ -14346,6 +14376,10 @@
             subLine
           )}</div>`
         : "";
+      const previewModelUrl = itemModelViewerUrl(it);
+      const previewModelBtnHtml = previewModelUrl
+        ? `<button type="button" class="gp-3d-open-btn gp-modal-preview__3d-btn" title="View this item's 3D model">View in 3D</button>`
+        : "";
       const prevAugScrollEl =
         overlay.querySelector(".gp-modal-augment-pick") ||
         overlay.querySelector("#gp-modal-augment-panel");
@@ -14365,6 +14399,7 @@
             <div class="gp-modal-preview__headtext">
               <div class="gp-modal-preview__name ${rarityTextClass(effR)}">${escapeHtml(itemDisplayName(it))}</div>
               ${subLineHtml}
+              ${previewModelBtnHtml}
             </div>
           </div>
           ${flav ? `<p class="gp-modal-preview__flavor">${escapeHtml(flav)}</p>` : ""}
@@ -14374,6 +14409,16 @@
         </div>
       `;
       mountLootIcon(previewEl.querySelector(".gp-modal-preview__icon"), it.gfx, "");
+      if (previewModelUrl) {
+        const btn3d = previewEl.querySelector(".gp-modal-preview__3d-btn");
+        if (btn3d) {
+          btn3d.addEventListener("click", () => {
+            if (window.FareverPlanner3D) {
+              window.FareverPlanner3D.open({ glbUrl: previewModelUrl, title: itemDisplayName(it) });
+            }
+          });
+        }
+      }
       const previewToggle = previewEl.querySelector(".gp-modal-preview__mobile-toggle");
       if (previewToggle) {
         previewToggle.addEventListener("click", () => {
@@ -16248,6 +16293,18 @@
     itemDropChancesForItemId(itemId) {
       return itemDropChancesByItemId ? itemDropChancesByItemId[itemId] : undefined;
     },
+    /** Set the 3D model index from a payload (mirrors `main()`); returns the entry count. */
+    setModelIndexForTest(payload) {
+      itemModelPathByItemId =
+        payload && payload.byItemId && typeof payload.byItemId === "object"
+          ? payload.byItemId
+          : null;
+      return itemModelPathByItemId ? Object.keys(itemModelPathByItemId).length : 0;
+    },
+    /** GLB path relative to `game-data/models/` for an item id, or `undefined`. */
+    modelPathForItemId(itemId) {
+      return itemModelPathByItemId ? itemModelPathByItemId[itemId] : undefined;
+    },
     /** Auditing: count of distinct skill ids surfaced by **`collectPlannerSurfaceSkillIds`** (gear grants + class + talents). */
     plannerSurfaceSkillCount() {
       return collectPlannerSurfaceSkillIds().size;
@@ -16353,11 +16410,13 @@
     const dungeonPromise = fetchJsonWithProgress(DUNGEON_REGIONS_URL, progress);
     const lootPromise = fetchJsonWithProgress(LOOT_TABLES_URL, progress);
     const itemSourcesPromise = fetchJsonWithProgress(ITEM_SOURCES_URL, progress);
+    const modelIndexPromise = fetchJsonWithProgress(MODEL_INDEX_URL, progress);
     // Side handlers so an early fatal return (cdb failure) cannot surface unhandled rejections.
     foePromise.catch(() => {});
     dungeonPromise.catch(() => {});
     lootPromise.catch(() => {});
     itemSourcesPromise.catch(() => {});
+    modelIndexPromise.catch(() => {});
 
     let cdb;
     try {
@@ -16492,6 +16551,23 @@
         "warning",
         "Item source data unavailable",
         `${ITEM_SOURCES_URL} could not be loaded; the item finder will show planner drop hints only. ${String(
+          (e && e.message) || e || ""
+        )}`
+      );
+    }
+
+    try {
+      const modelPayload = await modelIndexPromise;
+      itemModelPathByItemId =
+        modelPayload && modelPayload.byItemId && typeof modelPayload.byItemId === "object"
+          ? modelPayload.byItemId
+          : null;
+    } catch (e) {
+      itemModelPathByItemId = null;
+      recordPlannerDiagnostic(
+        "warning",
+        "3D model index unavailable",
+        `${MODEL_INDEX_URL} could not be loaded; "View in 3D" will be hidden. ${String(
           (e && e.message) || e || ""
         )}`
       );
