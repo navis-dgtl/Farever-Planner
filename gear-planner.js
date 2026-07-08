@@ -13,11 +13,14 @@
   const DUNGEON_REGIONS_URL = RUNTIME_URLS.dungeonRegions || "game-data/dungeon_regions.json";
   /** `tools/export_loot_tables.py` — unit loot roots + nested tables for item ↔ boss hints. */
   const LOOT_TABLES_URL = RUNTIME_URLS.lootTables || "game-data/loot_tables.json";
+  /** `tools/build-item-sources.mjs` — wiki-sourced "where to get it" index keyed by item id. */
+  const ITEM_SOURCES_URL = RUNTIME_URLS.itemSources || "game-data/wiki/item_sources.json";
   const RUNTIME_FETCH_URLS = Object.freeze([
     CDB_URL,
     FOE_DEFENSES_URL,
     DUNGEON_REGIONS_URL,
     LOOT_TABLES_URL,
+    ITEM_SOURCES_URL,
   ]);
   const RUNTIME_ASSET_PREFIXES = Object.freeze(
     ((STATIC_CONFIG && STATIC_CONFIG.assetPrefixes) || [
@@ -173,6 +176,8 @@
   let itemDungeonBossDropsByItemId = null;
   /** `faction` id (CDB / **`dungeon_regions`**) → sorted **dungeon display names** for every dungeon boss of that faction. */
   let dungeonBossLabelsByFactionId = null;
+  /** `itemId` → wiki source payload (`game-data/wiki/item_sources.json`); null until loaded. */
+  let itemWikiSourcesByItemId = null;
   /** @type {Record<string, { id: string, name: string, resolvedByLevel?: Record<string, { armorPts: number, magicArmorPts: number }> }>} */
   let foeUnitById = {};
   /**
@@ -3706,9 +3711,27 @@
         labels.push(e.label);
       }
     }
+    const wiki = itemWikiSources(item);
+    const hardOnlyDungeons = new Set();
+    if (wiki && Array.isArray(wiki.dungeons)) {
+      for (const d of wiki.dungeons) {
+        if (d && d.difficulty === "hard" && typeof d.name === "string") {
+          hardOnlyDungeons.add(d.name.toLowerCase());
+        }
+      }
+    }
+    const annotate = (label) =>
+      hardOnlyDungeons.has(String(label).toLowerCase()) ? `${label} (Hard)` : label;
     if (labels.length) {
       const uniq = [...new Set(labels)].sort((a, b) => a.localeCompare(b));
-      return uniq.join(", ");
+      return uniq.map(annotate).join(", ");
+    }
+    if (wiki && Array.isArray(wiki.dungeons) && wiki.dungeons.length) {
+      return wiki.dungeons.map((d) => annotate(d.name)).join(", ");
+    }
+    if (wiki && Array.isArray(wiki.world) && wiki.world.length) {
+      const w = wiki.world[0];
+      return w && w.faction ? `${w.faction} drops` : "World drops";
     }
     if (!facRaw || facRaw === "World") return "";
     const facFallback =
@@ -3717,6 +3740,49 @@
       return facFallback.join(", ");
     }
     return "";
+  }
+
+  /** Wiki "where to get it" payload for an item, or null when unknown / not yet loaded. */
+  function itemWikiSources(item) {
+    if (!item || typeof item.id !== "string" || !itemWikiSourcesByItemId) return null;
+    return itemWikiSourcesByItemId[item.id] || null;
+  }
+
+  /**
+   * Human-readable source lines for an item, combining the wiki index (dungeons with
+   * difficulty, world activities) with the planner's own loot-table / craft hints.
+   * @returns {{ label: string, text: string }[]}
+   */
+  function itemObtainLines(item) {
+    const lines = [];
+    if (!item) return lines;
+    const craftSub = itemCraftRecipeSubtitle(item);
+    if (craftSub) lines.push({ label: "Craft", text: craftSub });
+    const wiki = itemWikiSources(item);
+    if (wiki && Array.isArray(wiki.dungeons) && wiki.dungeons.length) {
+      const parts = wiki.dungeons.map((d) => {
+        let s = d.name;
+        if (d.difficulty === "hard") s += " (Hard only)";
+        else if (d.difficulty === "normal") s += " (Normal)";
+        if (d.lv) s += ` · Lv${d.lv}`;
+        return s;
+      });
+      lines.push({ label: "Dungeons", text: parts.join(" · ") });
+    }
+    if (wiki && Array.isArray(wiki.world) && wiki.world.length) {
+      for (const w of wiki.world) {
+        const acts = Array.isArray(w.activities) && w.activities.length ? w.activities.join(", ") : "";
+        lines.push({
+          label: w.faction || "World",
+          text: acts || "World drops",
+        });
+      }
+    }
+    if (!wiki && !craftSub) {
+      const sub = itemDungeonBossDropSubtitle(item);
+      if (sub) lines.push({ label: "Dungeons", text: sub });
+    }
+    return lines;
   }
 
   /**
@@ -10824,6 +10890,159 @@
     if (it && itemConsumableBuffKind(it) === kind) activeConsumableByKind[kind] = id;
   }
 
+  /** Item kinds offered by the finder's type filter, in display order. */
+  const ITEM_FINDER_TYPE_GROUPS = [
+    { key: "all", label: "All items" },
+    { key: "armor", label: "Armor & accessories" },
+    { key: "weapon", label: "Weapons" },
+    { key: "enchant", label: "Enchants & augments" },
+    { key: "consumable", label: "Consumables" },
+  ];
+
+  function itemFinderGroupForItem(it) {
+    const t = typeof it.type === "string" ? it.type : "";
+    if (/^Augment/i.test(t) || /Enchant/i.test(t)) return "enchant";
+    if (WEAPON_TYPE_UPGRADE_FAMILY[t] != null || /^DS_/.test(String(it.id))) return "weapon";
+    if (/Potion|Food|Elixir|Scroll|Flask|Consumable/i.test(t)) return "consumable";
+    return "armor";
+  }
+
+  /**
+   * "Find items" tab — searches every named planner item and shows where it can be
+   * obtained: wiki dungeon drops (with difficulty), world/faction activities, planner
+   * loot-table dungeon hints, and craft recipes.
+   * @param {HTMLElement} mountEl
+   */
+  function renderItemFinderPanel(mountEl) {
+    if (!mountEl) return;
+    mountEl.textContent = "";
+
+    const intro = document.createElement("p");
+    intro.className = "gp-item-finder__hint gp-muted";
+    intro.textContent =
+      "Search any item to see where it drops — dungeons and difficulty, world activities, or crafting. Community wiki data plus the game's loot tables.";
+    mountEl.appendChild(intro);
+
+    const controls = document.createElement("div");
+    controls.className = "gp-item-finder__controls";
+    const searchWrap = document.createElement("label");
+    searchWrap.className = "gp-item-finder__search-label";
+    searchWrap.innerHTML = `<span class="gp-field-label">Search</span>`;
+    const inp = document.createElement("input");
+    inp.type = "search";
+    inp.className = "gp-item-finder__search";
+    inp.placeholder = "Item name, dungeon, type…";
+    inp.setAttribute("aria-label", "Search items by name, dungeon, or type");
+    searchWrap.appendChild(inp);
+    controls.appendChild(searchWrap);
+
+    const typeWrap = document.createElement("label");
+    typeWrap.className = "gp-item-finder__type-label";
+    typeWrap.innerHTML = `<span class="gp-field-label">Type</span>`;
+    const selType = document.createElement("select");
+    selType.className = "gp-item-finder__type";
+    for (const g of ITEM_FINDER_TYPE_GROUPS) {
+      const o = document.createElement("option");
+      o.value = g.key;
+      o.textContent = g.label;
+      selType.appendChild(o);
+    }
+    typeWrap.appendChild(selType);
+    controls.appendChild(typeWrap);
+
+    const onlySourcedWrap = document.createElement("label");
+    onlySourcedWrap.className = "gp-item-finder__sourced-label";
+    const chkSourced = document.createElement("input");
+    chkSourced.type = "checkbox";
+    chkSourced.checked = true;
+    onlySourcedWrap.appendChild(chkSourced);
+    onlySourcedWrap.appendChild(document.createTextNode(" Only items with a known source"));
+    controls.appendChild(onlySourcedWrap);
+    mountEl.appendChild(controls);
+
+    const results = document.createElement("div");
+    results.className = "gp-item-finder__results";
+    mountEl.appendChild(results);
+
+    const MAX_RESULTS = 60;
+
+    function itemMatchesQuery(it, q) {
+      if (!q) return true;
+      const name = itemDisplayName(it).toLowerCase();
+      if (name.includes(q)) return true;
+      const t = typeof it.type === "string" ? it.type.toLowerCase() : "";
+      if (t.includes(q)) return true;
+      const lines = itemObtainLines(it);
+      for (const ln of lines) {
+        if (ln.text.toLowerCase().includes(q) || ln.label.toLowerCase().includes(q)) return true;
+      }
+      return false;
+    }
+
+    function paint() {
+      const q = (inp.value || "").trim().toLowerCase();
+      const group = selType.value;
+      const onlySourced = chkSourced.checked;
+      results.textContent = "";
+      let shown = 0;
+      let totalMatches = 0;
+      for (const it of itemLines) {
+        if (!it || it.id == null || !itemHasDisplayName(it)) continue;
+        if (group !== "all" && itemFinderGroupForItem(it) !== group) continue;
+        const lines = itemObtainLines(it);
+        if (onlySourced && !lines.length) continue;
+        if (!itemMatchesQuery(it, q)) continue;
+        totalMatches++;
+        if (shown >= MAX_RESULTS) continue;
+        shown++;
+
+        const card = document.createElement("div");
+        card.className = "gp-item-finder__card";
+        const effR = it.rarity || "Common";
+        const typeLabel = typeof it.type === "string" ? it.type.replace(/([a-z])([A-Z])/g, "$1 $2") : "";
+        const linesHtml = lines.length
+          ? lines
+              .map(
+                (ln) =>
+                  `<div class="gp-item-finder__line"><span class="gp-item-finder__line-label">${escapeHtml(
+                    ln.label
+                  )}</span><span class="gp-item-finder__line-text">${escapeHtml(ln.text)}</span></div>`
+              )
+              .join("")
+          : `<div class="gp-item-finder__line gp-item-finder__line--empty">No source data yet.</div>`;
+        card.innerHTML = `
+          <div class="gp-item-finder__card-head">
+            <div class="gp-item-finder__icon"></div>
+            <div class="gp-item-finder__title">
+              <div class="gp-item-pick__name ${rarityTextClass(effR)}">${escapeHtml(itemDisplayName(it))}</div>
+              ${typeLabel ? `<div class="gp-item-finder__type-tag">${escapeHtml(typeLabel)}</div>` : ""}
+            </div>
+          </div>
+          <div class="gp-item-finder__lines">${linesHtml}</div>
+        `;
+        mountLootIcon(card.querySelector(".gp-item-finder__icon"), it.gfx, "");
+        results.appendChild(card);
+      }
+      if (!shown) {
+        results.innerHTML = `<div class="gp-modal__empty">No items match. Try a different search or allow items without a known source.</div>`;
+      } else if (totalMatches > shown) {
+        const more = document.createElement("div");
+        more.className = "gp-item-finder__more gp-muted";
+        more.textContent = `Showing ${shown} of ${totalMatches} matches — refine your search to narrow it down.`;
+        results.appendChild(more);
+      }
+    }
+
+    let paintTimer = 0;
+    inp.addEventListener("input", () => {
+      clearTimeout(paintTimer);
+      paintTimer = setTimeout(paint, 120);
+    });
+    selType.addEventListener("change", paint);
+    chkSourced.addEventListener("change", paint);
+    paint();
+  }
+
   /**
    * @param {HTMLElement} mountEl
    * @param {() => void} onChange
@@ -15784,18 +16003,117 @@
     },
   };
 
+  /**
+   * Aggregate download progress across the runtime data payloads. Resources with an unknown
+   * `Content-Length` simply do not contribute to the percentage (the bar stays indeterminate
+   * until at least one total is known). Loaded bytes are clamped per resource because
+   * compressed transfers can deliver more decoded bytes than the header advertises.
+   */
+  function createLoadingProgress(onRender) {
+    const resources = [];
+    let lastPct = -1;
+    function render() {
+      let total = 0;
+      let loaded = 0;
+      for (let i = 0; i < resources.length; i++) {
+        const r = resources[i];
+        if (!(r.total > 0)) continue;
+        total += r.total;
+        loaded += Math.min(r.loaded, r.total);
+      }
+      const pct = total > 0 ? Math.max(0, Math.min(100, Math.round((loaded / total) * 100))) : null;
+      if (pct !== lastPct) {
+        lastPct = pct;
+        onRender(pct);
+      }
+    }
+    return {
+      track(total) {
+        const r = { total: Number.isFinite(total) && total > 0 ? total : 0, loaded: 0 };
+        resources.push(r);
+        render();
+        return {
+          advance(bytes) {
+            r.loaded += bytes;
+            render();
+          },
+          finish() {
+            if (r.total > 0) r.loaded = r.total;
+            render();
+          },
+        };
+      },
+    };
+  }
+
+  /** Fetch + parse a JSON payload while reporting streamed download progress. Throws on HTTP errors. */
+  async function fetchJsonWithProgress(url, progress) {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(res.status + " " + res.statusText);
+    const lenHeader = res.headers && typeof res.headers.get === "function" ? res.headers.get("content-length") : null;
+    const total = lenHeader ? parseInt(lenHeader, 10) : NaN;
+    const tracker = progress ? progress.track(total) : null;
+    if (!res.body || typeof res.body.getReader !== "function") {
+      const text = await res.text();
+      if (tracker) tracker.finish();
+      return JSON.parse(text);
+    }
+    const reader = res.body.getReader();
+    const chunks = [];
+    let received = 0;
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      chunks.push(value);
+      received += value.length;
+      if (tracker) tracker.advance(value.length);
+    }
+    if (tracker) tracker.finish();
+    const buf = new Uint8Array(received);
+    let offset = 0;
+    for (let i = 0; i < chunks.length; i++) {
+      buf.set(chunks[i], offset);
+      offset += chunks[i].length;
+    }
+    return JSON.parse(new TextDecoder("utf-8").decode(buf));
+  }
+
   async function main() {
     const root = document.getElementById("gear-planner-root");
-    root.innerHTML = `<div class="gear-planner__loading">Loading data.cdb…</div>`;
+    root.innerHTML = `
+<div class="gear-planner__loading" role="status" aria-live="polite">
+  <div class="gear-planner__loading-spinner" aria-hidden="true"></div>
+  <div class="gear-planner__loading-bar" aria-hidden="true"><div class="gear-planner__loading-fill" id="gp-loading-fill"></div></div>
+  <p class="gear-planner__loading-text" id="gp-loading-text">Loading game data…</p>
+</div>`;
+    const loadingFill = root.querySelector("#gp-loading-fill");
+    const loadingText = root.querySelector("#gp-loading-text");
+    const progress = createLoadingProgress((pct) => {
+      if (!loadingFill || !loadingText) return;
+      if (pct == null) return;
+      loadingFill.style.width = pct + "%";
+      loadingFill.parentNode.classList.add("gear-planner__loading-bar--active");
+      loadingText.textContent = `Loading game data… ${pct}%`;
+    });
+
+    // Start every runtime payload download in parallel; hydration still happens in order below.
+    const cdbPromise = fetchJsonWithProgress(CDB_URL, progress);
+    const foePromise = fetchJsonWithProgress(FOE_DEFENSES_URL, progress);
+    const dungeonPromise = fetchJsonWithProgress(DUNGEON_REGIONS_URL, progress);
+    const lootPromise = fetchJsonWithProgress(LOOT_TABLES_URL, progress);
+    const itemSourcesPromise = fetchJsonWithProgress(ITEM_SOURCES_URL, progress);
+    // Side handlers so an early fatal return (cdb failure) cannot surface unhandled rejections.
+    foePromise.catch(() => {});
+    dungeonPromise.catch(() => {});
+    lootPromise.catch(() => {});
+    itemSourcesPromise.catch(() => {});
 
     let cdb;
     try {
-      const res = await fetch(CDB_URL);
-      if (!res.ok) throw new Error(res.status + " " + res.statusText);
-      cdb = await res.json();
+      cdb = await cdbPromise;
     } catch (e) {
-      root.innerHTML = `<div class="gear-planner__error"><strong>Could not load ${CDB_URL}</strong><br>${String(
-        e.message || e
+      root.innerHTML = `<div class="gear-planner__error"><strong>Could not load ${escapeHtml(CDB_URL)}</strong><br>${escapeHtml(
+        String((e && e.message) || e)
       )}<br><small>Open this page via a local server so fetch can read game data.</small></div>`;
       return;
     }
@@ -15803,68 +16121,59 @@
     try {
       hydratePlannerFromCdb(cdb);
     } catch (e) {
-      root.innerHTML = `<div class="gear-planner__error">Missing required sheets in CDB.<br>${String(
-        e.message || e
+      root.innerHTML = `<div class="gear-planner__error">Missing required sheets in CDB.<br>${escapeHtml(
+        String((e && e.message) || e)
       )}</div>`;
       return;
     }
 
     try {
-      const fr = await fetch(FOE_DEFENSES_URL);
-      if (fr.ok) {
-        foeDefensesPayload = await fr.json();
-        recordPayloadValidationDiagnostics(
-          "Foe defense",
-          FOE_DEFENSES_URL,
-          validateFoeDefensesPayload(foeDefensesPayload)
-        );
-        foeUnitById = {};
-        const units = (foeDefensesPayload && foeDefensesPayload.units) || [];
-        for (let ui = 0; ui < units.length; ui++) {
-          const u = units[ui];
-          if (u && u.id) foeUnitById[u.id] = u;
-        }
-        if (foeUnitById["Dummy"]) {
-          const dD = foeUnitById["Dummy"];
-          dD.lvl = 1;
-          dD.maxLvl = 1;
-          dD.spawnLevelSpan = [1, 1];
-          if (!dD.resolvedByLevel || typeof dD.resolvedByLevel !== "object") {
-            dD.resolvedByLevel = {
-              "1": { foePower: 0, armorPts: 0, magicArmorPts: 0 },
-            };
-          } else {
-            const r1 =
-              dD.resolvedByLevel["1"] || {
-                foePower: 0,
-                armorPts: 0,
-                magicArmorPts: 0,
-              };
-            dD.resolvedByLevel = { "1": r1 };
-          }
-        }
-        if (foeDefensesPayload && Array.isArray(foeDefensesPayload.units) && !foeUnitById["Dummy"]) {
-          const dummyResolved = {
+      foeDefensesPayload = await foePromise;
+      recordPayloadValidationDiagnostics(
+        "Foe defense",
+        FOE_DEFENSES_URL,
+        validateFoeDefensesPayload(foeDefensesPayload)
+      );
+      foeUnitById = {};
+      const units = (foeDefensesPayload && foeDefensesPayload.units) || [];
+      for (let ui = 0; ui < units.length; ui++) {
+        const u = units[ui];
+        if (u && u.id) foeUnitById[u.id] = u;
+      }
+      if (foeUnitById["Dummy"]) {
+        const dD = foeUnitById["Dummy"];
+        dD.lvl = 1;
+        dD.maxLvl = 1;
+        dD.spawnLevelSpan = [1, 1];
+        if (!dD.resolvedByLevel || typeof dD.resolvedByLevel !== "object") {
+          dD.resolvedByLevel = {
             "1": { foePower: 0, armorPts: 0, magicArmorPts: 0 },
           };
-          const dummy = {
-            id: "Dummy",
-            unitType: "Dummy",
-            name: "Training Dummy",
-            lvl: 1,
-            maxLvl: 1,
-            spawnLevelSpan: [1, 1],
-            resolvedByLevel: dummyResolved,
-          };
-          foeUnitById["Dummy"] = dummy;
-          foeDefensesPayload.units.unshift(dummy);
+        } else {
+          const r1 =
+            dD.resolvedByLevel["1"] || {
+              foePower: 0,
+              armorPts: 0,
+              magicArmorPts: 0,
+            };
+          dD.resolvedByLevel = { "1": r1 };
         }
-      } else {
-        recordPlannerDiagnostic(
-          "warning",
-          "Foe defense data unavailable",
-          `${FOE_DEFENSES_URL} returned ${fr.status}; combat previews will use estimated armor.`
-        );
+      }
+      if (foeDefensesPayload && Array.isArray(foeDefensesPayload.units) && !foeUnitById["Dummy"]) {
+        const dummyResolved = {
+          "1": { foePower: 0, armorPts: 0, magicArmorPts: 0 },
+        };
+        const dummy = {
+          id: "Dummy",
+          unitType: "Dummy",
+          name: "Training Dummy",
+          lvl: 1,
+          maxLvl: 1,
+          spawnLevelSpan: [1, 1],
+          resolvedByLevel: dummyResolved,
+        };
+        foeUnitById["Dummy"] = dummy;
+        foeDefensesPayload.units.unshift(dummy);
       }
     } catch (e) {
       foeDefensesPayload = null;
@@ -15879,25 +16188,13 @@
     }
 
     try {
-      const dr = await fetch(DUNGEON_REGIONS_URL);
-      if (dr.ok) {
-        const dungeonPayload = await dr.json();
-        recordPayloadValidationDiagnostics(
-          "Dungeon region",
-          DUNGEON_REGIONS_URL,
-          validateDungeonRegionsPayload(dungeonPayload)
-        );
-        hydrateDungeonBossLookup(dungeonPayload);
-      }
-      else {
-        dungeonBossByUnitId = {};
-        dungeonBossLabelsByFactionId = null;
-        recordPlannerDiagnostic(
-          "warning",
-          "Dungeon region data unavailable",
-          `${DUNGEON_REGIONS_URL} returned ${dr.status}; boss labels may be incomplete.`
-        );
-      }
+      const dungeonPayload = await dungeonPromise;
+      recordPayloadValidationDiagnostics(
+        "Dungeon region",
+        DUNGEON_REGIONS_URL,
+        validateDungeonRegionsPayload(dungeonPayload)
+      );
+      hydrateDungeonBossLookup(dungeonPayload);
     } catch (e) {
       dungeonBossByUnitId = {};
       dungeonBossLabelsByFactionId = null;
@@ -15911,25 +16208,13 @@
     }
 
     try {
-      const lr = await fetch(LOOT_TABLES_URL);
-      if (lr.ok) {
-        const lootPayload = await lr.json();
-        recordPayloadValidationDiagnostics(
-          "Loot table",
-          LOOT_TABLES_URL,
-          validateLootTablesPayload(lootPayload)
-        );
-        hydrateItemBossDropIndexFromLootTables(lootPayload);
-      }
-      else {
-        lootTableItemExpansionMemo = null;
-        itemDungeonBossDropsByItemId = null;
-        recordPlannerDiagnostic(
-          "warning",
-          "Loot table data unavailable",
-          `${LOOT_TABLES_URL} returned ${lr.status}; boss drop hints may be incomplete.`
-        );
-      }
+      const lootPayload = await lootPromise;
+      recordPayloadValidationDiagnostics(
+        "Loot table",
+        LOOT_TABLES_URL,
+        validateLootTablesPayload(lootPayload)
+      );
+      hydrateItemBossDropIndexFromLootTables(lootPayload);
     } catch (e) {
       lootTableItemExpansionMemo = null;
       itemDungeonBossDropsByItemId = null;
@@ -15937,6 +16222,23 @@
         "warning",
         "Loot table data unavailable",
         `${LOOT_TABLES_URL} could not be loaded; boss drop hints may be incomplete. ${String(
+          (e && e.message) || e || ""
+        )}`
+      );
+    }
+
+    try {
+      const sourcesPayload = await itemSourcesPromise;
+      itemWikiSourcesByItemId =
+        sourcesPayload && sourcesPayload.byItemId && typeof sourcesPayload.byItemId === "object"
+          ? sourcesPayload.byItemId
+          : null;
+    } catch (e) {
+      itemWikiSourcesByItemId = null;
+      recordPlannerDiagnostic(
+        "warning",
+        "Item source data unavailable",
+        `${ITEM_SOURCES_URL} could not be loaded; the item finder will show planner drop hints only. ${String(
           (e && e.message) || e || ""
         )}`
       );
@@ -15982,12 +16284,12 @@
 <div class="gear-planner">
   <header class="gear-planner__header">
     <div class="gear-planner__header-main">
-      <a class="gear-planner__title-logo-link" href="https://terekt.github.io/Farever-Planner/" target="_blank" rel="noopener noreferrer" aria-label="Open Farever Planner home page">
+      <a class="gear-planner__title-logo-link" href="./" aria-label="Farever Planner home">
         <div class="gear-planner__title-logo" id="gp-title-logo"></div>
       </a>
-      <a class="gear-planner__discord-link" href="https://discord.gg/Rsgf62YAQG" target="_blank" rel="noopener noreferrer" aria-label="Join the Farever Planner Discord server">
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 50 50" aria-hidden="true" focusable="false"><path d="M42.298,11.65c-0.676-1.021-1.633-1.802-2.768-2.256c-2.464-0.988-4.583-1.648-6.479-2.02C31.721,7.114,30.404,7.768,29.771,9l-0.158,0.308c-1.404-0.155-2.895-0.207-4.593-0.164c-1.741-0.042-3.237,0.009-4.643,0.164L20.22,9c-0.633-1.232-1.952-1.885-3.279-1.625c-1.896,0.371-4.016,1.031-6.479,2.02c-1.134,0.454-2.091,1.234-2.768,2.256c-4.721,7.131-6.571,14.823-5.655,23.517c0.032,0.305,0.202,0.578,0.461,0.741c3.632,2.29,6.775,3.858,9.891,4.936c1.303,0.455,2.748-0.054,3.517-1.229l1.371-2.101c-1.092-0.412-2.158-0.9-3.18-1.483c-0.479-0.273-0.646-0.884-0.373-1.363c0.273-0.481,0.884-0.65,1.364-0.373c3.041,1.734,6.479,2.651,9.942,2.651s6.901-0.917,9.942-2.651c0.479-0.277,1.09-0.108,1.364,0.373c0.273,0.479,0.106,1.09-0.373,1.363c-1.056,0.603-2.16,1.105-3.291,1.524l1.411,2.102c0.581,0.865,1.54,1.357,2.528,1.357c0.322,0,0.647-0.053,0.963-0.161c3.125-1.079,6.274-2.649,9.914-4.944c0.259-0.163,0.429-0.437,0.461-0.741C48.869,26.474,47.019,18.781,42.298,11.65z M18.608,28.983c-1.926,0-3.511-2.029-3.511-4.495c0-2.466,1.585-4.495,3.511-4.495s3.511,2.029,3.511,4.495C22.119,26.954,20.534,28.983,18.608,28.983z M31.601,28.957c-1.908,0-3.478-2.041-3.478-4.522s1.57-4.522,3.478-4.522c1.908,0,3.478,2.041,3.478,4.522S33.509,28.957,31.601,28.957z"></path></svg>
-        <span class="gear-planner__discord-bubble">Join the Discord to report bugs and share feedback!</span>
+      <a class="gear-planner__community-link" href="https://discord.gg/Rsgf62YAQG" target="_blank" rel="noopener noreferrer" aria-label="Join the Farever Planner Discord server (opens in a new tab)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 50 50" aria-hidden="true" focusable="false"><path fill="currentColor" d="M42.298,11.65c-0.676-1.021-1.633-1.802-2.768-2.256c-2.464-0.988-4.583-1.648-6.479-2.02C31.721,7.114,30.404,7.768,29.771,9l-0.158,0.308c-1.404-0.155-2.895-0.207-4.593-0.164c-1.741-0.042-3.237,0.009-4.643,0.164L20.22,9c-0.633-1.232-1.952-1.885-3.279-1.625c-1.896,0.371-4.016,1.031-6.479,2.02c-1.134,0.454-2.091,1.234-2.768,2.256c-4.721,7.131-6.571,14.823-5.655,23.517c0.032,0.305,0.202,0.578,0.461,0.741c3.632,2.29,6.775,3.858,9.891,4.936c1.303,0.455,2.748-0.054,3.517-1.229l1.371-2.101c-1.092-0.412-2.158-0.9-3.18-1.483c-0.479-0.273-0.646-0.884-0.373-1.363c0.273-0.481,0.884-0.65,1.364-0.373c3.041,1.734,6.479,2.651,9.942,2.651s6.901-0.917,9.942-2.651c0.479-0.277,1.09-0.108,1.364,0.373c0.273,0.479,0.106,1.09-0.373,1.363c-1.056,0.603-2.16,1.105-3.291,1.524l1.411,2.102c0.581,0.865,1.54,1.357,2.528,1.357c0.322,0,0.647-0.053,0.963-0.161c3.125-1.079,6.274-2.649,9.914-4.944c0.259-0.163,0.429-0.437,0.461-0.741C48.869,26.474,47.019,18.781,42.298,11.65z M18.608,28.983c-1.926,0-3.511-2.029-3.511-4.495c0-2.466,1.585-4.495,3.511-4.495s3.511,2.029,3.511,4.495C22.119,26.954,20.534,28.983,18.608,28.983z M31.601,28.957c-1.908,0-3.478-2.041-3.478-4.522s1.57-4.522,3.478-4.522c1.908,0,3.478,2.041,3.478,4.522S33.509,28.957,31.601,28.957z"></path></svg>
+        <span>Discord</span>
       </a>
     </div>
     <h1 class="gear-planner__title-sr">Gear planner</h1>
@@ -16105,6 +16407,7 @@
           <button type="button" class="gp-tab" role="tab" aria-selected="false" aria-controls="gp-panel-talent-tree" id="gp-tab-talent-tree" tabindex="-1">Talent tree</button>
           <button type="button" class="gp-tab" role="tab" aria-selected="false" aria-controls="gp-panel-consumables" id="gp-tab-consumables" tabindex="-1">Consumables</button>
           <button type="button" class="gp-tab" role="tab" aria-selected="false" aria-controls="gp-panel-buffs" id="gp-tab-buffs" tabindex="-1">Buffs</button>
+          <button type="button" class="gp-tab" role="tab" aria-selected="false" aria-controls="gp-panel-item-finder" id="gp-tab-item-finder" tabindex="-1">Find items</button>
         </div>
         <div class="gear-planner__tab-panels">
           <div class="gear-planner__tab-panel gear-planner__tab-panel--active" role="tabpanel" id="gp-panel-equipment" aria-labelledby="gp-tab-equipment">
@@ -16127,6 +16430,10 @@
           </div>
           <div class="gear-planner__tab-panel" role="tabpanel" id="gp-panel-buffs" aria-labelledby="gp-tab-buffs" hidden>
             <div id="gp-buffs-body" class="gear-planner__character-skills-body"></div>
+          </div>
+          <div class="gear-planner__tab-panel" role="tabpanel" id="gp-panel-item-finder" aria-labelledby="gp-tab-item-finder" hidden>
+            <h2 class="gear-planner__tab-panel-title">Find items</h2>
+            <div id="gp-item-finder-mount" class="gp-item-finder-mount"></div>
           </div>
         </div>
       </div>
@@ -16303,9 +16610,15 @@
     const buffsBodyEl = root.querySelector("#gp-buffs-body");
     const talentTreeMountEl = root.querySelector("#gp-talent-tree-mount");
     const consumablesMountEl = root.querySelector("#gp-consumables-mount");
+    const itemFinderMountEl = root.querySelector("#gp-item-finder-mount");
     const summaryWrap = root.querySelector("#gp-summary-wrap");
 
     wireGearPlannerTabs(root);
+
+    // Build-independent lookup tool; rendered once (its own controls handle refresh).
+    if (itemFinderMountEl) {
+      renderItemFinderPanel(itemFinderMountEl);
+    }
 
     for (const cid of CLASS_IDS) {
       const o = document.createElement("option");
@@ -16405,7 +16718,23 @@
     sanitizeClassSkillMasteriesForClass(selClass.value);
 
     if (gpTitleLogo) {
-      mountPlannerImage(gpTitleLogo, "UI/Window/TitleScreen/title.png", "Farever");
+      // Slim pre-scaled logo (assets/title-logo.png) instead of the 1584×672 extracted
+      // title screen art — the header renders it at ≤320px wide.
+      gpTitleLogo.textContent = "";
+      const logoImg = document.createElement("img");
+      logoImg.alt = "Farever";
+      logoImg.decoding = "async";
+      logoImg.width = 320;
+      logoImg.height = 136;
+      logoImg.src = "assets/title-logo.png";
+      logoImg.addEventListener(
+        "error",
+        () => {
+          mountPlannerImage(gpTitleLogo, "UI/Window/TitleScreen/title.png", "Farever");
+        },
+        { once: true }
+      );
+      gpTitleLogo.appendChild(logoImg);
     }
 
     /** @type {HTMLElement[]} */

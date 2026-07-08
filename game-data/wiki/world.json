@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Crabgantua",
+    "status": "derived-from-data",
+    "type": "Z1 Boss reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Mokshi",
+    "status": "derived-from-data",
+    "type": "Z1 Boss reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Ratsar",
+    "status": "derived-from-data",
+    "type": "Z1 Boss reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Bee Hive",
+    "status": "derived-from-data",
+    "type": "Z1 Dungeon reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Kobold Mines",
+    "status": "derived-from-data",
+    "type": "Z1 Dungeon reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Manfish Geyser",
+    "status": "derived-from-data",
+    "type": "Z1 Dungeon reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Manfish Ruins",
+    "status": "derived-from-data",
+    "type": "Z1 Dungeon reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Cleodora",
+    "status": "derived-from-data",
+    "type": "Z2 Boss reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Munster Chuck",
+    "status": "derived-from-data",
+    "type": "Z2 Boss reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Phrixes",
+    "status": "derived-from-data",
+    "type": "Z2 Boss reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Abandoned Mines",
+    "status": "derived-from-data",
+    "type": "Z2 Dungeon reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Crimson Barracks",
+    "status": "derived-from-data",
+    "type": "Z2 Dungeon reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Demon World",
+    "status": "derived-from-data",
+    "type": "Z2 Dungeon reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Manfish Abyss",
+    "status": "derived-from-data",
+    "type": "Z2 Dungeon reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Egglektra",
+    "status": "derived-from-data",
+    "type": "Z3 Boss reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Mountain Core",
+    "status": "derived-from-data",
+    "type": "Z3 Dungeon reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Pilgrim Airship",
+    "status": "derived-from-data",
+    "type": "Z3 Dungeon reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  },
+  {
+    "name": "Swarowl Nest",
+    "status": "derived-from-data",
+    "type": "Z3 Dungeon reference",
+    "summary": "POI name found in local level data. Exact public display name, entrance requirements, and rewards need verification.",
+    "related": [],
+    "evidence": [
+      "POI reference found in local level data."
+    ]
+  }
+]

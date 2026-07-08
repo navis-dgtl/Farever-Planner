@@ -112,7 +112,7 @@ assert.deepEqual(api.validateFoeDefensesPayload(foePayload), []);
 assert.ok(api.validateFoeDefensesPayload({ units: [{ id: "A" }, { id: "A" }] }).some((msg) => msg.includes("duplicate")));
 api.hydrateFoeDefensesForTest(foePayload);
 
-const pyroclasmCoyoteBuild = api.expandSnapshot({
+const pyroclasmCoyoteSnapshot = {
   c: 2,
   ml: 14,
   f: "Wolf_Z2W",
@@ -143,6 +143,17 @@ const pyroclasmCoyoteBuild = api.expandSnapshot({
     [14, "DS_Z1RBee_AssWiz", 20, "Epic", 0, null, null, "DS_Bladeleaf_Skill2", "DS_Bladeleaf_Passive"],
   ],
   d: { cm: "never", pe: { Staff_Craft_S1: true } },
+};
+
+// With default Buffs-tab assumptions, Scorching Embers stacks (max by default) add 1.4x to
+// magic weapon-skill damage on staff builds.
+const pyroclasmWithEmbersDefault = api.expandSnapshot(pyroclasmCoyoteSnapshot);
+assert.equal(api.previewRowsForSnapshot("Staff_Craft_S1", pyroclasmWithEmbersDefault)[0].finalExpectedSum, 196);
+
+// Armor scaling across foes and monster levels, with Scorching Embers stacks zeroed out.
+const pyroclasmCoyoteBuild = api.expandSnapshot({
+  ...pyroclasmCoyoteSnapshot,
+  d: { cm: "never", pe: { Staff_Craft_S1: true }, st: { Staff_Craft_C_Status: 0 } },
 });
 assert.equal(api.previewRowsForSnapshot("Staff_Craft_S1", pyroclasmCoyoteBuild)[0].finalExpectedSum, 140);
 pyroclasmCoyoteBuild.foeUnitId = "Wolf_Z2W_2";

@@ -11,6 +11,7 @@
       foeDefenses: "game-data/foe_defenses.json",
       dungeonRegions: "game-data/dungeon_regions.json",
       lootTables: "game-data/loot_tables.json",
+      itemSources: "game-data/wiki/item_sources.json",
     }),
     assetPrefixes: Object.freeze([
       "game-data/extracted/res/",

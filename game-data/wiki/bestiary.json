@@ -1,0 +1,3470 @@
+[
+  {
+    "name": "Base NPC 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-basenpc-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Black",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beeblack.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Brood Watcher",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beebroodwatcher-r-spear-faerie-hiveguard.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Brood Watcher",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beebroodwatcher-r-sword-faerie-bee-l-shield-faerie-bee.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Brood Watcher",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beebroodwatcher.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Combcutter",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beecombcutter-r-spear-faerie-hiveguard.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Combcutter",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beecombcutter.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Hive Champion",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beehivechampion-r-spear-faerie-doubleblade.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Hive Champion Chrysalis",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beehivechampionchrysalis.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Hive Champion Grey",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beehivechampion-grey-r-spear-faerie-doubleblade.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Hive Champion Grey",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beehivechampion-grey-r-spear-faerie-doubleblade03.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Hive Champion Grey Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beehivechampion-greygreen-r-spear-faerie-doubleblade02.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Hive Feeder",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beehivefeeder.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Hiveguard Brown",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-bee-hiveguard-brown-r-spear-faerie-hiveguard-02-l-shield-faerie-bee.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Hiveguard Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-bee-hiveguard-spark-r-spear-faerie-hiveguard.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Hiveguard Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-bee-hiveguard-spark-r-spear-faerie-hiveguard-spark.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Keeper",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beekeeper-r-mace-kobold-pickaxe.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Royal Guard",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beeroyalguard-r-greatmace-faerie-honeyspoon.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Royal Guard Beige",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beeroyalguard-beige-r-greatmace-faerie-honeyspoon.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Royal Guard Black",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beeroyalguard-black-r-greatmace-faerie-honeyspoon.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bee Royal Guard Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-beeroyalguard-spark-r-greatmace-faerie-honeyspoon.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Boar Basic",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-boar-basic.png",
+    "family": "Boar",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Boar Black",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-boar-black.png",
+    "family": "Boar",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Boar Black White",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-boar-blackwhite.png",
+    "family": "Boar",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Boar Brown",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-boar-brown.png",
+    "family": "Boar",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Boar Grey Red",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-boar-greyred.png",
+    "family": "Boar",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Boar Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-boar-spark.png",
+    "family": "Boar",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Canine Mount Wolf 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-canine-mountwolf-01.png",
+    "family": "Canine",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Canine Mount Wolf 04",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-canine-mountwolf-04.png",
+    "family": "Canine",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Canine Mount Wolf 06",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-canine-mountwolf-06.png",
+    "family": "Canine",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Cannon Honey",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-cannonhoney.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Cannon Plant",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-cannonplant.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Cleodora",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-cleodora.png",
+    "family": "Cleodora",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Crab Elite Black",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-crab-elite-black.png",
+    "family": "Crab",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Crab Elite Red",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-crab-elite-red.png",
+    "family": "Crab",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Crab Grey",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-crab-grey.png",
+    "family": "Crab",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Crab Orange",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-crab-orange.png",
+    "family": "Crab",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Crab Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-crab-spark.png",
+    "family": "Crab",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Crab Yellow",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-crab-yellow.png",
+    "family": "Crab",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Crimson Captain",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-crimsoncaptain-r-dualswords-guardcaptain-01-l-dualswords-guardcaptain-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Crimson Defender",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-crimsondefender-r-sword-guard-basic-01-l-shield-guard-basic-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Crimson Monk",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-crimson-monk.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Crimson Ranger",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-crimsonranger-r-bow-crimson-01-l-arrow-crimson-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Crimson Ranger",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-crimsonranger.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Croco Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-croco-green.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Croco Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-croco-spark.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Demon Boss",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-demonboss.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Demon Elite",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-demonelite-r-spear-demon-cursedeye-01.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Demon Super Elite",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-demonsuperelite.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Dummy",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-dummy.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Equid Goat 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-equid-goat-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Equid Goat 02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-equid-goat-02.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Equid Goat 03",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-equid-goat-03.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Equid Goat 04",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-equid-goat-04.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Faerie Bee Elite",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-faeriebeeelite-r-greatmace-faerie-honeyspoongatsbee.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Faerie Demon Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-faerie-demon-blue.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Faerie Demon Red",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-faerie-demon-red.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Faerie Demon Red02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-faerie-demon-red02.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Frog Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-frog-blue.png",
+    "family": "Frog",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Frog Blue Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-frog-bluegreen.png",
+    "family": "Frog",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Frog Blue Purple",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-frog-bluepurple.png",
+    "family": "Frog",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Frog Brown",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-frog-brown.png",
+    "family": "Frog",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Frog Demon",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-frog-demon.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Frog Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-frog-green.png",
+    "family": "Frog",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Frog Red Orange",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-frog-redorange.png",
+    "family": "Frog",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Frog Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-frog-spark.png",
+    "family": "Frog",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Frog Yellow",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-frog-yellow.png",
+    "family": "Frog",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Giant Crawler Crab Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-giantcrawler-crab-blue.png",
+    "family": "Crab",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Giant Crawler Crab Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-giantcrawler-crab-green.png",
+    "family": "Crab",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Giant Crawler Crab Orange",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-giantcrawler-crab-orange.png",
+    "family": "Crab",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Giant Crawler Crab Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-giantcrawler-crab-spark.png",
+    "family": "Crab",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Giant Crawler Crab Yellow",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-giantcrawler-crab-yellow.png",
+    "family": "Crab",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Golem Air",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-golem-air.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Golem Lava 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-golem-lava-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Golem Lava 02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-golem-lava-02.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Golem Lava Elite 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-golem-lavaelite-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Golem Stone 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-golem-stone-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Golem Stone Elite 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-golem-stone-elite-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Golem Stone Elite 02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-golem-stone-elite-02.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Golem Stone Elite 03",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-golem-stone-elite-03.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Golem Stone Elite 04",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-golem-stone-elite-04.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Golem Stone Grey Purple 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-golem-stone-greypurple-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Golem Stone Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-golem-stone-spark.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Golem Stone Taupe 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-golem-stone-taupe-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Harpie Bat Black",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-harpie-bat-black.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Harpie Bat Egglektra",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-harpie-bat-egglektra.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Harvester Broodwatcher",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-harvester-broodwatcher.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Harvester Elite",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-harvester-elite.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Harvester Natural 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-harvester-natural-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Harvester Orange Purple 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-harvester-orangepurple-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Harvester Pink 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-harvester-pink-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Harvester Red 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-harvester-red-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Harvester Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-harvester-spark.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Harvester White Green 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-harvester-whitegreen-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Herald Ul Serous",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-herald-ulserous.png",
+    "family": "Herald",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Hero Character Female",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-herocharacter-female.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Hero Character Neutral",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-herocharacter-neutral.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Hilda Lambert",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-hildalambert.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Hound Elite 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-hound-elite-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Hound Natural",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-hound-natural.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Imp Demon Grey Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-imp-demon-greyblue.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Imp Demon Red",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-imp-demon-red.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Kobold Firemancer",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-koboldfiremancer-r-projectile-imp-coal.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Kobold Firemancer02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-koboldfiremancer02-r-projectile-imp-coal.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Kobold Firemancer03",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-koboldfiremancer03-r-projectile-imp-coal.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Kobold Firemancer04",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-koboldfiremancer04-r-projectile-imp-coal.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Kobold Miner",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-koboldminer-r-mace-kobold-pickaxe.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Kobold Miner",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-koboldminer-r-sword-kobold-l-shield-kobold.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Kobold Miner02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-koboldminer02-r-mace-kobold-pickaxe.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Kobold Miner03",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-koboldminer03-r-mace-kobold-pickaxe.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Kobold Miner04",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-koboldminer04-r-mace-kobold-pickaxe.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Kobold Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-koboldspark-r-mace-kobold-pickaxe-spark.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Kobold Thief",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-koboldthief-r-daggers-imp-roguekobold-l-daggers-imp-roguekobold.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Kobold Thief02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-koboldthief02-r-daggers-imp-roguekobold-l-daggers-imp-roguekobold.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Kobold Thief03",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-koboldthief03-r-daggers-imp-roguekobold-l-daggers-imp-roguekobold.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lady Bug Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ladybug-blue.png",
+    "family": "LadyBug",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lady Bug Demon",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ladybug-demon.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lady Bug Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ladybug-green.png",
+    "family": "LadyBug",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lady Bug Purple",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ladybug-purple.png",
+    "family": "LadyBug",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lady Bug Red",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ladybug-red.png",
+    "family": "LadyBug",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lady Bug Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ladybug-spark.png",
+    "family": "LadyBug",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lady Bug Yellow",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ladybug-yellow.png",
+    "family": "LadyBug",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lizard Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-lizard-blue.png",
+    "family": "Lizard",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lizard Blue Orange",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-lizard-blueorange.png",
+    "family": "Lizard",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lizard Demon",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-lizard-demon.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lizard Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-lizard-green.png",
+    "family": "Lizard",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lizard Red Orange",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-lizard-redorange.png",
+    "family": "Lizard",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lizard Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-lizard-spark.png",
+    "family": "Lizard",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Lizard Yellow",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-lizard-yellow.png",
+    "family": "Lizard",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Black",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishblack-r-relic-manfish-crystalball-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Black",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishblack-r-spear-manfish-anchor-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Black",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishblack-r-spear-manfish-fishbone-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Black",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishblack-r-sword-manfish-l-shield-shell-manfish.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Black",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishblack.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishblue-r-relic-manfish-crystalball-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishblue-r-spear-manfish-fishbone-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishblue.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Boss R1",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishbossr1-r-relic-manfish-oystershell-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Elite",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishelite-r-spear-manfish-anchor-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishgreen-r-relic-manfish-crystalball-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishgreen-r-spear-manfish-fishbone-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishgreen-r-sword-manfish-l-shield-shell-manfish.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishgreen.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Indigo",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishindigo-r-relic-manfish-crystalball-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Red",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishred-r-relic-manfish-crystalball-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Red",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishred-r-spear-manfish-fishbone-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishspark-r-relic-manfish-crystalball-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Turquoise",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishturquoise-r-relic-manfish-crystalball-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Turquoise",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishturquoise-r-spear-manfish-fishbone-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Turquoise",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishturquoise-r-sword-manfish-l-shield-shell-manfish.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Manfish Turquoise",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-manfishturquoise.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Midnight",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-midnight.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Mokshi",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-mokshi.png",
+    "family": "Mokshi",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Munster Chuck",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-munsterchuck.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Bagon Beige",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrebagon-beige.png",
+    "family": "Ogre",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Bagon Blue Grey",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrebagon-bluegrey.png",
+    "family": "Ogre",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Bagon Brown",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrebagon-brown.png",
+    "family": "Ogre",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Bagon Brown 02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrebagon-brown-02.png",
+    "family": "Ogre",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Bagon Dark Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrebagon-darkblue.png",
+    "family": "Ogre",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Bagon Grey",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrebagon-grey.png",
+    "family": "Ogre",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Bagon Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrebagon-spark.png",
+    "family": "Ogre",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Human Paysan",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrehuman-paysan.png",
+    "family": "Ogre",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Kobold 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrekobold-01.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Kobold 01b",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrekobold-01b.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Kobold 02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrekobold-02.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Kobold 02b",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrekobold-02b-r-greatmace-ogre-raclettepan.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Kobold 02b",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrekobold-02b.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Kobold 02c",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrekobold-02c-r-greatmace-ogre-raclettepan.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Kobold 02c",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrekobold-02c.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Kobold Docker",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrekobolddocker.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Kobold Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogrekoboldspark.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Manfish Cyan",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogremanfishcyan.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Manfish Cyan02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogremanfishcyan02.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Manfish Dark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogremanfishdark.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Manfish Dark Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogremanfishdarkblue.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Manfish Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogremanfishgreen.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Ogre Manfish Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-ogremanfishspark.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Peasant 01 M",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-peasant-01-m-r-mace-kobold-pickaxe.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Phrixes",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-phrixes-r-staff-heavy-human-phrixesdiabolic.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Phrixes",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-phrixes.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Profession Trainer",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-professiontrainer.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "R1Crab Boss",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-r1crabboss.png",
+    "family": "Crab",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "R1Kobold Boss",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-r1koboldboss-r-gs-r3-r1mines-fig.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Rabbit Brown",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-rabbit-brown.png",
+    "family": "Rabbit",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Rabbit Demon",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-rabbit-demon.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Rabbit Early Access Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-rabbit-earlyaccess-spark.png",
+    "family": "Rabbit",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Rabbit Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-rabbit-green.png",
+    "family": "Rabbit",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Rabbit Grey",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-rabbit-grey.png",
+    "family": "Rabbit",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Rabbit Pink",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-rabbit-pink.png",
+    "family": "Rabbit",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Rabbit Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-rabbit-spark.png",
+    "family": "Rabbit",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Rabbit Yellow",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-rabbit-yellow.png",
+    "family": "Rabbit",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Rabbit Yellow02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-rabbit-yellow02.png",
+    "family": "Rabbit",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Reblochonk",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-reblochonk-r-greatmace-ogre-raclettepan-l-projectile-imp-rottencheese.png",
+    "family": "Ogre",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sheep Beige",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sheep-beige.png",
+    "family": "Sheep",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sheep Black",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sheep-black.png",
+    "family": "Sheep",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sheep Black02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sheep-black02.png",
+    "family": "Sheep",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sheep Brown",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sheep-brown.png",
+    "family": "Sheep",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sheep Brown02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sheep-brown02.png",
+    "family": "Sheep",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sheep Demon",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sheep-demon.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sheep Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sheep-spark.png",
+    "family": "Sheep",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Skunk Hills Beige",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-skunkhills-beige.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Skunk Hills Brown",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-skunkhills-brown.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Skunk Hills White",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-skunkhills-white.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Skunk Wild Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-skunkwild-spark.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Slime Demonic 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-slime-demonic-01.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Slime Demonic 02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-slime-demonic-02.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Slime Elite Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-slime-elite-blue.png",
+    "family": "Slime",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Slime Elite Yellow",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-slime-elite-yellow.png",
+    "family": "Slime",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Slime Green 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-slime-green-01.png",
+    "family": "Slime",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Slime Honey 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-slime-honey-01.png",
+    "family": "Slime",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Slime King 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-slime-king-01.png",
+    "family": "Slime",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Slime Purple 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-slime-purple-01.png",
+    "family": "Slime",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Slime Red 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-slime-red-01.png",
+    "family": "Slime",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Slime Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-slime-spark.png",
+    "family": "Slime",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Slime Yellow 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-slime-yellow-01.png",
+    "family": "Slime",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Snapper Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-snapper-blue.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Snapper Brown",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-snapper-brown.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Snapper Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-snapper-green.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Snapper Purple",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-snapper-purple.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Snow Panther Black",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-snowpanther-black.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Snow Panther Dark Brown",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-snowpanther-darkbrown.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Snow Panther Grey",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-snowpanther-grey.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Snow Panther Light Brown",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-snowpanther-lightbrown.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Snow Panther Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-snowpanther-spark.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Snow Panther White",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-snowpanther-white.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Snow Panther Yellow",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-snowpanther-yellow.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sparkling Beryl Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sparklingberylblue.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sparkling Beryl Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sparklingberylgreen.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sparkling Beryl Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sparklingberylspark.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sparkling Beryl Yellow",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sparklingberylyellow.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sparkling Earth",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sparklingearth.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sparkling Lava",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sparklinglava.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sparkling Underwater Coral",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sparklingunderwater-coral.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sparkling Underwater Elite",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sparklingunderwater-elite.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sparkling Underwater Orange",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sparklingunderwater-orange.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sparkling Underwater Purple",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sparklingunderwater-purple.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sparkling Underwater Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sparklingunderwater-spark.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Spirit Elite Blue 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-spirit-elite-blue-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Spirit Elite Orange 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-spirit-elite-orange-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Spirit Hollow Blue 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-spirit-hollow-blue-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Spirit Hollow Orange 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-spirit-hollow-orange-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Spirit Hollow Turquoise 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-spirit-hollow-turquoise-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Dark Rice",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-darkrice.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Elite 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-elite-01.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Elite 02",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-elite-02.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Elite Bee 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-elite-bee-01.png",
+    "family": "Bee",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Elite Kobold 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-elite-kobold-01.png",
+    "family": "Kobold",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Elite Manfish 01",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-elite-manfish-01.png",
+    "family": "Manfish",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Garlic Green Grey",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-garlic-greengrey.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Garlic Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-garlic-spark.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Garlic White Pink",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-garlic-whitepink.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Onion Natural",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-onion-natural.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Onion Orange",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-onion-orange.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Onion Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-onion-spark.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Rice",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-rice.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Rice Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-rice-spark.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Turnip Brown",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-turnip-brown.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Turnip Natural",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-turnip-natural.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Sprout Turnip Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-sprout-turnip-spark.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Squirrel Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-squirrel-blue.png",
+    "family": "Squirrel",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Squirrel Brown",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-squirrel-brown.png",
+    "family": "Squirrel",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Squirrel Demon",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-squirrel-demon.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Squirrel Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-squirrel-green.png",
+    "family": "Squirrel",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Squirrel Grey",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-squirrel-grey.png",
+    "family": "Squirrel",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Squirrel Red",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-squirrel-red.png",
+    "family": "Squirrel",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Squirrel Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-squirrel-spark.png",
+    "family": "Squirrel",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Stable Master",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-stablemaster.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Stink Bug Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-stinkbug-blue.png",
+    "family": "StinkBug",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Stink Bug Demon",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-stinkbug-demon.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Stink Bug Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-stinkbug-green.png",
+    "family": "StinkBug",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Stink Bug Purple",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-stinkbug-purple.png",
+    "family": "StinkBug",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Stink Bug Red Orange",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-stinkbug-redorange.png",
+    "family": "StinkBug",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Stink Bug Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-stinkbug-spark.png",
+    "family": "StinkBug",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Swarowl Basic Grey",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-swarowl-basicgrey.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Totem Tidal",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-totem-tidal.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Turtle Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-turtle-blue.png",
+    "family": "Turtle",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Turtle Demon",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-turtle-demon.png",
+    "family": "Demon",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Turtle Green",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-turtle-green.png",
+    "family": "Turtle",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Turtle Grey",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-turtle-grey.png",
+    "family": "Turtle",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Turtle Pink",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-turtle-pink.png",
+    "family": "Turtle",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Turtle Red",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-turtle-red.png",
+    "family": "Turtle",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Turtle Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-turtle-spark.png",
+    "family": "Turtle",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Turtle Yellow",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-turtle-yellow.png",
+    "family": "Turtle",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Wandering Merchant",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-wandering-merchant.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Wolf Alpha",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-wolf-alpha.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Wolf Coyote",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-wolf-coyote.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Wolf Dark Blue",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-wolf-darkblue.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Wolf Orange",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-wolf-orange.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Wolf Spark",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-wolf-spark.png",
+    "family": "Other",
+    "notes": [
+      "Unit portrait found in local game assets."
+    ],
+    "evidence": [
+      "Curated unit portrait added from local game assets."
+    ]
+  }
+]

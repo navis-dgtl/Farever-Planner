@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Ratsar",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-r1koboldboss-r-gs-r3-r1mines-fig.png",
+    "family": "Kobold / Imp references found",
+    "location": "Kobold boss references found",
+    "notable_moves": [
+      "Charged Slam",
+      "Absorption"
+    ],
+    "notes": [
+      "Name and moves are derived from boss code/animation leads. Exact encounter behavior is not yet verified."
+    ],
+    "evidence": [
+      "Boss class reference found in local game data.",
+      "Animation references found in local game data.",
+      "Curated boss/unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Mokshi",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-mokshi.png",
+    "family": "Faerie / Bee references found",
+    "location": "Bee boss references found",
+    "notable_moves": [
+      "Blossom",
+      "Cocoon",
+      "Sharp Leaves",
+      "Barrage"
+    ],
+    "notes": [
+      "Asset leads refer to Pollincess Mokshi and Faerie Mokshi animations. Exact encounter behavior is not yet verified."
+    ],
+    "evidence": [
+      "Boss class reference found in local game data.",
+      "Animation references found for Blossom, Cocoon, Sharp Leaves, and Barrage.",
+      "Curated boss/unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Crabgantua",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-r1crabboss.png",
+    "family": "Giant Crawler references found",
+    "location": "Manfish boss references found",
+    "notable_moves": [
+      "Smash",
+      "Hunt Down",
+      "Naya's Fury",
+      "Tidal Slash",
+      "Chitinous Exoskeleton"
+    ],
+    "notes": [
+      "Name and moves are derived from boss code/animation leads. Exact encounter behavior is not yet verified."
+    ],
+    "evidence": [
+      "Boss class reference found in local game data.",
+      "Skill references found for Hunt Down, Naya's Fury, Tidal Slash, and Chitinous Exoskeleton.",
+      "Curated boss/unit portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Nepsilon",
+    "status": "derived-from-data",
+    "image": "",
+    "family": "Human Beast / Relic references found",
+    "location": "Unknown",
+    "notable_moves": [
+      "Water Breath",
+      "Emblem"
+    ],
+    "notes": [
+      "Animation leads include water breath start/loop/end and death animations. Exact encounter behavior is not yet verified."
+    ],
+    "evidence": [
+      "Animation references found in local game data."
+    ]
+  },
+  {
+    "name": "Gatsbee",
+    "status": "derived-from-data",
+    "image": "",
+    "family": "Faerie / Bee references found",
+    "location": "Unknown",
+    "notable_moves": [
+      "Death animation"
+    ],
+    "notes": [
+      "Name appears in boss area and animation leads. Exact encounter behavior is not yet verified."
+    ],
+    "evidence": [
+      "Boss-related references found in local game data."
+    ]
+  },
+  {
+    "name": "Cleodora",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/units/unit-cleodora.png",
+    "family": "Ogre references found",
+    "location": "Unknown",
+    "notable_moves": [
+      "Smash",
+      "Devastation",
+      "Cast"
+    ],
+    "notes": [
+      "Leads include Ogre Cleodora and abdomen assets. Exact encounter behavior is not yet verified."
+    ],
+    "evidence": [
+      "Boss class reference found in local game data.",
+      "Animation/effect references found in local game data.",
+      "Curated boss/unit portrait added from local game assets."
+    ]
+  }
+]

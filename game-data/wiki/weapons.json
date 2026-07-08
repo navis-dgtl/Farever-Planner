@@ -1,0 +1,241 @@
+[
+  {
+    "name": "Sword",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/weapons/weapon-sword.png",
+    "overview": "Weapon family found in icon/model leads as Sword1H and 1H sword.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data.",
+      "Curated weapon portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Shield",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/weapons/weapon-shield.png",
+    "overview": "Weapon or equipment family found in icon and prefab leads.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data.",
+      "Curated weapon portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Bow",
+    "status": "derived-from-data",
+    "image": "",
+    "overview": "Weapon family found in icon/model leads with bow and arrow attachment references.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spear",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/weapons/weapon-spear.png",
+    "overview": "Weapon family found in icon/model leads and faction variants.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data.",
+      "Curated weapon portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Staff",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/weapons/weapon-staff.png",
+    "overview": "Weapon family found in main weapon icon leads.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data.",
+      "Curated weapon portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Scepter",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/weapons/weapon-scepter.png",
+    "overview": "Weapon family found in icon/model leads, including Kobold candle variants.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data.",
+      "Curated weapon portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Daggers",
+    "status": "derived-from-data",
+    "image": "",
+    "overview": "Weapon family found in dagger icon and dual-weapon leads.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data."
+    ]
+  },
+  {
+    "name": "Fists",
+    "status": "derived-from-data",
+    "image": "",
+    "overview": "Weapon family found in main weapon icon leads.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data."
+    ]
+  },
+  {
+    "name": "Axe",
+    "status": "derived-from-data",
+    "image": "",
+    "overview": "Weapon family found in one-handed axe and great axe leads.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data."
+    ]
+  },
+  {
+    "name": "Mace",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/weapons/weapon-mace.png",
+    "overview": "Weapon family found in one-handed mace, dual mace, and great mace leads.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data.",
+      "Curated weapon portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Greatsword",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/weapons/weapon-greatsword.png",
+    "overview": "Weapon family found in 2H greatsword model leads.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Model reference found in local game data.",
+      "Curated weapon portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Crescent",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/weapons/weapon-crescent.png",
+    "overview": "Weapon family found in icon and faction weapon leads.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data.",
+      "Curated weapon portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Halos",
+    "status": "derived-from-data",
+    "image": "",
+    "overview": "Weapon family found in weapon icon leads.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data."
+    ]
+  },
+  {
+    "name": "Thrown",
+    "status": "derived-from-data",
+    "image": "",
+    "overview": "Weapon family found in weapon icon leads.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dual Swords",
+    "status": "derived-from-data",
+    "image": "",
+    "overview": "Weapon family found from icon reference in local game data.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dual Axes",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/weapons/weapon-dual-axes.png",
+    "overview": "Weapon family found from icon reference in local game data.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data.",
+      "Curated weapon portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Dual Maces",
+    "status": "derived-from-data",
+    "image": "",
+    "overview": "Weapon family found from icon reference in local game data.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data."
+    ]
+  },
+  {
+    "name": "Great Axe",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/weapons/weapon-great-axe.png",
+    "overview": "Weapon family found from icon reference in local game data.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data.",
+      "Curated weapon portrait added from local game assets."
+    ]
+  },
+  {
+    "name": "Great Mace",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/weapons/weapon-great-mace.png",
+    "overview": "Weapon family found from icon reference in local game data.",
+    "strengths": [],
+    "weaknesses": [],
+    "best_uses": [],
+    "evidence": [
+      "Weapon icon reference found in local game data.",
+      "Curated weapon portrait added from local game assets."
+    ]
+  }
+]
