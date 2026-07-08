@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Fighter",
+    "status": "needs-verification",
+    "image": "",
+    "role": "Unknown. Name derived from equipment/job references; gameplay role still needs confirmation.",
+    "strengths": [],
+    "weaknesses": [],
+    "weapons": ["Sword", "Shield", "Spear", "Greatsword", "Axe", "Mace"],
+    "tips": ["Do not fill role, scaling, or party function until verified from gameplay or structured data."]
+  },
+  {
+    "name": "Assassin",
+    "status": "needs-verification",
+    "image": "",
+    "role": "Unknown. Name derived from equipment/job references; gameplay role still needs confirmation.",
+    "strengths": [],
+    "weaknesses": [],
+    "weapons": ["Daggers", "Dual Axes", "Dual Maces", "Fists", "Thrown"],
+    "tips": ["Verify exact job skills, compatible weapons, and stat scaling before publishing build advice."]
+  },
+  {
+    "name": "Cleric",
+    "status": "needs-verification",
+    "image": "",
+    "role": "Unknown. Name derived from equipment/job references; gameplay role still needs confirmation.",
+    "strengths": [],
+    "weaknesses": [],
+    "weapons": ["Scepter", "Shield", "Mace", "Halos"],
+    "tips": ["Document only confirmed skills, passives, and weapon compatibility."]
+  },
+  {
+    "name": "Wizard",
+    "status": "needs-verification",
+    "image": "",
+    "role": "Unknown. Name derived from equipment/job references; gameplay role still needs confirmation.",
+    "strengths": [],
+    "weaknesses": [],
+    "weapons": ["Staff", "Scepter", "Book", "Crescent"],
+    "tips": ["Record which abilities are weapon skills versus job skills only after verification."]
+  }
+]

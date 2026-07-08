@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Azuram",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/maps/map-azuram.webp",
+    "type": "Map / region image",
+    "summary": "Region map image found in local game assets. Gameplay boundaries and unlock conditions are not yet documented.",
+    "related": [],
+    "evidence": [
+      "Curated map image added from local game assets."
+    ]
+  },
+  {
+    "name": "Eksod",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/maps/map-eksod.webp",
+    "type": "Map / region image",
+    "summary": "Region map image found in local game assets. Gameplay boundaries and unlock conditions are not yet documented.",
+    "related": [],
+    "evidence": [
+      "Curated map image added from local game assets."
+    ]
+  },
+  {
+    "name": "Honeywoods",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/maps/map-honeywoods.webp",
+    "type": "Map / region image",
+    "summary": "Region map image found in local game assets. Gameplay boundaries and unlock conditions are not yet documented.",
+    "related": [],
+    "evidence": [
+      "Curated map image added from local game assets."
+    ]
+  },
+  {
+    "name": "Krisomal",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/maps/map-krisomal.webp",
+    "type": "Map / region image",
+    "summary": "Region map image found in local game assets. Gameplay boundaries and unlock conditions are not yet documented.",
+    "related": [],
+    "evidence": [
+      "Curated map image added from local game assets."
+    ]
+  },
+  {
+    "name": "Meridion",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/maps/map-meridion.webp",
+    "type": "Map / region image",
+    "summary": "Region map image found in local game assets. Gameplay boundaries and unlock conditions are not yet documented.",
+    "related": [],
+    "evidence": [
+      "Curated map image added from local game assets."
+    ]
+  },
+  {
+    "name": "Nescent",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/maps/map-nescent.webp",
+    "type": "Map / region image",
+    "summary": "Region map image found in local game assets. Gameplay boundaries and unlock conditions are not yet documented.",
+    "related": [],
+    "evidence": [
+      "Curated map image added from local game assets."
+    ]
+  },
+  {
+    "name": "Primevalley",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/maps/map-primevalley.webp",
+    "type": "Map / region image",
+    "summary": "Region map image found in local game assets. Gameplay boundaries and unlock conditions are not yet documented.",
+    "related": [],
+    "evidence": [
+      "Curated map image added from local game assets."
+    ]
+  },
+  {
+    "name": "enripit",
+    "status": "derived-from-data",
+    "image": "../assets/wiki/maps/map-enripit.webp",
+    "type": "Map / region image",
+    "summary": "Region map image found in local game assets. Gameplay boundaries and unlock conditions are not yet documented.",
+    "related": [],
+    "evidence": [
+      "Curated map image added from local game assets."
+    ]
+  }
+]

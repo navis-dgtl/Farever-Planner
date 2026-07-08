@@ -1,0 +1,2152 @@
+[
+  {
+    "name": "Attack",
+    "status": "derived-from-data",
+    "category": "Bow",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Attack Combo",
+    "status": "derived-from-data",
+    "category": "Bow",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Block Start",
+    "status": "derived-from-data",
+    "category": "Bow",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cast Ground",
+    "status": "derived-from-data",
+    "category": "Bow",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cast Instant",
+    "status": "derived-from-data",
+    "category": "Bow",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cast Projectile",
+    "status": "derived-from-data",
+    "category": "Bow",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cast Start",
+    "status": "derived-from-data",
+    "category": "Bow",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Conjure",
+    "status": "derived-from-data",
+    "category": "Bow",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dash",
+    "status": "derived-from-data",
+    "category": "Bow",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Rogue Finisher",
+    "status": "derived-from-data",
+    "category": "Bow",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Self Buff",
+    "status": "derived-from-data",
+    "category": "Bow",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Warrior Execute",
+    "status": "derived-from-data",
+    "category": "Bow",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Anim Human Foes Dual Attack",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Anim Human Foes One Handed Attack",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Attack",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Attack Combo",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Block Hit",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Block Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Block Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Blossom A",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Blossom EX",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cast Ground",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cast Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cheer",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cone",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Conjure",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Crescent Attack",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Crescent Attack Combo",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Crescent Cast Ground",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Crescent Conjure",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Crescent Dash",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Crescent Magic Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Crescent Magic Nova",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Crescent Priest Judgment",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Crescent Run",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Crescent Self Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Crescent Spiral End",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Crescent Sprint",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Ambush",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Attack",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Attack Combo",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Block Hit",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Block Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Cast Ground",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Dash",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Gaping Wound",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Jump1",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Land",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Magic Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Magic Nova",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Quick Shiv",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Quick Spin",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Rogue Finisher",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Run",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Self Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Skill1",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Sprint",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Teleport",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Daggers Warrior Execute",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dash",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Downward Slash",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Drink",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dual Axes Attack",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dual Axes Attack Combo",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dual Axes Block Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dual Axes Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dual Axes Cone Strike",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dual Axes War Cry",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dual Axes Warrior Execute",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dual Maces Attack",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dual Maces Attack Combo",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Eat",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Enemy Attack",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Enemy Whirlwind",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Flex",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Attack",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Attack Combo",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Block Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Cast",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Cast Ground",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Cast Instant",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Cast Projectile",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Conjure",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Dash",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Jump1",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Land",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Magic Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Magic Nova",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Priest Judgment",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Rogue Finisher",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Run",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Self Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Sprint",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Teleport",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Halos Warrior Execute",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Interact Chest Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "World interaction animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Interact Fast",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "World interaction animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Interact Fast Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "World interaction animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Jump Smash",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Land Run",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Magic Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Magic Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Magic Nova",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Mark",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Mono",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "One Handed Axe Attack Combo",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "One Handed Mace Attack Combo",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "One Handed Sword Attack Combo",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "One Handed Sword Strong Slash",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Open Chest",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "World interaction animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Priest Judgment",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Pull",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Quick Spin",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "RSword Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Recall End",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "World interaction animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Recall Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "World interaction animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Rogue Finisher",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Rogue Finisher",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Self Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Shield Bash",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Shield Block Hit",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Shield Block Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Shield Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Shield Cast Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Shield Conjure",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Shield Shield Block Hit",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Shield Shield Block Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Shield Shield Cast Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Shield Shield Conjure",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Shockwave",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Slam Charge",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Slam End",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spear Attack",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spear Attack Combo",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spear Eruption Strike",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spear Run",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spear Shoot",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spear Whirlwind",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spell Book Sprint",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Attack",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Attack Combo",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Block Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Cast",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Cast Ground",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Cast Instant",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Cast Projectile",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Conjure",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Dash",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Jump1",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Land",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Magic Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Magic Nova",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Rogue Finisher",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Run",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Self Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spellbook Walk",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spin",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Spin Through",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Stomp",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Strafe L",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Strafe R",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Strong Thrust",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Throw",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Thrown Attack",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Thrown Attack Combo",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Thrown Block Start",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Thrown Cast Ground",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Thrown Cast Instant",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Thrown Dash",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Thrown Heavy Throw",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Thrown Magic Buff",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Thrown Magic Nova",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Thrown Run",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Thrown Sprint",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Tornado",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Two Handed Sword Run",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Twohanded Sprint",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Twohanded Sword Sprint",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Victory",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "War Cry",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "War Cry",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Warrior Charge",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Warrior Execute",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Whirlwind",
+    "status": "derived-from-data",
+    "category": "Common",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Attack",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Attack Combo",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Block Start",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cast Ground",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dash",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Energy Blast",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Giga Punch",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Homing Punch Dash",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Hook",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Magic Buff",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Magic Nova",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Priest Judgment",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Self Buff",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Straight",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Uppercut",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "War Cry",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Warrior Execute",
+    "status": "derived-from-data",
+    "category": "Fists",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Attack",
+    "status": "derived-from-data",
+    "category": "Scepter",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Attack Combo",
+    "status": "derived-from-data",
+    "category": "Scepter",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Block Start",
+    "status": "derived-from-data",
+    "category": "Scepter",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cast",
+    "status": "derived-from-data",
+    "category": "Scepter",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cast Projectile",
+    "status": "derived-from-data",
+    "category": "Scepter",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Conjure",
+    "status": "derived-from-data",
+    "category": "Scepter",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Dash",
+    "status": "derived-from-data",
+    "category": "Scepter",
+    "type": "Movement/utility animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Magic Nova",
+    "status": "derived-from-data",
+    "category": "Scepter",
+    "type": "Skill animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Attack",
+    "status": "derived-from-data",
+    "category": "Staff",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Attack Combo",
+    "status": "derived-from-data",
+    "category": "Staff",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cast Breath Start",
+    "status": "derived-from-data",
+    "category": "Staff",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cast Projectile",
+    "status": "derived-from-data",
+    "category": "Staff",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Cast Start",
+    "status": "derived-from-data",
+    "category": "Staff",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  },
+  {
+    "name": "Conjure",
+    "status": "derived-from-data",
+    "category": "Staff",
+    "type": "Combat animation reference",
+    "summary": "Animation reference found in local game data. Gameplay effect, damage, resource cost, and unlock requirements are not yet documented.",
+    "evidence": [
+      "Move animation reference found in local game data."
+    ]
+  }
+]
