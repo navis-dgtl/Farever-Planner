@@ -1,0 +1,738 @@
+{
+ "Warrior": [
+  {
+   "root": "Warrior_Hemorrhage",
+   "desc": "Hemorrhage is a bleeding effect whose damage depends on the critical hit that triggered it. As a master of bleeding and critical effects, the warrior specializing in this tree will speed up the fight and increase their rage generation while ensuring that wounded enemies succumb to their injuries.",
+   "talents": [
+    {
+     "skill": "Warrior_Hemorrhage",
+     "name": "Hemorrhage",
+     "desc": "Your [Physical] [CriticalStrike]s make the enemies bleed for ::damage%:: of the damage dealt over ::ref_dur::.",
+     "tier": 0,
+     "branch": 0,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Warrior_Talent_SeasonedSoldier",
+     "name": "Seasoned Soldier",
+     "desc": "Your [Physical] critical strikes grant ::var1:: [Rage].",
+     "tier": 1,
+     "branch": 1,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Warrior_Talent_Bloodletting",
+     "name": "Bloodletting",
+     "desc": "Damage dealt by your bleeding effects increased by ::damage%::.",
+     "tier": 2,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Warrior_Talent_Exsanguination",
+     "name": "Exsanguination",
+     "desc": "::ref_name:: has a ::chance:: chance to critically strike.",
+     "tier": 2,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Warrior_Talent_MasterAtArms",
+     "name": "Master-at-arms",
+     "desc": "Your [Attack]s deal ::damage%:: increased critical damage.",
+     "tier": 3,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Warrior_Talent_Bruise",
+     "name": "Bruise",
+     "desc": "Your [Physical] critical strikes increase all [Physical] damage suffered by enemies by ::ref_damage%:: for ::ref_duration::.",
+     "tier": 3,
+     "branch": 1,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Warrior_Talent_FightingSpirit",
+     "name": "Fighting Spirit",
+     "desc": "[CritChance] increased by ::val1%::.",
+     "tier": 3,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Warrior_Talent_SurgeOfViolence",
+     "name": "Surge of Violence",
+     "desc": "Your [ComboAttack] has a ::chance:: chance to allow your next ::ref_name:: to critically strike and cost no [Rage].",
+     "tier": 4,
+     "branch": 1,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Warrior_Talent_Sever",
+     "name": "Sever",
+     "desc": "Your [WeaponSkill]s deal ::damage%:: increased critical damage.",
+     "tier": 1,
+     "branch": 2,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Warrior_RedTempo",
+     "name": "Red Tempo",
+     "desc": "Damage from bleeding effects have a ::chance:: chance to reduce the cooldown of all your [WeaponSkill]s by ::time::.",
+     "tier": 2,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Warrior_RashSoul",
+     "name": "Rash Soul",
+     "desc": "[CooldownReduction] increased by ::val1%::.",
+     "tier": 2,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Warrior_ExposedEssence",
+     "name": "Exposed Essence",
+     "desc": "You ignore ::var1%:: of bleeding enemies' [MagicArmor] and [Armor].",
+     "tier": 3,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Warrior_Talent_CrackingBlood",
+     "name": "Cracking Blood",
+     "desc": "Damage from ::ref_name:: has a ::chance:: chance to deal an additional ::dmg::.",
+     "tier": 3,
+     "branch": 2,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Warrior_Talent_MagicConduction",
+     "name": "Magic Conduction",
+     "desc": "[Magic] damage dealt to enemies affected by ::ref_name:: increased by ::damage%::.",
+     "tier": 3,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Warrior_Talent_InfusedWound",
+     "name": "Infused Wound",
+     "desc": "Your [Magic] critical strikes apply a sparked version of ::ref_name:: for ::damage%:: of the damage dealt over ::ref2_duration::.\n\nBenefits from all ::ref_name::-related [Talent]s.",
+     "tier": 4,
+     "branch": 2,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Warrior_Talent_RageShield",
+     "name": "Rage Shield",
+     "desc": "When you apply ::ref_name::, you gain a [Shield] absorbing an amount equal to ::var1%:: of your [MaxHealth] for ::ref2_duration::.",
+     "tier": 1,
+     "branch": 3,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Warrior_Talent_Bloodfeast",
+     "name": "Bloodfeast",
+     "desc": "::ref_name:: heals you for ::damage%:: of the damage dealt.",
+     "tier": 2,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Warrior_Talent_CrippingBloodloss",
+     "name": "Crippling Bloodloss",
+     "desc": "::ref_name:: reduces all damage dealt by affected enemies by ::damage%::.",
+     "tier": 2,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Warrior_Talent_HoldTheLine",
+     "name": "Hold the Line",
+     "desc": "Damage dealt increased by ::ref_damage%:: and damage suffered reduced by ::ref_damage%:: while ::ref2_name:: is active.",
+     "tier": 3,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Warrior_Talent_ShatteredRage",
+     "name": "Shattered Rage",
+     "desc": "When ::ref_name:: is destroyed, you deal ::dmg:: to nearby enemies.",
+     "tier": 3,
+     "branch": 3,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Warrior_Talent_ZealousWarrior",
+     "name": "Zealous Warrior",
+     "desc": "[Fervor] increased by ::val1%::.",
+     "tier": 3,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Warrior_SecondWind",
+     "name": "Second Wind",
+     "desc": "Damage that should kill you leaves you at ::var1:: [Health] and grants you the effects of ::ref_name:: (::cooldown:: cooldown).",
+     "tier": 4,
+     "branch": 3,
+     "maxPoints": 1
+    }
+   ]
+  }
+ ],
+ "Mage": [
+  {
+   "root": "Mage_Talent_Chaincast",
+   "desc": "Chaincast rewards mages who can chain skills within a set time limit. The reward is a skill with no cooldown that can trigger conduits for free. Mages who specialize in this tree will ensure that enemies are overwhelmed by a barrage of spells and Spark, where conduits reign supreme.",
+   "talents": [
+    {
+     "skill": "Mage_Talent_Chaincast",
+     "name": "Chaincast",
+     "desc": "Using ::var1:: [Skill]s grants you ::ref_name:: for ::ref_duration::.",
+     "tier": 0,
+     "branch": 0,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Mage_Talent_Reverberate",
+     "name": "Reverberate",
+     "desc": "Consuming ::ref_name:: triggers your [Conduit]s twice.",
+     "tier": 1,
+     "branch": 1,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Mage_Talent_ConcentratedPower",
+     "name": "Concentrated Power",
+     "desc": null,
+     "tier": 2,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Mage_Talent_TemporalCompression",
+     "name": "Temporal Compression",
+     "desc": "Each [Spark] point spent has a ::chance:: chance to reduce the cooldown of your [WeaponSkill]s by ::time::.",
+     "tier": 2,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Mage_Talent_InfiniteResources",
+     "name": "Infinite Resources",
+     "desc": "While in combat, regenerates ::var1:: [Spark] point every ::dur1::.",
+     "tier": 3,
+     "branch": 1,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Mage_Talent_ProdigiousMind",
+     "name": "Prodigious Mind",
+     "desc": "Your [WeaponSkill]s have a ::chance:: chance to recover ::var1%:: of their [Spark] cost.",
+     "tier": 3,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Mage_Talent_ExpandedSpirit",
+     "name": "Expanded Spirit",
+     "desc": "Increases your maximum [Spark] gauge by ::var1:: points.",
+     "tier": 3,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Mage_Talent_ConduitSparkExplosion",
+     "name": "Conduit: Spark Explosion",
+     "desc": "Unlocks a new Conduit : Spark Explosion.\n\nExplodes, dealing ::ref_dmg:: to nearby enemies.\n\nActivates when you consume [Spark] above the gauge threshold.",
+     "tier": 4,
+     "branch": 1,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Mage_Talent_Discipline",
+     "name": "Discipline",
+     "desc": "[MagicMastery] increased by ::val1%::.\n\n[PhysicalMastery] increased by ::var2%:: of your [MagicMastery].",
+     "tier": 1,
+     "branch": 2,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Mage_Talent_ChainStrike",
+     "name": "Chainstrike",
+     "desc": "Damage dealt by your [Attack]s increased by ::damage%:: while you are under ::ref_name::.",
+     "tier": 2,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Mage_Talent_NimbleFingers",
+     "name": "Nimble Fingers",
+     "desc": "Your [Attack]s have a ::chance:: chance to reduce the cooldown of your [WeaponSkill]s by ::time::.",
+     "tier": 2,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Mage_Talent_KineticSurge",
+     "name": "Kinetic Surge",
+     "desc": "::ref_name:: increases the [Physical] damage of your next [WeaponSkill] by ::damage%::.",
+     "tier": 3,
+     "branch": 2,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Mage_Talent_PowerCircuit",
+     "name": "Power Circuit",
+     "desc": "[Magic] critical strikes increase your chance to land [Physical] critical strikes by ::ref_chance:: for ::ref_duration::.",
+     "tier": 3,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Mage_Talent_Amplification",
+     "name": "Amplification",
+     "desc": "Your [Attack]s deal ::damage%:: increased critical damage.",
+     "tier": 3,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Mage_Talent_HighVoltage",
+     "name": "High Voltage",
+     "desc": "Your [ComboAttack]s always critically strike while you are under ::ref_name::.",
+     "tier": 4,
+     "branch": 2,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Mage_Talent_ConduitResidues",
+     "name": "Conduit Residues",
+     "desc": "Triggering [Conduit]s has a ::chance:: chance to regenerate ::var1:: [Spark] points.",
+     "tier": 1,
+     "branch": 3,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Mage_Talent_FerventWizard",
+     "name": "Fervent Wizard",
+     "desc": "[Fervor] increased by ::val1%::.",
+     "tier": 2,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Mage_Talent_LifeCurrent",
+     "name": "Life Current",
+     "desc": "Any healing effect you provide has a ::chance:: chance to regenerate ::var1:: [Spark] points.",
+     "tier": 2,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Mage_Talent_EchoingLife",
+     "name": "Echoing Life",
+     "desc": "::ref_name:: increases the healing effect of your next [WeaponSkill] by ::damage%::.",
+     "tier": 3,
+     "branch": 3,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Mage_Talent_SparkFlask",
+     "name": "Spark Flask",
+     "desc": "[RefillableFlask] regenerates ::var1:: [Spark] points.",
+     "tier": 3,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Mage_Talent_FlowingVitality",
+     "name": "Flowing Vitality",
+     "desc": "While in combat, heal yourself for ::var1%:: of your [MaxHealth] every ::var2:: [Spark] point spent.",
+     "tier": 3,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Mage_Talent_ConduitLifebolt",
+     "name": "Conduit: Lifebolt",
+     "desc": "Unlocks a new Conduit : Lifebolt.\n\nLaunches a lifebolt healing the nearest wounded ally for ::ref_heal::.\n\nActivates when you consume [Spark] above the gauge threshold.",
+     "tier": 4,
+     "branch": 3,
+     "maxPoints": 1
+    }
+   ]
+  }
+ ],
+ "Rogue": [
+  {
+   "root": "Rogue_Talent_LethalPoison",
+   "desc": "Lethal Poison is a poison that can be stacked multiple times to amplify its effect. As a master of poisons and debuffs, a rogue specializing in this tree can ensure that their prey slowly succumbs to their wounds.",
+   "talents": [
+    {
+     "skill": "Rogue_Talent_LethalPoison",
+     "name": "Lethal Poison",
+     "desc": "Your [Attack]s have a ::chance:: chance to apply a stack of ::ref_name::, poisoning them for ::ref_dmg:: over ::ref_duration::, stacking up to ::ref_stacks::.",
+     "tier": 0,
+     "branch": 0,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Rogue_Talent_Envenom",
+     "name": "Envenom",
+     "desc": "Your [ComboAttack] always applies ::ref_name:: to the target and to nearby enemies.",
+     "tier": 1,
+     "branch": 1,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Rogue_Talent_LethalDose",
+     "name": "Lethal Dose",
+     "desc": "Damage dealt by your poisons increased by ::damage%::.",
+     "tier": 2,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Rogue_Talent_FinishTheJob",
+     "name": "Finish the Job",
+     "desc": "Your [Attack]s have an additional ::chance:: chance to critically strike poisoned enemies.",
+     "tier": 2,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Rogue_Talent_OpportunityStrike",
+     "name": "Opportunity Strike",
+     "desc": "Your [BasicAttack]s applying ::ref_name:: have a ::chance:: chance to strike again.",
+     "tier": 3,
+     "branch": 1,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Rogue_Talent_ImprovedMixture",
+     "name": "Improved Mixture",
+     "desc": "::ref_name:: now stacks up to ::var1:: times.",
+     "tier": 3,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Rogue_Talent_DeadlyPoison",
+     "name": "Deadly Poison",
+     "desc": "::ref_name:: has a ::chance:: chance per stack to critically strike.",
+     "tier": 3,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Rogue_Talent_VenomousFinisher",
+     "name": "Venomous Finisher",
+     "desc": "::ref_name:: always applied ::ref2_name:: and deals ::damage%:: increased damage for each stack.",
+     "tier": 4,
+     "branch": 1,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Rogue_Talent_AcidicSplatter",
+     "name": "Acidic Splatter",
+     "desc": "::ref_name:: has a ::chance:: chance per [ComboPoint] to spread acid to enemies, poisoning them for ::ref2_dmg:: over ::ref2_duration:: while reducing their [MagicArmor] by ::ref2_val1%::.",
+     "tier": 1,
+     "branch": 2,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Rogue_Talent_VenomInfusion",
+     "name": "Venom Infusion",
+     "desc": "Your [WeaponSkill]s have a ::chance:: chance to apply ::ref_name::.",
+     "tier": 2,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Rogue_Talent_UpTheAnte",
+     "name": "Up the Ante",
+     "desc": "[CooldownReduction] increased by ::val1%::.",
+     "tier": 2,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Rogue_Talent_IntentToKill",
+     "name": "Intent to Kill",
+     "desc": "Gain ::var1:: [ComboPoint]s when an enemy affected by your ::ref_name:: dies.",
+     "tier": 3,
+     "branch": 2,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Rogue_Talent_NoxiousStrategem",
+     "name": "Noxious Stratagem",
+     "desc": "::ref_name:: damage has a ::chance:: chance to reduce the cooldown of your [WeaponSkill]s by ::time::.",
+     "tier": 3,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Rogue_Talent_BullyingTheWeak",
+     "name": "Bullying the Weak",
+     "desc": "Damage dealt to poisoned enemies increased by ::damage%::.",
+     "tier": 3,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Rogue_Talent_VirulentMagic",
+     "name": "Virulent Magic",
+     "desc": "Excess applications of ::ref_name:: will deal ::dmg::.",
+     "tier": 4,
+     "branch": 2,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Rogue_Talent_Adrenaline",
+     "name": "Adrenaline",
+     "desc": "Your [MoveSpeedFactor] is increased by ::ref_val1%:: as long as an enemy is affected by ::ref2_name::.",
+     "tier": 1,
+     "branch": 3,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Rogue_Talent_Footwork",
+     "name": "Footwork",
+     "desc": "[DodgeChance] increased by ::val1%::.",
+     "tier": 2,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Rogue_Talent_LeechingPoison",
+     "name": "Leeching Poison",
+     "desc": "::ref_name:: heals you for ::damage%:: of the damage dealt.",
+     "tier": 2,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Rogue_Talent_CripplingPoison",
+     "name": "Crippling Poison",
+     "desc": "The first time ::ref_name:: reaches the maximum number of stacks on an enemy, it stuns them for ::dur1::.",
+     "tier": 3,
+     "branch": 3,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Rogue_Talent_AtrophicPoison",
+     "name": "Atrophic Poison",
+     "desc": "::ref_name:: reduces all damage dealt by affected enemies by ::damage%:: per stack.",
+     "tier": 3,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Rogue_Talent_RegeneratingMiasmas",
+     "name": "Regenerating Miasmas",
+     "desc": "Heals you for ::var1%:: of your [MaxHealth] when you kill an enemy affected by ::ref1_name::.",
+     "tier": 3,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Rogue_Talent_CheatDeath",
+     "name": "Cheat Death",
+     "desc": "Damage that should kill you leaves you at ::var1%:: of your [MaxHealth]. For ::ref_duration::, you take ::ref_val1%:: reduced damage. (::cooldown:: cooldown).",
+     "tier": 4,
+     "branch": 3,
+     "maxPoints": 1
+    }
+   ]
+  }
+ ],
+ "Priest": [
+  {
+   "root": "Priest_Talent_Sunlight",
+   "desc": "Sunlight benefits both the priest and their allies by dealing damage with the next final combo attack. A priest specializing in this tree will punish their enemies with the power of light or bless their allies with a barrage of shields and soothing healing.",
+   "talents": [
+    {
+     "skill": "Priest_Talent_Sunlight",
+     "name": "Sunlight",
+     "desc": "[Skill]s that affect allies empower them for ::ref_duration:: with ::ref_name::. The next [ComboAttack] consum ::ref_name:: to deal an additional ::ref_dmg::.",
+     "tier": 0,
+     "branch": 0,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Priest_Talent_SoothingRays",
+     "name": "Soothing Rays",
+     "desc": "::ref_name:: heals for ::damage%:: of the damage dealt.",
+     "tier": 1,
+     "branch": 1,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Priest_Talent_FerventDefender",
+     "name": "Fervent Defender",
+     "desc": "[Fervor] increased by ::val1%::.",
+     "tier": 2,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Priest_Talent_CrusadersResolve",
+     "name": "Crusader's Resolve",
+     "desc": "Your [Armor] is increased by ::val1%:: and the threat generated by your [Magic] damage by ::var1%::.",
+     "tier": 2,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Priest_Talent_MeltingFaith",
+     "name": "Melting Faith",
+     "desc": "::ref2_name:: reduces the [MagicArmor] and [Armor] of the enemy hit by ::ref_val1%:: for ::ref_duration::.",
+     "tier": 3,
+     "branch": 1,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Priest_Talent_Radiance",
+     "name": "Radiance",
+     "desc": "Your own ::ref_name:: damage is increased by ::damage%::.",
+     "tier": 3,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Priest_Talent_Authority",
+     "name": "Authority",
+     "desc": "::ref_name:: damage is increased by ::damage%::.",
+     "tier": 3,
+     "branch": 1,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Priest_Talent_LuminousBastion",
+     "name": "Luminous Bastion",
+     "desc": "Blocking grants you ::ref_name::.",
+     "tier": 4,
+     "branch": 1,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Priest_Talent_PurgingStrikes",
+     "name": "Purging Strikes",
+     "desc": "Your own ::ref_name:: empowers you for ::ref2_duration::, causing all your [Attack]s to deal an additional ::ref2_dmg::.",
+     "tier": 1,
+     "branch": 2,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Priest_Talent_ZealousFighter",
+     "name": "Zealous Fighter",
+     "desc": "Your [Attack]s have an additional ::chance:: chance to critically strike.",
+     "tier": 2,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Priest_Talent_MightyExecutioner",
+     "name": "Might of the Executioner",
+     "desc": "Your [Attack]s deal ::damage%:: increased critical damage.",
+     "tier": 2,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Priest_Talent_PotentFortitude",
+     "name": "Potent Fortitude",
+     "desc": "The [Shield] of ::ref_name:: increases your [PhysicalMastery] by ::var1%::.",
+     "tier": 3,
+     "branch": 2,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Priest_Talent_Prosecutor",
+     "name": "Prosecutor",
+     "desc": "Your critical [Attack]s have a ::chance:: chance to reduce the cooldown of ::ref_name:: by ::time::.",
+     "tier": 3,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Priest_Talent_PiousAdept",
+     "name": "Pious Adept",
+     "desc": "[MagicMastery] increased by ::val1%::.",
+     "tier": 3,
+     "branch": 2,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Priest_Talent_SolarDevotion",
+     "name": "Solar Devotion",
+     "desc": "You can trigger ::ref_name:: effects without consuming it anymore.",
+     "tier": 4,
+     "branch": 2,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Priest_Talent_SwiftJustice",
+     "name": "Swift Justice",
+     "desc": "::ref_name:: reduces the cooldown of [WeaponSkill]s by ::time::.",
+     "tier": 1,
+     "branch": 3,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Priest_Talent_PiercingLight",
+     "name": "Piercing Light",
+     "desc": "::ref_name:: ignores ::damage%:: of [MagicArmor].",
+     "tier": 2,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Priest_Talent_OppressiveRays",
+     "name": "Oppressive Rays",
+     "desc": "::ref_name:: has a ::chance:: additional chance to critically strike.",
+     "tier": 2,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Priest_Talent_BurningRays",
+     "name": "Burning Rays",
+     "desc": "If ::ref_name:: critically strikes, it leaves a burn dealing ::damage%:: of the damage dealt over ::ref2_duration::.",
+     "tier": 3,
+     "branch": 3,
+     "maxPoints": 1
+    },
+    {
+     "skill": "Priest_Talent_SharpMind",
+     "name": "Sharp Mind",
+     "desc": "[CooldownReduction] increased by ::val1%::.",
+     "tier": 3,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Priest_Talent_BlessedSpirituality",
+     "name": "Blessed Spirituality",
+     "desc": "Readying a [Prayer] has a ::chance:: chance of granting you ::ref_name::.",
+     "tier": 3,
+     "branch": 3,
+     "maxPoints": 2
+    },
+    {
+     "skill": "Priest_Talent_SunHalo",
+     "name": "Sun Halo",
+     "desc": "::ref_name:: deals ::damage%:: of its damage to nearby enemies.",
+     "tier": 4,
+     "branch": 3,
+     "maxPoints": 1
+    }
+   ]
+  }
+ ]
+}
