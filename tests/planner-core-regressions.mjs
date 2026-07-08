@@ -167,3 +167,55 @@ assert.equal(api.previewRowsForSnapshot("Staff_Craft_S1", pyroclasmCoyoteBuild)[
 
 const lootPayload = JSON.parse(fs.readFileSync(path.join(rootDir, "game-data/loot_tables.json"), "utf8"));
 assert.deepEqual(api.validateLootTablesPayload(lootPayload), []);
+
+// ---------------------------------------------------------------------------
+// Obtainability depth — craft materials (from the CDB `craft` sheet)
+// ---------------------------------------------------------------------------
+const waistRecipe = api.craftRecipeForItemId("Waist_RManfish_Fig");
+assert.ok(waistRecipe, "Waist_RManfish_Fig should have a craft recipe");
+assert.equal(waistRecipe.job, "Blacksmith");
+assert.ok(Array.isArray(waistRecipe.input) && waistRecipe.input.length === 3, "recipe should keep 3 material inputs");
+assert.ok(
+  waistRecipe.input.some((m) => m.item === "CopperIngot" && m.count === 8),
+  "recipe inputs should include 8× CopperIngot"
+);
+assert.equal(waistRecipe.cost, 75, "recipe should keep its gold cost");
+
+// Reverse "used to craft" index: CopperIngot feeds the Manfish waistguard recipe.
+const copperUses = api.craftUsesForMaterialId("CopperIngot");
+assert.ok(
+  Array.isArray(copperUses) && copperUses.some((u) => u.craftedItemId === "Waist_RManfish_Fig"),
+  "CopperIngot should be listed as a material for Waist_RManfish_Fig"
+);
+
+// Obtain lines surface the resolved material names (not raw ids) and the gold cost.
+const waistLines = api.itemObtainLinesForItemId("Waist_RManfish_Fig");
+const craftLine = waistLines.find((l) => l.label === "Craft");
+assert.ok(craftLine, "craftable item should get a Craft obtain line");
+assert.match(craftLine.text, /Copper Ingot/, "Craft line should resolve CopperIngot → Copper Ingot");
+assert.match(craftLine.text, /75 gold/, "Craft line should include the gold cost");
+
+// ---------------------------------------------------------------------------
+// Obtainability depth — drop chances (walked from loot_tables.json)
+// ---------------------------------------------------------------------------
+api.hydrateItemDropChancesForTest(lootPayload);
+const finDrops = api.itemDropChancesForItemId("Fin_Z1");
+assert.ok(Array.isArray(finDrops) && finDrops.length, "Fin_Z1 should have drop sources");
+const bestManfishFinDrop = finDrops.find((d) => /Manfish/i.test(d.unitId));
+assert.ok(bestManfishFinDrop, "Fin_Z1 should drop from a Manfish unit");
+assert.ok(
+  bestManfishFinDrop.chance > 0.2,
+  `Fin_Z1 Manfish drop chance should exceed 0.2 (got ${bestManfishFinDrop.chance})`
+);
+
+// ---------------------------------------------------------------------------
+// 3D viewer — committed model index is present and non-trivial
+// ---------------------------------------------------------------------------
+const modelIndex = JSON.parse(
+  fs.readFileSync(path.join(rootDir, "game-data/models/model_index.json"), "utf8")
+);
+const modelCount = api.setModelIndexForTest(modelIndex);
+assert.ok(modelCount > 300, `model_index.json should map > 300 items (got ${modelCount})`);
+// A weapon (models[].prefab path) and armor (modelPath) both resolve.
+assert.ok(api.modelPathForItemId("Staff_Craft"), "Staff_Craft should have a resolved model path");
+assert.match(api.modelPathForItemId("Staff_Craft"), /\.glb$/, "model path should point at a GLB");

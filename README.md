@@ -74,6 +74,16 @@ GitHub Pages cannot enforce project-specific response headers. Use static HTML p
 - `game-data/wiki/` also holds the raw community wiki exports (`farever_wiki_drops.json`, `farever_data.json`, unit names, talents, bestiary, maps, and item card art under `cards/`). Only `item_sources.json` is fetched at runtime.
 - `game-data/generated/cdb_pngs/` contains generated item, skill, unit, and UI icons.
 - `game-data/extracted/res/UI/` contains the few original UI atlas images still referenced directly.
+- `planner-3d-viewer.js` is the **3D viewer** — a standalone ES module (loaded via an import map) that
+  renders an item's in-game model in an orbitable three.js modal behind the "View in 3D" buttons in the
+  item picker preview and the **Find items** cards. It lazy-loads three.js only on first use.
+- `assets/vendor/three/` vendors three.js `0.160.0` (module + `OrbitControls`, `GLTFLoader`,
+  `BufferGeometryUtils`) so there is no runtime CDN dependency.
+- `game-data/models/` holds the referenced subset of in-game `.glb` models plus `model_index.json`
+  (item id → model path). Regenerate with `npm run build:model-index`, which resolves each item's cdb
+  prefab to a GLB in a local clone of `navis-dgtl/farever` (`public/model-library/`) and copies only the
+  referenced files. Point at the clone with `FAREVER_REPO=/path/to/farever` (models are exported from
+  the game via that sibling repo; the tool aborts if the subset would exceed 200 MB).
 
 Keep reverse-engineering tools, raw extraction folders, and large intermediate files outside this deployable project unless the runtime starts fetching them directly.
 

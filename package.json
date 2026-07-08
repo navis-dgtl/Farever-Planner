@@ -8,6 +8,7 @@
     "test:gear": "node tests/gear-item-attribute-display.mjs",
     "test:planner": "node tests/planner-core-regressions.mjs",
     "audit:data": "node tools/audit-generated-data.mjs",
-    "build:item-sources": "node tools/build-item-sources.mjs"
+    "build:item-sources": "node tools/build-item-sources.mjs",
+    "build:model-index": "node tools/build-model-index.mjs"
   }
 }

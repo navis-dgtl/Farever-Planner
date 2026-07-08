@@ -12,6 +12,7 @@
       dungeonRegions: "game-data/dungeon_regions.json",
       lootTables: "game-data/loot_tables.json",
       itemSources: "game-data/wiki/item_sources.json",
+      modelIndex: "game-data/models/model_index.json",
     }),
     assetPrefixes: Object.freeze([
       "game-data/extracted/res/",
