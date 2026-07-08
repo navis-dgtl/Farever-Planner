@@ -1,19 +1,30 @@
 /* Gear planner — standalone page */
 
+/**
+ * Dark fantasy theme tuned to the game's icy-blue title art.
+ * Neutral surfaces are steel-blue-tinted; the accent pair (ice blue + violet)
+ * comes straight from the logo. Rarity colors follow the in-game standard.
+ */
 :root {
-  --gp-bg: #e8eaee;
-  --gp-panel: #f6f7f9;
-  --gp-border: rgba(0, 0, 0, 0.12);
-  --gp-text: #1a1d22;
-  --gp-muted: #5c6470;
-  --gp-accent: #2d6a8f;
-  --rarity-common: #9aa0a8;
-  --rarity-uncommon: #2bbd18;
-  --rarity-rare: #0070dd;
-  --rarity-epic: #a335ee;
-  --rarity-legendary: #ff8000;
+  color-scheme: dark;
+  --gp-bg: #0e1117;
+  --gp-panel: #161b26;
+  --gp-panel-raised: #1e2534;
+  --gp-border: rgba(148, 163, 190, 0.16);
+  --gp-border-strong: rgba(148, 163, 190, 0.3);
+  --gp-text: #e9edf5;
+  --gp-muted: #9aa5bc;
+  --gp-accent: #62a9e8;
+  --gp-accent-2: #9a86e8;
+  /** Text placed on accent-filled controls. */
+  --gp-on-accent: #0b1220;
+  --rarity-common: #a3abb8;
+  --rarity-uncommon: #3ecf28;
+  --rarity-rare: #3b96ff;
+  --rarity-epic: #b65cff;
+  --rarity-legendary: #ff8f1f;
   /** Brighter than uncommon green — used for +stat numbers in tooltips / lists */
-  --gp-stat-number: #18a13e;
+  --gp-stat-number: #3fca62;
   /** Skill icon tiles: **active** = rounded rectangle, **passive** (type 24) = circle — see **`.gp-skill-icon--*`** */
   --gp-skill-icon-radius-active: 10px;
 }
@@ -28,6 +39,14 @@ html, body {
   font-family: system-ui, "Segoe UI", Roboto, Ubuntu, sans-serif;
   background: var(--gp-bg);
   color: var(--gp-text);
+}
+
+body {
+  background:
+    radial-gradient(1100px 500px at 50% -180px, rgba(98, 169, 232, 0.14), transparent 68%),
+    radial-gradient(900px 420px at 88% 4%, rgba(154, 134, 232, 0.08), transparent 60%),
+    var(--gp-bg);
+  background-attachment: fixed;
 }
 
 button {
@@ -86,108 +105,35 @@ button {
   object-fit: contain;
 }
 
-.gear-planner__discord-link {
-  position: fixed;
-  right: 1.2rem;
-  bottom: 1.2rem;
-  z-index: 80;
+/** Quiet community link in the header — replaces the old floating Discord bubble. */
+.gear-planner__community-link {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 3rem;
-  height: 3rem;
+  gap: 0.35rem;
+  padding: 0.32rem 0.65rem;
+  border: 1px solid var(--gp-border);
   border-radius: 999px;
-  background: #5865f2;
-  color: #fff;
-  box-shadow: 0 10px 26px rgba(88, 101, 242, 0.36);
+  background: var(--gp-panel);
+  color: var(--gp-muted);
+  font-size: 0.78rem;
+  font-weight: 600;
   text-decoration: none;
-  transition:
-    transform 0.14s ease,
-    background 0.14s ease,
-    box-shadow 0.14s ease;
+  transition: color 0.14s ease, border-color 0.14s ease;
 }
 
-.gear-planner__discord-link:hover,
-.gear-planner__discord-link:focus-visible {
-  background: #4752c4;
-  box-shadow: 0 12px 30px rgba(88, 101, 242, 0.45);
-  transform: translateY(-2px);
-}
-
-.gear-planner__discord-link:focus-visible {
-  outline: 2px solid rgba(88, 101, 242, 0.35);
-  outline-offset: 3px;
-}
-
-.gear-planner__discord-link svg {
-  display: block;
-  width: 1.45rem;
-  height: 1.45rem;
-  fill: currentColor;
-}
-
-.gear-planner__discord-bubble {
-  position: absolute;
-  right: 0;
-  bottom: calc(100% + 0.75rem);
-  width: max-content;
-  max-width: min(17rem, calc(100vw - 6rem));
-  padding: 0.65rem 0.8rem;
-  border: 1px solid rgba(88, 101, 242, 0.28);
-  border-radius: 14px;
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(240, 242, 255, 0.98));
+.gear-planner__community-link:hover,
+.gear-planner__community-link:focus-visible {
   color: var(--gp-text);
-  box-shadow: 0 10px 28px rgba(26, 29, 34, 0.16);
-  font-size: 0.82rem;
-  font-weight: 700;
-  line-height: 1.25;
-  text-align: left;
-  pointer-events: none;
-  opacity: 0;
-  transform: translateY(0.45rem) scale(0.96);
-  transform-origin: bottom right;
-  animation: gp-discord-bubble-pop 300s ease-in-out 4s infinite;
+  border-color: color-mix(in srgb, var(--gp-accent) 55%, var(--gp-border));
 }
 
-.gear-planner__discord-bubble::after {
-  content: "";
-  position: absolute;
-  right: 1.15rem;
-  bottom: -0.42rem;
-  width: 0.75rem;
-  height: 0.75rem;
-  background: rgba(248, 249, 255, 0.98);
-  border-right: 1px solid rgba(88, 101, 242, 0.28);
-  border-bottom: 1px solid rgba(88, 101, 242, 0.28);
-  transform: rotate(45deg);
+.gear-planner__community-link:focus-visible {
+  outline: 2px solid var(--gp-accent);
+  outline-offset: 2px;
 }
 
-.gear-planner__discord-link:hover .gear-planner__discord-bubble,
-.gear-planner__discord-link:focus-visible .gear-planner__discord-bubble {
-  animation: none;
-  opacity: 1;
-  transform: translateY(0) scale(1);
-}
-
-@keyframes gp-discord-bubble-pop {
-  0%,
-  1.8%,
-  100% {
-    opacity: 0;
-    transform: translateY(0.45rem) scale(0.96);
-  }
-  0.35%,
-  1.35% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .gear-planner__discord-bubble {
-    animation: none;
-  }
+.gear-planner__community-link svg {
+  display: block;
 }
 
 .gear-planner__header h1 {
@@ -271,7 +217,7 @@ button {
   padding: 0.35rem 0.5rem;
   border: 1px solid var(--gp-border);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.083);
   cursor: pointer;
   font: inherit;
   color: var(--gp-text);
@@ -361,7 +307,7 @@ button {
   padding: 0.35rem 0.2rem 0.4rem;
   border: 2px solid var(--gp-border);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.073);
   cursor: pointer;
   font: inherit;
   color: var(--gp-text);
@@ -370,7 +316,7 @@ button {
 
 .gp-class-picker__btn:hover {
   border-color: color-mix(in srgb, var(--gp-accent) 45%, var(--gp-border));
-  background: #fff;
+  background: var(--gp-panel-raised);
 }
 
 .gp-class-picker__btn:focus-visible {
@@ -380,7 +326,7 @@ button {
 
 .gp-class-picker__btn[aria-pressed="true"] {
   border-color: var(--gp-accent);
-  background: color-mix(in srgb, var(--gp-accent) 10%, #fff);
+  background: color-mix(in srgb, var(--gp-accent) 10%, var(--gp-panel-raised));
   box-shadow: 0 2px 8px rgba(45, 106, 143, 0.14);
 }
 
@@ -408,7 +354,7 @@ button {
 
 .gp-class-picker__btn[aria-selected="true"] {
   border-color: var(--gp-accent);
-  background: color-mix(in srgb, var(--gp-accent) 10%, #fff);
+  background: color-mix(in srgb, var(--gp-accent) 10%, var(--gp-panel-raised));
   box-shadow: 0 2px 8px rgba(45, 106, 143, 0.14);
 }
 
@@ -426,7 +372,7 @@ button {
   width: 1px;
   align-self: stretch;
   margin: 0.2rem 0;
-  background: var(--gp-border, rgba(0, 0, 0, 0.12));
+  background: var(--gp-border, rgba(148, 163, 190, 0.188));
 }
 
 .gp-build-card {
@@ -471,8 +417,8 @@ button {
   font-weight: 600;
   line-height: 1.1;
   color: var(--gp-text, #1a1a1a);
-  background: linear-gradient(165deg, #fff 0%, #f4f6f9 100%);
-  border: 1px solid var(--gp-border, rgba(0, 0, 0, 0.14));
+  background: linear-gradient(165deg, var(--gp-panel-raised) 0%, var(--gp-panel) 100%);
+  border: 1px solid var(--gp-border, rgba(148, 163, 190, 0.216));
   border-radius: 7px;
   box-shadow: 0 1px 2px rgba(30, 40, 55, 0.06);
   cursor: pointer;
@@ -521,10 +467,10 @@ button {
 }
 
 .gp-toolbar-btn--primary {
-  color: #fff;
+  color: var(--gp-on-accent);
   background: linear-gradient(
     165deg,
-    color-mix(in srgb, var(--gp-accent, #2d6a8f) 92%, #fff) 0%,
+    color-mix(in srgb, var(--gp-accent, #2d6a8f) 92%, var(--gp-panel-raised)) 0%,
     var(--gp-accent, #2d6a8f) 100%
   );
   border-color: color-mix(in srgb, var(--gp-accent, #2d6a8f) 85%, #1a3d52);
@@ -578,7 +524,7 @@ button {
   padding: 0;
   max-height: 14rem;
   overflow-y: auto;
-  border: 1px solid var(--gp-border, rgba(0, 0, 0, 0.12));
+  border: 1px solid var(--gp-border, rgba(148, 163, 190, 0.188));
   border-radius: 8px;
 }
 
@@ -588,7 +534,7 @@ button {
   align-items: center;
   gap: 0.45rem;
   padding: 0.45rem 0.5rem 0.45rem 0.65rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(148, 163, 190, 0.104);
 }
 
 .gp-build-list__item:last-child {
@@ -596,7 +542,7 @@ button {
 }
 
 .gp-build-list__item:hover {
-  background: rgba(0, 0, 0, 0.04);
+  background: rgba(148, 163, 190, 0.076);
 }
 
 .gp-build-list__main {
@@ -617,7 +563,7 @@ button {
 }
 
 .gp-build-list__main:hover {
-  background: rgba(0, 0, 0, 0.03);
+  background: rgba(148, 163, 190, 0.062);
 }
 
 .gp-build-list__actions {
@@ -655,13 +601,13 @@ button {
 }
 
 .gp-build-list__icon-btn:hover {
-  background: rgba(0, 0, 0, 0.06);
+  background: rgba(148, 163, 190, 0.104);
   color: var(--gp-text, #1a1a1a);
-  border-color: var(--gp-border, rgba(0, 0, 0, 0.12));
+  border-color: var(--gp-border, rgba(148, 163, 190, 0.188));
 }
 
 .gp-build-list__icon-btn--danger:hover {
-  color: #b42318;
+  color: #ff8a80;
   border-color: rgba(180, 35, 24, 0.28);
   background: rgba(180, 35, 24, 0.08);
 }
@@ -807,7 +753,7 @@ button {
   text-align: left;
   font: inherit;
   color: var(--gp-text);
-  background: linear-gradient(165deg, #fff 0%, #eef6fb 100%);
+  background: linear-gradient(165deg, var(--gp-panel-raised) 0%, #1b2534 100%);
   border: 1px solid color-mix(in srgb, var(--gp-accent) 28%, var(--gp-border));
   border-radius: 10px;
   box-shadow: 0 1px 2px rgba(45, 106, 143, 0.08);
@@ -833,7 +779,7 @@ button {
   width: 2.1rem;
   height: 2.1rem;
   border-radius: 8px;
-  background: color-mix(in srgb, var(--gp-accent) 16%, #fff);
+  background: color-mix(in srgb, var(--gp-accent) 16%, var(--gp-panel-raised));
   border: 1px solid color-mix(in srgb, var(--gp-accent) 35%, transparent);
   font-size: 1.15rem;
   line-height: 1;
@@ -877,7 +823,7 @@ button {
   text-align: left;
   font: inherit;
   color: var(--gp-text);
-  background: linear-gradient(165deg, #fff 0%, #f0f2f5 100%);
+  background: linear-gradient(165deg, var(--gp-panel-raised) 0%, var(--gp-panel) 100%);
   border: 1px solid var(--gp-border);
   border-radius: 10px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -896,8 +842,8 @@ button {
   height: 48px;
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  background: #e8ebf0;
+  border: 1px solid rgba(148, 163, 190, 0.132);
+  background: #242c3c;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -918,7 +864,7 @@ button {
 .gp-foe-panel__thumb--median::after {
   content: "⌀";
   font-size: 1.35rem;
-  color: #e2e6ec;
+  color: #2a3344;
   line-height: 1;
 }
 
@@ -1058,7 +1004,7 @@ button {
 .gp-foe-dropdown__search-row {
   padding: 0.5rem 0.6rem;
   border-bottom: 1px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.087);
 }
 
 .gp-foe-dropdown__search {
@@ -1067,7 +1013,7 @@ button {
   border: 1px solid var(--gp-border);
   border-radius: 6px;
   font-size: 0.85rem;
-  background: #fff;
+  background: var(--gp-panel-raised);
 }
 
 .gp-foe-dropdown__filters {
@@ -1076,7 +1022,7 @@ button {
   gap: 0.45rem;
   padding: 0.45rem 0.55rem 0.35rem;
   border-bottom: 1px solid var(--gp-border);
-  background: rgba(248, 249, 251, 0.95);
+  background: rgba(30, 37, 52, 0.95);
 }
 
 .gp-foe-dropdown__filter-row {
@@ -1110,7 +1056,7 @@ button {
   font-variant-numeric: tabular-nums;
   border: 1px solid var(--gp-border);
   border-radius: 999px;
-  background: #fff;
+  background: var(--gp-panel-raised);
   color: var(--gp-text);
   cursor: pointer;
   line-height: 1.2;
@@ -1119,11 +1065,11 @@ button {
 
 .gp-foe-dropdown__chip:hover {
   border-color: color-mix(in srgb, var(--gp-accent) 40%, var(--gp-border));
-  background: #fafbfc;
+  background: var(--gp-panel-raised);
 }
 
 .gp-foe-dropdown__chip--active {
-  background: color-mix(in srgb, var(--gp-accent) 18%, #fff);
+  background: color-mix(in srgb, var(--gp-accent) 18%, var(--gp-panel-raised));
   border-color: color-mix(in srgb, var(--gp-accent) 55%, var(--gp-border));
   box-shadow: 0 1px 2px rgba(45, 106, 143, 0.12);
 }
@@ -1146,14 +1092,14 @@ button {
   font: inherit;
   border: 1px solid transparent;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.063);
   cursor: pointer;
   color: var(--gp-text);
 }
 
 .gp-foe-dropdown__row:hover {
-  background: #fff;
-  border-color: rgba(0, 0, 0, 0.08);
+  background: var(--gp-panel-raised);
+  border-color: rgba(148, 163, 190, 0.132);
 }
 
 .gp-foe-dropdown__row--median {
@@ -1165,7 +1111,7 @@ button {
 }
 
 .gp-foe-dropdown__row--median:hover {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.063);
   border-color: transparent;
 }
 
@@ -1175,8 +1121,8 @@ button {
   gap: 0.28rem;
   padding: 0.42rem 0.45rem 0.48rem;
   border-radius: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.07);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(246, 248, 251, 0.92) 100%);
+  border: 1px solid rgba(148, 163, 190, 0.118);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.093) 0%, rgba(30, 37, 52, 0.92) 100%);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 
@@ -1197,7 +1143,7 @@ button {
 }
 
 .gp-foe-dropdown__median-head:hover {
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.067);
 }
 
 .gp-foe-dropdown__median-titles {
@@ -1262,7 +1208,7 @@ button {
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  color: #e2e6ec;
+  color: #2a3344;
 }
 
 .gp-foe-dropdown__name {
@@ -1283,9 +1229,9 @@ button {
 }
 
 .gp-foe-dropdown__entry {
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(148, 163, 190, 0.132);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.089);
   padding: 0.45rem 0.5rem;
 }
 
@@ -1301,8 +1247,8 @@ button {
   height: 44px;
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid rgba(0, 0, 0, 0.06);
-  background: #e8ebf0;
+  border: 1px solid rgba(148, 163, 190, 0.104);
+  background: #242c3c;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1370,7 +1316,7 @@ button {
   font-variant-numeric: tabular-nums;
   border: 1px solid var(--gp-border);
   border-radius: 5px;
-  background: #fff;
+  background: var(--gp-panel-raised);
   color: var(--gp-text);
   cursor: pointer;
   line-height: 1.2;
@@ -1383,7 +1329,7 @@ button {
 
 .gp-foe-dropdown__lvl-btn--active {
   border-color: var(--gp-accent);
-  background: color-mix(in srgb, var(--gp-accent) 14%, #fff);
+  background: color-mix(in srgb, var(--gp-accent) 14%, var(--gp-panel-raised));
   font-weight: 600;
 }
 
@@ -1433,7 +1379,7 @@ button {
   border: 1px solid var(--gp-border);
   border-radius: 6px;
   font-size: 0.88rem;
-  background: #fff;
+  background: var(--gp-panel-raised);
 }
 
 .gear-planner__build-field-row select {
@@ -1443,14 +1389,14 @@ button {
   border-radius: 6px;
   border: 1px solid var(--gp-border);
   font-size: 0.85rem;
-  background: #fff;
+  background: var(--gp-panel-raised);
 }
 
 .gear-planner__build-field-row button {
   padding: 0.45rem 0.65rem;
   border-radius: 6px;
   border: 1px solid var(--gp-border);
-  background: #fff;
+  background: var(--gp-panel-raised);
   font-size: 0.82rem;
 }
 
@@ -1461,18 +1407,18 @@ button {
 
 .gear-planner__build-field-row .gp-btn--primary {
   background: var(--gp-accent);
-  color: #fff;
+  color: var(--gp-on-accent);
   border-color: transparent;
 }
 
 .gear-planner__build-field-row .gp-btn--danger {
   border-color: rgba(180, 60, 60, 0.45);
-  color: #8b1e1e;
-  background: rgba(253, 232, 232, 0.65);
+  color: #ff9d9d;
+  background: rgba(84, 38, 44, 0.6);
 }
 
 .gear-planner__build-field-row .gp-btn--danger:hover {
-  background: #fde8e8;
+  background: #33191d;
 }
 
 .gp-slots-mount {
@@ -1500,7 +1446,7 @@ button {
   border: 1px solid var(--gp-border);
   border-radius: 6px;
   font-size: 0.9rem;
-  background: #fff;
+  background: var(--gp-panel-raised);
 }
 
 .gear-planner__field--reset .gear-planner__reset-btn {
@@ -1608,12 +1554,12 @@ button {
 
 .gp-tab:hover {
   color: var(--gp-text);
-  background: rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.059);
 }
 
 .gp-tab--active {
   color: var(--gp-text);
-  background: #fff;
+  background: var(--gp-panel-raised);
   border-color: rgba(45, 106, 143, 0.22);
   box-shadow: 0 1px 2px rgba(15, 24, 40, 0.06);
 }
@@ -1683,7 +1629,7 @@ button {
   padding: 0.45rem 0.55rem;
   border: 2px solid var(--gp-border);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.073);
   text-align: left;
   font: inherit;
   color: var(--gp-text);
@@ -1693,12 +1639,12 @@ button {
 
 .gp-consumable-card:hover {
   border-color: color-mix(in srgb, var(--gp-accent) 45%, var(--gp-border));
-  background: #fff;
+  background: var(--gp-panel-raised);
 }
 
 .gp-consumable-card--active {
   border-color: var(--gp-accent);
-  background: color-mix(in srgb, var(--gp-accent) 8%, #fff);
+  background: color-mix(in srgb, var(--gp-accent) 8%, var(--gp-panel-raised));
   box-shadow: 0 2px 8px rgba(45, 106, 143, 0.12);
 }
 
@@ -1865,7 +1811,7 @@ button {
 .gp-talent-tree {
   border-radius: 10px;
   border: 1px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.059);
   padding: 0.65rem 0.75rem 0.85rem;
 }
 
@@ -1894,7 +1840,7 @@ button {
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.02em;
   color: var(--gp-muted);
-  background: rgba(0, 0, 0, 0.04);
+  background: rgba(148, 163, 190, 0.076);
   border: 1px solid var(--gp-border);
   transition: color 0.18s ease, background 0.18s ease, border-color 0.18s ease;
 }
@@ -1952,8 +1898,8 @@ button {
   min-height: 2.5rem;
   padding: 0.35rem 0.2rem;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.45);
-  border: 1px dashed rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 0.051);
+  border: 1px dashed rgba(148, 163, 190, 0.104);
 }
 
 .gp-talent-tree__branch-head {
@@ -1981,8 +1927,8 @@ button {
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   color: var(--gp-muted);
-  background: rgba(0, 0, 0, 0.04);
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: rgba(148, 163, 190, 0.076);
+  border: 1px solid rgba(148, 163, 190, 0.132);
   letter-spacing: 0.02em;
   transition: color 0.18s ease, background 0.18s ease, border-color 0.18s ease;
 }
@@ -2118,7 +2064,7 @@ button {
   padding: 0;
   border-radius: 6px;
   border: 1px solid var(--gp-border);
-  background: #fff;
+  background: var(--gp-panel-raised);
   font-size: 0.95rem;
   font-weight: 800;
   line-height: 1;
@@ -2289,9 +2235,9 @@ button {
   border-radius: 12px;
   border: 1px solid rgba(45, 106, 143, 0.14);
   background:
-    linear-gradient(165deg, rgba(255, 255, 255, 0.95) 0%, rgba(245, 248, 252, 0.92) 45%, rgba(236, 242, 249, 0.88) 100%);
+    linear-gradient(165deg, rgba(255, 255, 255, 0.091) 0%, rgba(30, 37, 52, 0.92) 45%, rgba(24, 30, 43, 0.88) 100%);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    inset 0 1px 0 rgba(255, 255, 255, 0.087),
     0 1px 2px rgba(15, 24, 40, 0.06),
     0 4px 14px rgba(45, 106, 143, 0.06);
 }
@@ -2317,8 +2263,8 @@ button {
   width: 38px;
   height: 38px;
   flex-shrink: 0;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(250, 251, 253, 0.94) 100%);
+  border: 1px solid rgba(148, 163, 190, 0.132);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.093) 0%, rgba(30, 37, 52, 0.94) 100%);
   overflow: hidden;
   display: grid;
   place-items: center;
@@ -2327,7 +2273,7 @@ button {
   line-height: 0;
   box-shadow:
     0 1px 2px rgba(15, 18, 28, 0.07),
-    inset 0 1px 0 rgba(255, 255, 255, 0.75);
+    inset 0 1px 0 rgba(255, 255, 255, 0.075);
   transition: transform 90ms ease, border-color 90ms ease, box-shadow 90ms ease, border-radius 90ms ease;
 }
 
@@ -2337,7 +2283,7 @@ button {
   border-color: rgba(45, 106, 143, 0.45);
   box-shadow:
     0 2px 6px rgba(45, 106, 143, 0.18),
-    inset 0 1px 0 rgba(255, 255, 255, 0.85);
+    inset 0 1px 0 rgba(255, 255, 255, 0.083);
   transform: translateY(-2px);
 }
 
@@ -2400,7 +2346,7 @@ button {
   align-items: stretch;
   gap: 0.45rem;
   padding: 0.65rem 0.7rem;
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.073);
   border: 2px solid var(--gp-border);
   border-radius: 10px;
   text-align: left;
@@ -2424,7 +2370,7 @@ button {
 
 .slot-card--inactive {
   border-style: dashed;
-  background: color-mix(in srgb, rgba(255, 255, 255, 0.78) 72%, var(--gp-panel) 28%);
+  background: color-mix(in srgb, rgba(255, 255, 255, 0.077) 72%, var(--gp-panel) 28%);
 }
 
 .slot-card--inactive .slot-card__icon-wrap,
@@ -2463,7 +2409,7 @@ button {
   width: 54px;
   height: 54px;
   border-radius: 0;
-  background: linear-gradient(145deg, #eef1f5 0%, #dfe4ea 100%);
+  background: linear-gradient(145deg, #242c3c 0%, #2a3344 100%);
   border: 1px solid var(--gp-border);
   overflow: hidden;
   display: flex;
@@ -2574,7 +2520,7 @@ button {
   padding: 0.15rem 0.4rem;
   border-radius: 4px;
   margin-bottom: 0.25rem;
-  color: #fff;
+  color: var(--gp-on-accent);
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 }
 
@@ -2612,7 +2558,7 @@ button {
 
 .summary-panel td {
   padding: 0.25rem 0.35rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(148, 163, 190, 0.104);
 }
 
 .summary-panel td:first-child {
@@ -2696,10 +2642,10 @@ button {
 
 .gear-planner__error {
   padding: 1rem;
-  background: #fde8e8;
-  border: 1px solid #e08080;
+  background: #33191d;
+  border: 1px solid #7a3a42;
   border-radius: 8px;
-  color: #8b1e1e;
+  color: #ff9d9d;
   margin-bottom: 1rem;
 }
 
@@ -2708,7 +2654,7 @@ button {
   padding: 0.65rem 0.8rem;
   border: 1px solid color-mix(in srgb, var(--gp-accent) 28%, var(--gp-border));
   border-radius: 10px;
-  background: color-mix(in srgb, var(--gp-accent) 7%, #fff);
+  background: color-mix(in srgb, var(--gp-accent) 7%, var(--gp-panel-raised));
   color: var(--gp-text);
   font-size: 0.78rem;
 }
@@ -2727,8 +2673,8 @@ button {
 .slot-card-extras {
   padding: 0.35rem 0.4rem 0.45rem;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.55);
-  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 0.059);
+  border: 1px solid rgba(148, 163, 190, 0.104);
   font-size: 0.72rem;
 }
 
@@ -2776,7 +2722,7 @@ button {
   border-radius: 6px;
   border: 1px solid var(--gp-border);
   font-size: 0.78rem;
-  background: #fff;
+  background: var(--gp-panel-raised);
 }
 
 .gear-planner__character-skills {
@@ -2838,7 +2784,7 @@ button {
   align-items: center;
   gap: 0.65rem;
   padding: 0.5rem 0.65rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(148, 163, 190, 0.16);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.04);
 }
@@ -2867,8 +2813,8 @@ button {
   width: 2.4rem;
   height: 1.35rem;
   border-radius: 999px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(148, 163, 190, 0.3);
+  background: rgba(148, 163, 190, 0.23);
   cursor: pointer;
   position: relative;
   padding: 0;
@@ -2887,7 +2833,7 @@ button {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  background: #fff;
+  background: var(--gp-panel-raised);
   transition: transform 0.15s ease;
 }
 
@@ -2903,7 +2849,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 0;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(148, 163, 190, 0.16);
   border-radius: 8px;
   overflow: hidden;
 }
@@ -2915,7 +2861,7 @@ button {
   align-items: center;
   padding: 0.4rem 0.65rem;
   font-size: 0.82rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-top: 1px solid rgba(148, 163, 190, 0.104);
 }
 
 .gp-buffs-damage-table__row--head {
@@ -2923,7 +2869,7 @@ button {
   font-weight: 600;
   font-size: 0.76rem;
   color: var(--gp-muted);
-  background: rgba(0, 0, 0, 0.04);
+  background: rgba(148, 163, 190, 0.076);
 }
 
 .gp-buffs-damage-table__dmg {
@@ -2935,7 +2881,7 @@ button {
 .gp-mage-conduits,
 .gp-priest-prayers {
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(148, 163, 190, 0.132);
 }
 
 .gp-mage-conduits__picker,
@@ -2955,7 +2901,7 @@ button {
   padding: 0.35rem 0.55rem;
   border: 1px solid var(--gp-border);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.76);
+  background: rgba(255, 255, 255, 0.076);
   color: var(--gp-text);
   font-size: 0.78rem;
   font-weight: 700;
@@ -2973,7 +2919,7 @@ button {
 .gp-mage-conduit-pick--active,
 .gp-priest-prayer-pick--active {
   border-color: color-mix(in srgb, var(--gp-accent) 65%, var(--gp-border));
-  background: color-mix(in srgb, var(--gp-accent) 12%, #fff);
+  background: color-mix(in srgb, var(--gp-accent) 12%, var(--gp-panel-raised));
 }
 
 .gp-mage-conduit-pick:disabled,
@@ -2989,7 +2935,7 @@ button {
   height: 34px;
   border-radius: 50%;
   border: 1px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.087);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -3009,7 +2955,7 @@ button {
   padding: 0.75rem;
   border: 1px dashed color-mix(in srgb, var(--gp-border) 70%, var(--gp-muted));
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.051);
   color: var(--gp-muted);
   font-size: 0.82rem;
   font-weight: 700;
@@ -3017,7 +2963,7 @@ button {
 
 .gp-skills-weapon-block {
   padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(148, 163, 190, 0.104);
 }
 
 .gp-skills-weapon-block:last-child {
@@ -3039,7 +2985,7 @@ button {
   padding: 0.55rem 0.65rem;
   border-radius: 8px;
   border: 1px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.067);
 }
 
 .gp-char-skill--passive-card {
@@ -3057,7 +3003,7 @@ button {
 
 .gp-char-skill--passive-off {
   border-color: color-mix(in srgb, var(--gp-border) 92%, var(--gp-muted) 8%);
-  background: color-mix(in srgb, rgba(255, 255, 255, 0.65) 70%, var(--gp-panel) 30%);
+  background: color-mix(in srgb, rgba(255, 255, 255, 0.067) 70%, var(--gp-panel) 30%);
 }
 
 .gp-char-skill__passive-corner-toggle {
@@ -3090,7 +3036,7 @@ button {
 }
 
 .gp-char-skill__passive-corner-toggle:focus-visible {
-  outline: 2px solid color-mix(in srgb, var(--gp-accent) 55%, #fff);
+  outline: 2px solid color-mix(in srgb, var(--gp-accent) 55%, var(--gp-panel-raised));
   outline-offset: 2px;
 }
 
@@ -3102,7 +3048,7 @@ button {
   width: 0.85rem;
   height: 0.85rem;
   border-radius: 50%;
-  background: #fff;
+  background: var(--gp-panel-raised);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   transition: transform 0.15s ease;
 }
@@ -3122,7 +3068,7 @@ button {
   width: 44px;
   height: 44px;
   border: 1px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.087);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -3182,16 +3128,16 @@ button {
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   padding: 0.16rem 0.28rem;
-  border: 1px solid rgba(0, 0, 0, 0.14);
+  border: 1px solid rgba(148, 163, 190, 0.216);
   border-radius: 0.28rem;
-  background: rgba(0, 0, 0, 0.04);
+  background: rgba(148, 163, 190, 0.076);
   color: var(--gp-text);
 }
 
 .gp-char-skill__rank-btn {
   appearance: none;
-  border: 1px solid rgba(0, 0, 0, 0.14);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(0, 0, 0, 0.04));
+  border: 1px solid rgba(148, 163, 190, 0.216);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(148, 163, 190, 0.076));
   color: var(--gp-text);
   font-size: 0.68rem;
   font-weight: 700;
@@ -3254,14 +3200,14 @@ button {
   padding: 0.2rem;
   border: 2px solid var(--gp-border);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.075);
   cursor: pointer;
   transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
 }
 
 .gp-char-skill__mastery-rune:hover {
   border-color: color-mix(in srgb, #c9a227 55%, var(--gp-border));
-  background: #fff;
+  background: var(--gp-panel-raised);
 }
 
 .gp-char-skill__mastery-rune:focus-visible {
@@ -3271,7 +3217,7 @@ button {
 
 .gp-char-skill__mastery-rune--active {
   border-color: #c9a227;
-  background: color-mix(in srgb, #c9a227 12%, #fff);
+  background: color-mix(in srgb, #c9a227 12%, var(--gp-panel-raised));
   box-shadow: 0 2px 8px rgba(180, 140, 40, 0.18);
 }
 
@@ -3327,7 +3273,7 @@ button {
   text-align: center;
   border: 1px solid var(--gp-border);
   border-radius: 6px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.079);
   color: var(--gp-text);
   cursor: pointer;
   transition: border-color 0.15s, background 0.15s, color 0.15s;
@@ -3335,7 +3281,7 @@ button {
 
 .gp-char-skill__mastery-choice-btn:hover {
   border-color: color-mix(in srgb, #c9a227 50%, var(--gp-border));
-  background: #fff;
+  background: var(--gp-panel-raised);
 }
 
 .gp-char-skill__mastery-choice-btn:focus-visible {
@@ -3345,7 +3291,7 @@ button {
 
 .gp-char-skill__mastery-choice-btn--active {
   border-color: #c9a227;
-  background: color-mix(in srgb, #c9a227 14%, #fff);
+  background: color-mix(in srgb, #c9a227 14%, var(--gp-panel-raised));
   color: #7a5f10;
 }
 
@@ -3415,7 +3361,7 @@ button {
   padding: 0.22rem 0.55rem 0.24rem;
   border-radius: 999px;
   border: 1px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.42);
+  background: rgba(255, 255, 255, 0.049);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.55) inset;
   transition:
     border-color 0.14s ease,
@@ -3426,11 +3372,11 @@ button {
 
 .gp-char-skill__script-pill:hover .gp-char-skill__script-pill__shell {
   border-color: color-mix(in srgb, var(--gp-border) 50%, var(--gp-accent) 50%);
-  background: rgba(255, 255, 255, 0.62);
+  background: rgba(255, 255, 255, 0.065);
 }
 
 .gp-char-skill__script-pill input:focus-visible + .gp-char-skill__script-pill__shell {
-  outline: 2px solid color-mix(in srgb, var(--gp-accent) 55%, #fff);
+  outline: 2px solid color-mix(in srgb, var(--gp-accent) 55%, var(--gp-panel-raised));
   outline-offset: 2px;
 }
 
@@ -3438,11 +3384,11 @@ button {
   border-color: color-mix(in srgb, var(--gp-accent) 48%, var(--gp-border));
   background: linear-gradient(
     180deg,
-    color-mix(in srgb, #fff 86%, var(--gp-accent) 14%) 0%,
+    color-mix(in srgb, var(--gp-panel-raised) 86%, var(--gp-accent) 14%) 0%,
     color-mix(in srgb, var(--gp-panel) 88%, var(--gp-accent) 12%) 100%
   );
   box-shadow:
-    0 1px 0 rgba(255, 255, 255, 0.65) inset,
+    0 1px 0 rgba(255, 255, 255, 0.067) inset,
     0 1px 6px color-mix(in srgb, var(--gp-accent) 18%, transparent);
 }
 
@@ -3503,7 +3449,7 @@ button {
   margin-top: 0.4rem;
   padding: 0.38rem 0.5rem 0.42rem;
   border-radius: 8px;
-  background: color-mix(in srgb, var(--gp-accent) 9%, #fff);
+  background: color-mix(in srgb, var(--gp-accent) 9%, var(--gp-panel-raised));
   border: 1px solid color-mix(in srgb, var(--gp-accent) 28%, var(--gp-border));
   display: flex;
   flex-direction: column;
@@ -3584,7 +3530,7 @@ button {
   font-size: 0.72rem;
   line-height: 1.38;
   padding: 0.22rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(148, 163, 190, 0.104);
 }
 
 .gp-summary-tip-row {
@@ -3668,7 +3614,7 @@ button {
   padding: 0.48rem 0.58rem;
   border-radius: 9px;
   border: 1px solid rgba(45, 106, 143, 0.14);
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.073);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.85) inset;
 }
 
@@ -3755,7 +3701,7 @@ button {
   padding: 0.5rem 0.55rem;
   border-radius: 8px;
   border: 1px dashed rgba(45, 106, 143, 0.35);
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.051);
 }
 
 .slot-grid__arsenal-picks__hint {
@@ -3770,7 +3716,7 @@ button {
   padding: 0.5rem 0.55rem;
   border: 1px dashed color-mix(in srgb, var(--gp-border) 72%, var(--gp-muted));
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.051);
   color: var(--gp-muted);
   font-size: 0.72rem;
   line-height: 1.35;
@@ -3793,7 +3739,7 @@ button {
   text-align: left;
   border-radius: 8px;
   border: 2px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.083);
   cursor: pointer;
   transition: border-color 0.15s, box-shadow 0.15s, transform 0.12s ease;
 }
@@ -3813,7 +3759,7 @@ button {
   width: 36px;
   height: 36px;
   border: 1px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.091);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -3867,7 +3813,7 @@ button {
   text-align: left;
   border-radius: 8px;
   border: 1px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.073);
   cursor: pointer;
   transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
 }
@@ -3884,7 +3830,7 @@ button {
 
 .slot-arsenal-skill--picked {
   border-width: 2px;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.089);
 }
 
 .slot-arsenal-skill__icon {
@@ -3892,7 +3838,7 @@ button {
   width: 36px;
   height: 36px;
   border: 1px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.091);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -4002,15 +3948,15 @@ button {
   font-weight: 600;
   border-radius: 8px;
   border: 1px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.083);
   color: var(--gp-muted);
   cursor: pointer;
 }
 
 .gp-modal-arsenal-clear-slot:hover {
   border-color: rgba(196, 76, 76, 0.45);
-  color: #b42318;
-  background: rgba(253, 232, 232, 0.55);
+  color: #ff8a80;
+  background: rgba(84, 38, 44, 0.5);
 }
 
 .gp-modal-arsenal-skill-list {
@@ -4086,7 +4032,7 @@ button {
   gap: 1rem;
   padding: 1rem 1.15rem;
   border-bottom: 1px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.063);
 }
 
 .gp-modal__title {
@@ -4107,14 +4053,14 @@ button {
   height: 2.25rem;
   border: none;
   border-radius: 8px;
-  background: rgba(0, 0, 0, 0.06);
+  background: rgba(148, 163, 190, 0.104);
   font-size: 1.25rem;
   line-height: 1;
   color: var(--gp-muted);
 }
 
 .gp-modal__close:hover {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(148, 163, 190, 0.16);
   color: var(--gp-text);
 }
 
@@ -4126,7 +4072,7 @@ button {
   align-items: flex-end;
   padding: 0.75rem 1.15rem;
   border-bottom: 1px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.051);
 }
 
 .gp-modal__controls label {
@@ -4146,7 +4092,7 @@ button {
   border: 1px solid var(--gp-border);
   border-radius: 8px;
   font-size: 0.85rem;
-  background: #fff;
+  background: var(--gp-panel-raised);
 }
 
 .gp-modal__controls .gear-planner__slider-label-row label {
@@ -4308,7 +4254,7 @@ button {
   );
   border: 1px solid rgba(139, 90, 43, 0.2);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.65),
+    inset 0 1px 0 rgba(255, 255, 255, 0.067),
     0 1px 3px rgba(62, 42, 16, 0.06);
   transition: border-style 0.15s ease, box-shadow 0.15s ease;
 }
@@ -4321,7 +4267,7 @@ button {
   border-style: solid;
   border-color: rgba(45, 106, 143, 0.34);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.65),
+    inset 0 1px 0 rgba(255, 255, 255, 0.067),
     0 2px 8px rgba(45, 106, 143, 0.1);
 }
 
@@ -4346,7 +4292,7 @@ button {
 }
 
 .gp-modal-augment__toggle:hover {
-  background: rgba(255, 255, 255, 0.38);
+  background: rgba(255, 255, 255, 0.045);
 }
 
 .gp-modal-augment__toggle--open {
@@ -4368,7 +4314,7 @@ button {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.07em;
-  color: #6b4e2e;
+  color: #d9b876;
 }
 
 .gp-modal-augment__toggle-hint {
@@ -4394,7 +4340,7 @@ button {
   font-size: 0.7rem;
   line-height: 1;
   opacity: 0.75;
-  color: #6b4e2e;
+  color: #d9b876;
   transition: transform 0.2s ease, color 0.15s ease;
 }
 
@@ -4411,7 +4357,7 @@ button {
   flex-direction: column;
   overflow: hidden;
   padding: 0.45rem 0.65rem 0.6rem;
-  background: rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.033);
 }
 
 .gp-modal-augment__panel[hidden] {
@@ -4426,7 +4372,7 @@ button {
   padding: 0.45rem 0.5rem 0.4rem;
   border-radius: 8px;
   border: 1px solid var(--gp-border);
-  background: rgba(0, 0, 0, 0.028);
+  background: rgba(148, 163, 190, 0.059);
   font-size: 0.74rem;
   line-height: 1.3;
 }
@@ -4471,8 +4417,8 @@ button {
   font-weight: 600;
   letter-spacing: 0.02em;
   color: var(--gp-muted);
-  background: rgba(255, 255, 255, 0.75);
-  border: 1px solid rgba(0, 0, 0, 0.07);
+  background: rgba(255, 255, 255, 0.075);
+  border: 1px solid rgba(148, 163, 190, 0.118);
   max-width: 11rem;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -4495,7 +4441,7 @@ button {
   font-weight: 700;
   text-align: left;
   vertical-align: bottom;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(148, 163, 190, 0.16);
   background: transparent;
 }
 
@@ -4517,8 +4463,8 @@ button {
   letter-spacing: 0.06em;
   color: var(--gp-muted);
   vertical-align: middle;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
-  background: rgba(0, 0, 0, 0.035);
+  border-bottom: 1px solid rgba(148, 163, 190, 0.146);
+  background: rgba(148, 163, 190, 0.069);
 }
 
 .gp-modal-skill-diff__sec-row:first-child td {
@@ -4534,7 +4480,7 @@ button {
   padding: 0.18rem 0.28rem;
   text-align: left;
   vertical-align: middle;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(148, 163, 190, 0.09);
   font-variant-numeric: tabular-nums;
 }
 
@@ -4543,7 +4489,7 @@ button {
 }
 
 .gp-modal-skill-diff__table tbody tr.gp-modal-skill-diff__data-row:hover td {
-  background: rgba(0, 0, 0, 0.045);
+  background: rgba(148, 163, 190, 0.083);
 }
 
 .gp-modal-skill-diff__name {
@@ -4595,7 +4541,7 @@ button {
 
 .gp-modal-skill-diff__delta-badge--same {
   color: var(--gp-muted);
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(148, 163, 190, 0.09);
   font-weight: 600;
 }
 
@@ -4645,7 +4591,7 @@ button {
   width: 72px;
   height: 72px;
   border-radius: 10px;
-  background: linear-gradient(145deg, #eef1f5 0%, #dfe4ea 100%);
+  background: linear-gradient(145deg, #242c3c 0%, #2a3344 100%);
   border: 1px solid var(--gp-border);
   overflow: hidden;
 }
@@ -4686,7 +4632,7 @@ button {
 .gp-modal-preview__stats {
   font-size: 0.76rem;
   line-height: 1.45;
-  color: #2a3340;
+  color: var(--gp-text);
 }
 
 .gp-modal-preview__statline {
@@ -4697,7 +4643,7 @@ button {
   flex: 1 1 auto;
   min-height: 0;
   padding-top: 0.35rem;
-  border-top: 1px dashed rgba(0, 0, 0, 0.1);
+  border-top: 1px dashed rgba(148, 163, 190, 0.16);
 }
 
 .gp-modal-slotopts__row {
@@ -4726,7 +4672,7 @@ button {
   border-radius: 6px;
   border: 1px solid var(--gp-border);
   font-size: 0.82rem;
-  background: #fff;
+  background: var(--gp-panel-raised);
 }
 
 .gp-modal-slotopts input[type="range"] {
@@ -4784,7 +4730,7 @@ button {
   padding: 0.42rem 0.48rem;
   border-radius: 8px;
   border: 1px solid rgba(139, 90, 43, 0.2);
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.073);
   cursor: pointer;
   text-align: left;
   font: inherit;
@@ -4797,7 +4743,7 @@ button {
 
 .gp-augment-pick-row:hover {
   border-color: rgba(139, 90, 43, 0.38);
-  background: #fff;
+  background: var(--gp-panel-raised);
 }
 
 .gp-augment-pick-row:focus-visible {
@@ -4808,7 +4754,7 @@ button {
 
 .gp-augment-pick-row--selected {
   border-color: rgba(139, 90, 43, 0.52);
-  background: linear-gradient(175deg, #fffef9 0%, #faf6ee 100%);
+  background: linear-gradient(175deg, #242b3a 0%, #1d2432 100%);
   box-shadow:
     0 0 0 2px rgba(196, 145, 78, 0.28),
     0 1px 3px rgba(62, 42, 16, 0.06);
@@ -4845,7 +4791,7 @@ button {
   border-radius: 8px;
   overflow: hidden;
   flex-shrink: 0;
-  background: linear-gradient(145deg, #eef1f5 0%, #dfe4ea 100%);
+  background: linear-gradient(145deg, #242c3c 0%, #2a3344 100%);
   border: 1px solid var(--gp-border);
   display: flex;
   align-items: center;
@@ -4887,7 +4833,7 @@ button {
   min-width: 0;
   font-size: 0.68rem;
   line-height: 1.38;
-  color: #2a3340;
+  color: var(--gp-text);
 }
 
 .gp-augment-pick-row__stats .gp-stat-line {
@@ -4904,7 +4850,7 @@ button {
 .gp-augment-pick__skills {
   margin-top: 0.28rem;
   padding-top: 0.28rem;
-  border-top: 1px dashed rgba(0, 0, 0, 0.08);
+  border-top: 1px dashed rgba(148, 163, 190, 0.132);
 }
 
 .gp-augment-pick__skill {
@@ -4932,7 +4878,7 @@ button {
   }
   .gp-augment-pick-row:not(.gp-augment-pick-row--none) .gp-augment-pick-row__stats {
     flex: 1 1 100%;
-    border-top: 1px dashed rgba(0, 0, 0, 0.08);
+    border-top: 1px dashed rgba(148, 163, 190, 0.132);
     padding-top: 0.35rem;
     margin-top: 0.1rem;
   }
@@ -4969,7 +4915,7 @@ button {
   flex-direction: column;
   gap: 0.4rem;
   padding: 0.65rem 0.7rem;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.083);
   border: 2px solid var(--gp-border);
   border-radius: 10px;
   cursor: pointer;
@@ -4984,7 +4930,7 @@ button {
 .gp-item-pick--selected {
   border-color: var(--gp-accent);
   box-shadow: 0 0 0 3px rgba(45, 106, 143, 0.15);
-  background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 0.095);
 }
 
 .gp-item-pick--compact {
@@ -5018,7 +4964,7 @@ button {
   width: 48px;
   height: 48px;
   border-radius: 8px;
-  background: linear-gradient(145deg, #eef1f5 0%, #dfe4ea 100%);
+  background: linear-gradient(145deg, #242c3c 0%, #2a3344 100%);
   border: 1px solid var(--gp-border);
   overflow: hidden;
 }
@@ -5072,7 +5018,7 @@ button {
   color: #234;
   line-height: 1.4;
   padding-top: 0.25rem;
-  border-top: 1px dashed rgba(0, 0, 0, 0.08);
+  border-top: 1px dashed rgba(148, 163, 190, 0.132);
 }
 
 .gp-modal__footer {
@@ -5084,27 +5030,27 @@ button {
   align-items: center;
   padding: 0.85rem 1.15rem;
   border-top: 1px solid var(--gp-border);
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.067);
 }
 
 .gp-modal__footer button {
   padding: 0.5rem 1rem;
   border-radius: 8px;
   border: 1px solid var(--gp-border);
-  background: #fff;
+  background: var(--gp-panel-raised);
   font-size: 0.85rem;
   font-weight: 600;
 }
 
 .gp-modal__footer button.gp-btn--primary {
   background: var(--gp-accent);
-  border-color: #245a78;
-  color: #fff;
+  border-color: color-mix(in srgb, var(--gp-accent) 55%, #000);
+  color: var(--gp-on-accent);
 }
 
 .gp-modal__footer button.gp-btn--danger {
   background: transparent;
-  color: #a61e1e;
+  color: #ff9d9d;
   margin-right: auto;
 }
 
@@ -5143,7 +5089,7 @@ body.gp-modal-open {
 .gp-skill-rank-descs {
   margin-top: 0.45rem;
   padding-top: 0.38rem;
-  border-top: 1px dashed rgba(0, 0, 0, 0.1);
+  border-top: 1px dashed rgba(148, 163, 190, 0.16);
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
@@ -5204,7 +5150,7 @@ body.gp-modal-open {
   padding: 0.75rem 0.85rem;
   border-radius: 12px;
   border: 1px solid var(--gp-border);
-  background: linear-gradient(165deg, rgba(255, 255, 255, 0.98) 0%, rgba(246, 247, 249, 0.97) 100%);
+  background: linear-gradient(165deg, rgba(255, 255, 255, 0.093) 0%, rgba(22, 27, 38, 0.97) 100%);
   box-shadow: 0 12px 40px rgba(15, 18, 28, 0.28), 0 0 0 1px rgba(255, 255, 255, 0.6) inset;
   pointer-events: auto;
   font-size: 0.78rem;
@@ -5310,7 +5256,7 @@ body.gp-modal-open {
   color: var(--gp-muted);
   margin: 0.45rem 0 0.15rem;
   padding-top: 0.35rem;
-  border-top: 1px dashed rgba(0, 0, 0, 0.1);
+  border-top: 1px dashed rgba(148, 163, 190, 0.16);
 }
 
 /* Talent tree tooltips: compact scaling (`rank 1` / current / `max`) */
@@ -5372,7 +5318,7 @@ body.gp-modal-open {
 .gp-skill-rank-descs--talent-appendix {
   margin-top: 0.35rem;
   padding-top: 0.32rem;
-  border-top: 1px dashed rgba(0, 0, 0, 0.08);
+  border-top: 1px dashed rgba(148, 163, 190, 0.132);
 }
 
 .gp-slot-tooltip--weapon-skill .gp-char-skill__computed-dmg {
@@ -5429,7 +5375,7 @@ body.gp-modal-open {
   align-items: flex-start;
   margin-bottom: 0.55rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(148, 163, 190, 0.132);
 }
 
 .gp-tooltip__icon {
@@ -5438,7 +5384,7 @@ body.gp-modal-open {
   height: 52px;
   border-radius: 10px;
   border: 1px solid var(--gp-border);
-  background: linear-gradient(145deg, #eef1f5 0%, #dfe4ea 100%);
+  background: linear-gradient(145deg, #242c3c 0%, #2a3344 100%);
   overflow: hidden;
 }
 
@@ -5485,7 +5431,7 @@ body.gp-modal-open {
 .gp-tooltip-enchant {
   margin-top: 0.5rem;
   padding-top: 0.45rem;
-  border-top: 1px dashed rgba(0, 0, 0, 0.1);
+  border-top: 1px dashed rgba(148, 163, 190, 0.16);
   font-size: 0.72rem;
   color: var(--gp-text);
 }
@@ -5517,7 +5463,7 @@ body.gp-modal-open {
   padding: 0.08rem 0.35rem;
   border-radius: 4px;
   background: rgba(196, 145, 78, 0.18);
-  color: #6b4e2e;
+  color: #d9b876;
   font-size: 0.65rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -5571,7 +5517,7 @@ body.gp-modal-open {
 .gp-planner-settings-section {
   margin-top: 0;
   padding: 1rem 1.05rem;
-  background: linear-gradient(180deg, #fafbfd 0%, #f3f5f8 100%);
+  background: linear-gradient(180deg, var(--gp-panel-raised) 0%, var(--gp-panel) 100%);
   border: 1px solid var(--gp-border);
   border-radius: 12px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.65);
@@ -5582,27 +5528,27 @@ body.gp-modal-open {
 }
 
 .gp-planner-settings-section--danger {
-  background: linear-gradient(180deg, #fff8f8 0%, #fbeded 100%);
+  background: linear-gradient(180deg, #2b171b 0%, #33191d 100%);
   border-color: rgba(180, 60, 60, 0.28);
 }
 
 .gp-planner-settings-section--danger .gp-planner-settings-section__icon {
-  background: linear-gradient(145deg, #fdecec 0%, #f8d8d8 100%);
+  background: linear-gradient(145deg, #33191d 0%, #3a1d22 100%);
   border-color: rgba(180, 60, 60, 0.35);
 }
 
 .gp-planner-settings-section--portable {
-  background: linear-gradient(180deg, #f6f9fc 0%, #eef3f8 100%);
+  background: linear-gradient(180deg, var(--gp-panel-raised) 0%, var(--gp-panel) 100%);
   border-color: color-mix(in srgb, var(--gp-accent) 18%, var(--gp-border));
 }
 
 .gp-planner-settings-section--portable .gp-planner-settings-section__icon {
-  background: linear-gradient(145deg, #eef5fb 0%, #dde9f4 100%);
+  background: linear-gradient(145deg, #1b2534 0%, #2b3547 100%);
   border-color: color-mix(in srgb, var(--gp-accent) 28%, var(--gp-border));
 }
 
 .gp-planner-settings-section--damage {
-  background: linear-gradient(165deg, #f7fbff 0%, #eef4fa 100%);
+  background: linear-gradient(165deg, var(--gp-panel-raised) 0%, var(--gp-panel) 100%);
   border-color: color-mix(in srgb, var(--gp-accent) 22%, var(--gp-border));
 }
 
@@ -5621,14 +5567,14 @@ body.gp-modal-open {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  background: #fff;
+  background: var(--gp-panel-raised);
   border: 1px solid var(--gp-border);
   font-size: 1.15rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 .gp-planner-settings-section__icon--dmg {
-  background: linear-gradient(145deg, #e8f4fc 0%, #dcecf8 100%);
+  background: linear-gradient(145deg, #1e2836 0%, #232f42 100%);
   border-color: color-mix(in srgb, var(--gp-accent) 30%, var(--gp-border));
 }
 
@@ -5663,7 +5609,7 @@ body.gp-modal-open {
 .gp-planner-settings-buff-row {
   margin-top: 0.85rem;
   padding-top: 0.75rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 1px solid rgba(148, 163, 190, 0.188);
 }
 
 .gp-planner-settings-buff-row__label {
@@ -5723,7 +5669,7 @@ body.gp-modal-open {
   padding: 0.65rem 0.75rem;
   border-radius: 10px;
   border: 2px solid var(--gp-border);
-  background: #fff;
+  background: var(--gp-panel-raised);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
 }
@@ -5739,7 +5685,7 @@ body.gp-modal-open {
 
 .gp-planner-settings-crit-card input:checked + .gp-planner-settings-crit-card__shell {
   border-color: var(--gp-accent);
-  background: linear-gradient(175deg, #fff 0%, color-mix(in srgb, var(--gp-accent) 10%, #fff) 100%);
+  background: linear-gradient(175deg, var(--gp-panel-raised) 0%, color-mix(in srgb, var(--gp-accent) 10%, var(--gp-panel-raised)) 100%);
   box-shadow: 0 3px 14px rgba(45, 106, 143, 0.18);
 }
 
@@ -5789,7 +5735,7 @@ body.gp-modal-open {
   gap: 0.5rem;
   padding: 0.85rem 1.15rem 1.05rem;
   border-top: 1px solid var(--gp-border);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.65) 0%, var(--gp-panel) 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.067) 0%, var(--gp-panel) 100%);
 }
 
 #gp-planner-settings-done {
@@ -5800,13 +5746,13 @@ body.gp-modal-open {
   letter-spacing: 0.01em;
   border: 1px solid color-mix(in srgb, var(--gp-accent) 65%, #000);
   border-radius: 999px;
-  background: linear-gradient(180deg, color-mix(in srgb, var(--gp-accent) 88%, #fff) 0%, var(--gp-accent) 100%);
-  color: #fff;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--gp-accent) 88%, var(--gp-panel-raised)) 0%, var(--gp-accent) 100%);
+  color: var(--gp-on-accent);
   cursor: pointer;
   box-shadow:
-    0 1px 0 rgba(255, 255, 255, 0.45) inset,
+    0 1px 0 rgba(255, 255, 255, 0.051) inset,
     0 2px 8px rgba(45, 106, 143, 0.28),
-    0 1px 2px rgba(0, 0, 0, 0.08);
+    0 1px 2px rgba(148, 163, 190, 0.132);
   transition: transform 0.12s ease, box-shadow 0.15s ease, background 0.15s ease, filter 0.15s ease;
 }
 
@@ -5821,21 +5767,21 @@ body.gp-modal-open {
 #gp-planner-settings-done:hover {
   filter: brightness(1.04);
   box-shadow:
-    0 1px 0 rgba(255, 255, 255, 0.55) inset,
+    0 1px 0 rgba(255, 255, 255, 0.059) inset,
     0 4px 12px rgba(45, 106, 143, 0.36),
-    0 1px 2px rgba(0, 0, 0, 0.1);
+    0 1px 2px rgba(148, 163, 190, 0.16);
   transform: translateY(-1px);
 }
 
 #gp-planner-settings-done:active {
   transform: translateY(0);
   box-shadow:
-    0 1px 0 rgba(255, 255, 255, 0.4) inset,
+    0 1px 0 rgba(255, 255, 255, 0.047) inset,
     0 1px 4px rgba(45, 106, 143, 0.28);
 }
 
 #gp-planner-settings-done:focus-visible {
-  outline: 2px solid color-mix(in srgb, var(--gp-accent) 65%, #fff);
+  outline: 2px solid color-mix(in srgb, var(--gp-accent) 65%, var(--gp-panel-raised));
   outline-offset: 3px;
 }
 
@@ -5852,8 +5798,8 @@ body.gp-modal-open {
   padding: 0.55rem 0.75rem;
   border-radius: 8px;
   border: 1px solid rgba(180, 60, 60, 0.35);
-  background: rgba(253, 232, 232, 0.55);
-  color: #8b1e1e;
+  background: rgba(84, 38, 44, 0.5);
+  color: #ff9d9d;
   font-size: 0.82rem;
   font-weight: 600;
   cursor: pointer;
@@ -5861,19 +5807,19 @@ body.gp-modal-open {
 }
 
 .gp-planner-settings-reset-btn:hover {
-  background: #fde8e8;
+  background: #33191d;
   border-color: rgba(180, 60, 60, 0.55);
   box-shadow: 0 1px 4px rgba(180, 60, 60, 0.18);
 }
 
 .gp-planner-settings-reset-btn--strong {
-  background: linear-gradient(180deg, #f8d8d8 0%, #f0bebe 100%);
+  background: linear-gradient(180deg, #3a1d22 0%, #54262c 100%);
   color: #6e1414;
   border-color: rgba(180, 60, 60, 0.55);
 }
 
 .gp-planner-settings-reset-btn--strong:hover {
-  background: linear-gradient(180deg, #f4c8c8 0%, #ebadad 100%);
+  background: linear-gradient(180deg, #54262c 0%, #7a3a42 100%);
 }
 
 /* Export / Import build */
@@ -5894,7 +5840,7 @@ body.gp-modal-open {
   padding: 0.5rem 0.85rem;
   border-radius: 8px;
   border: 1px solid var(--gp-border);
-  background: #fff;
+  background: var(--gp-panel-raised);
   font-size: 0.82rem;
   font-weight: 600;
   color: var(--gp-text);
@@ -5905,7 +5851,7 @@ body.gp-modal-open {
 .gp-planner-settings-portable__btn--accent {
   background: var(--gp-accent);
   border-color: color-mix(in srgb, var(--gp-accent) 60%, #000);
-  color: #fff;
+  color: var(--gp-on-accent);
 }
 
 .gp-planner-settings-portable__btn:hover {
@@ -5924,7 +5870,7 @@ body.gp-modal-open {
 }
 
 .gp-planner-settings-portable__status--err {
-  color: #a61e1e;
+  color: #ff9d9d;
 }
 
 .gp-planner-settings-portable__textarea {
@@ -5939,7 +5885,7 @@ body.gp-modal-open {
   font-size: 0.74rem;
   line-height: 1.4;
   color: var(--gp-text);
-  background: #fff;
+  background: var(--gp-panel-raised);
 }
 
 .gp-planner-settings-portable__textarea:focus-visible {
@@ -6299,7 +6245,7 @@ body.gp-modal-open {
     padding: 0.55rem 0.65rem;
     border: 1px solid var(--gp-border);
     border-radius: 10px;
-    background: linear-gradient(180deg, #fff 0%, #f4f6f9 100%);
+    background: linear-gradient(180deg, var(--gp-panel-raised) 0%, var(--gp-panel) 100%);
     color: var(--gp-text);
     text-align: left;
   }
@@ -6455,19 +6401,7 @@ body.gp-modal-open {
     justify-content: flex-start;
   }
 
-  .gear-planner__discord-link {
-    right: 0.75rem;
-    bottom: 0.75rem;
-    width: 2.65rem;
-    height: 2.65rem;
-  }
-
-  .gear-planner__discord-link svg {
-    width: 1.25rem;
-    height: 1.25rem;
-  }
-
-  .gear-planner__discord-bubble {
+  .gear-planner__community-link span {
     display: none;
   }
 }
@@ -6504,4 +6438,209 @@ body.gp-modal-open {
     height: calc(100dvh - 0.5rem);
     border-radius: 10px;
   }
+}
+
+/* ============================================================================
+   UI overhaul — Item finder tab
+   ========================================================================== */
+
+.gp-item-finder__hint {
+  margin: 0 0 0.85rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.gp-item-finder__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.gp-item-finder__search-label,
+.gp-item-finder__type-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.gp-item-finder__search-label {
+  flex: 1 1 220px;
+  max-width: 340px;
+}
+
+.gp-field-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gp-muted);
+}
+
+.gp-item-finder__search,
+.gp-item-finder__type {
+  font: inherit;
+  color: var(--gp-text);
+  background: var(--gp-panel-raised);
+  border: 1px solid var(--gp-border-strong);
+  border-radius: 10px;
+  padding: 0.45rem 0.7rem;
+}
+
+.gp-item-finder__search:focus-visible,
+.gp-item-finder__type:focus-visible {
+  outline: 2px solid var(--gp-accent);
+  outline-offset: 1px;
+}
+
+.gp-item-finder__sourced-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--gp-muted);
+  cursor: pointer;
+  user-select: none;
+}
+
+.gp-item-finder__results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 0.7rem;
+}
+
+.gp-item-finder__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 0.7rem 0.75rem;
+  border: 1px solid var(--gp-border);
+  border-radius: 12px;
+  background: var(--gp-panel-raised);
+}
+
+.gp-item-finder__card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.gp-item-finder__icon {
+  flex: 0 0 42px;
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  border: 1px solid var(--gp-border);
+  background: rgba(255, 255, 255, 0.045);
+  overflow: hidden;
+}
+
+.gp-item-finder__icon img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.gp-item-finder__title {
+  min-width: 0;
+}
+
+.gp-item-finder__title .gp-item-pick__name {
+  font-weight: 700;
+  font-size: 0.92rem;
+  line-height: 1.25;
+}
+
+.gp-item-finder__type-tag {
+  font-size: 0.72rem;
+  color: var(--gp-muted);
+  margin-top: 0.1rem;
+}
+
+.gp-item-finder__lines {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.gp-item-finder__line {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.gp-item-finder__line-label {
+  flex: 0 0 auto;
+  padding: 0.08rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--gp-accent) 35%, transparent);
+  background: color-mix(in srgb, var(--gp-accent) 14%, transparent);
+  color: color-mix(in srgb, var(--gp-accent) 78%, #fff);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.gp-item-finder__line-text {
+  color: var(--gp-text);
+  min-width: 0;
+}
+
+.gp-item-finder__line--empty {
+  color: var(--gp-muted);
+  font-style: italic;
+}
+
+.gp-item-finder__more {
+  grid-column: 1 / -1;
+  padding: 0.5rem 0.25rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .gp-item-finder__results {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================================
+   UI overhaul — global polish (scrollbars, focus, selection)
+   ========================================================================== */
+
+::selection {
+  background: color-mix(in srgb, var(--gp-accent) 40%, transparent);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(148, 163, 190, 0.35) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 190, 0.3);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(148, 163, 190, 0.5);
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
 }

@@ -1,0 +1,3823 @@
+{
+ "version": 1,
+ "generatedBy": "tools/build-item-sources.mjs",
+ "itemCount": 130,
+ "byItemId": {
+  "Head_RManfish_Fig": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "hard",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "hard",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Head"
+   ]
+  },
+  "Shoulders_RManfish_FigAss": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "hard",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "hard",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Shoulders"
+   ]
+  },
+  "Chest_RManfish_FigWiz": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Chest"
+   ]
+  },
+  "Back_RManfish_FigCle": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Back"
+   ]
+  },
+  "Hands_RManfish_FigCle": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Hands"
+   ]
+  },
+  "Legs_RManfish_FigAss": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Legs"
+   ]
+  },
+  "Feet_RManfish_FigWiz": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Feet"
+   ]
+  },
+  "Head_RManfish_Wiz": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "hard",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "hard",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Head"
+   ]
+  },
+  "Back_RManfish_AssWiz": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Back"
+   ]
+  },
+  "Back_RManfish_WizCle": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Back"
+   ]
+  },
+  "Hands_RManfish_Wiz": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Hands"
+   ]
+  },
+  "Waist_RManfish_AssWiz": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Waist"
+   ]
+  },
+  "Waist_RManfish_WizCle": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Waist"
+   ]
+  },
+  "Feet_RManfish_Wiz": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Feet"
+   ]
+  },
+  "Head_RManfish_Ass": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "hard",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "hard",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Head"
+   ]
+  },
+  "Shoulders_RManfish_AssWiz": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "hard",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "hard",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Shoulders"
+   ]
+  },
+  "Chest_RManfish_AssCle": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Chest"
+   ]
+  },
+  "Hands_RManfish_Ass": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Hands"
+   ]
+  },
+  "Legs_RManfish_AssCle": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Legs"
+   ]
+  },
+  "Feet_RManfish_Ass": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Feet"
+   ]
+  },
+  "Shoulders_RManfish_WizCle": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "hard",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "hard",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Shoulders"
+   ]
+  },
+  "Chest_RManfish_Cle": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Chest"
+   ]
+  },
+  "Legs_RManfish_Cle": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Legs"
+   ]
+  },
+  "Head_RKobold_FigCle": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "hard",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "hard",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Head"
+   ]
+  },
+  "Shoulders_RKobold_Fig": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "hard",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "hard",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Shoulders"
+   ]
+  },
+  "Back_RKobold_FigWiz": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Back"
+   ]
+  },
+  "Hands_RKobold_FigWiz": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Hands"
+   ]
+  },
+  "Waist_RKobold_FigCle": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Waist"
+   ]
+  },
+  "Legs_RKobold_Fig": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ]
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Legs"
+   ]
+  },
+  "Feet_RKobold_FigAss": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Feet"
+   ]
+  },
+  "Head_RKobold_AssWiz": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "hard",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "hard",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Head"
+   ]
+  },
+  "Head_RKobold_WizCle": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "hard",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "hard",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Head"
+   ]
+  },
+  "Shoulders_RKobold_Wiz": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "hard",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "hard",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Shoulders"
+   ]
+  },
+  "Chest_RKobold_AssWiz": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Chest"
+   ]
+  },
+  "Hands_RKobold_WizCle": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Hands"
+   ]
+  },
+  "Legs_RKobold_AssWiz": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ]
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Legs"
+   ]
+  },
+  "Legs_RKobold_Wiz": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ]
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Legs"
+   ]
+  },
+  "Feet_RKobold_WizCle": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Feet"
+   ]
+  },
+  "Shoulders_RKobold_Ass": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "hard",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "hard",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Shoulders"
+   ]
+  },
+  "Back_RKobold_Ass": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Back"
+   ]
+  },
+  "Hands_RKobold_AssCle": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Hands"
+   ]
+  },
+  "Waist_RKobold_Ass": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Waist"
+   ]
+  },
+  "Feet_RKobold_AssCle": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Feet"
+   ]
+  },
+  "Chest_RKobold_Cle": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Chest"
+   ]
+  },
+  "Back_RKobold_Cle": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Back"
+   ]
+  },
+  "Waist_RKobold_Cle": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Waist"
+   ]
+  },
+  "Head_RBee_FigWiz": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "hard",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Head"
+   ]
+  },
+  "Shoulders_RBee_FigCle": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "hard",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Shoulders"
+   ]
+  },
+  "Chest_RBee_Fig": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Chest"
+   ]
+  },
+  "Back_RBee_FigAss": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Back"
+   ]
+  },
+  "Hands_RBee_FigAss": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Hands"
+   ]
+  },
+  "Legs_RBee_FigCle": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Legs"
+   ]
+  },
+  "Feet_RBee_Fig": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Feet"
+   ]
+  },
+  "Head_RBee_AssWiz": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "hard",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Head"
+   ]
+  },
+  "Head_RBee_WizCle": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "hard",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Head"
+   ]
+  },
+  "Shoulders_RBee_Wiz": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "hard",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Shoulders"
+   ]
+  },
+  "Chest_RBee_WizCle": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Chest"
+   ]
+  },
+  "Hands_RBee_AssWiz": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Hands"
+   ]
+  },
+  "Waist_RBee_Wiz": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Mage"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Waist"
+   ]
+  },
+  "Legs_RBee_WizCle": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Legs"
+   ]
+  },
+  "Feet_RBee_AssWiz": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Feet"
+   ]
+  },
+  "Shoulders_RBee_Ass": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "hard",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Shoulders"
+   ]
+  },
+  "Chest_RBee_AssCle": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Chest"
+   ]
+  },
+  "Back_RBee_AssCle": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Back"
+   ]
+  },
+  "Waist_RBee_AssCle": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Waist"
+   ]
+  },
+  "Legs_RBee_Ass": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Legs"
+   ]
+  },
+  "Hands_RBee_Cle": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Hands"
+   ]
+  },
+  "Feet_RBee_Cle": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Feet"
+   ]
+  },
+  "Sword_Craft": {
+   "world": [
+    {
+     "faction": "World faction",
+     "activities": [
+      "It's a Trap!",
+      "The Cliff Snout"
+     ]
+    }
+   ]
+  },
+  "Shield_Craft": {
+   "world": [
+    {
+     "faction": "World faction",
+     "activities": [
+      "It's a Trap!",
+      "The Cliff Snout"
+     ]
+    }
+   ]
+  },
+  "Bow_Craft": {
+   "world": [
+    {
+     "faction": "World faction",
+     "activities": [
+      "It's a Trap!",
+      "The Cliff Snout"
+     ]
+    }
+   ]
+  },
+  "Staff_Craft": {
+   "world": [
+    {
+     "faction": "World faction",
+     "activities": [
+      "It's a Trap!",
+      "The Cliff Snout"
+     ]
+    }
+   ]
+  },
+  "Fists_LightMonk": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ]
+    }
+   ]
+  },
+  "Head_RCrimson_FigAss": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ]
+    }
+   ]
+  },
+  "Head_RCrimson_AssCle": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Priest",
+      "Rogue"
+     ]
+    }
+   ]
+  },
+  "Head_RCrimson_Cle": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Priest"
+     ]
+    }
+   ]
+  },
+  "Shoulders_RCrimson_FigWiz": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Mage",
+      "Warrior"
+     ]
+    }
+   ]
+  },
+  "Shoulders_RCrimson_AssCle": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Priest",
+      "Rogue"
+     ]
+    }
+   ]
+  },
+  "Shoulders_RCrimson_Cle": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Priest"
+     ]
+    }
+   ]
+  },
+  "Chest_RCrimson_FigCle": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Priest",
+      "Warrior"
+     ]
+    }
+   ]
+  },
+  "Chest_RCrimson_Wiz": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Mage"
+     ]
+    }
+   ]
+  },
+  "Chest_RCrimson_Ass": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Rogue"
+     ]
+    }
+   ]
+  },
+  "Back_RCrimson_Fig": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Warrior"
+     ]
+    }
+   ]
+  },
+  "Back_RCrimson_AssWiz": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Mage",
+      "Rogue"
+     ]
+    }
+   ]
+  },
+  "Back_RCrimson_WizCle": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Priest",
+      "Rogue"
+     ]
+    }
+   ]
+  },
+  "Hands_RCrimson_Fig": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Warrior"
+     ]
+    }
+   ]
+  },
+  "Hands_RCrimson_Wiz": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Mage"
+     ]
+    }
+   ]
+  },
+  "Hands_RCrimson_Ass": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Rogue"
+     ]
+    }
+   ]
+  },
+  "Waist_RCrimson_FigAss": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ]
+    }
+   ]
+  },
+  "Feet_RCrimson_Wiz": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Mage",
+      "Priest"
+     ]
+    }
+   ]
+  },
+  "Waist_RCrimson_WizCle": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Mage",
+      "Priest"
+     ]
+    }
+   ]
+  },
+  "Waist_RCrimson_AssWiz": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Mage",
+      "Rogue"
+     ]
+    }
+   ]
+  },
+  "Legs_RCrimson_FigWiz": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Mage",
+      "Warrior"
+     ]
+    }
+   ]
+  },
+  "Legs_RCrimson_AssCle": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Priest",
+      "Rogue"
+     ]
+    }
+   ]
+  },
+  "Legs_RCrimson_Cle": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Priest"
+     ]
+    }
+   ]
+  },
+  "Feet_RCrimson_Ass": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Rogue"
+     ]
+    }
+   ]
+  },
+  "Trinket_Crimson": {
+   "world": [
+    {
+     "faction": "Crimson faction",
+     "activities": [
+      "Crimson Outpost",
+      "Crimson Magical Orbs",
+      "The Adjudant",
+      "West of the Fields",
+      "The Fieldkeeper",
+      "Coast Guards",
+      "The Crimson Outpost",
+      "One Big Piece"
+     ],
+     "classes": [
+      "Warrior"
+     ]
+    }
+   ]
+  },
+  "DA_Water": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    }
+   ],
+   "weaponTypes": [
+    "Dual Axes"
+   ]
+  },
+  "Halos_Totem": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    }
+   ],
+   "weaponTypes": [
+    "Halos"
+   ]
+  },
+  "Trinket_Manfish": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest",
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 5,
+     "zone": "Meridion"
+    },
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest",
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Trinket"
+   ]
+  },
+  "Glider_FlyingFish_Orange": {
+   "dungeons": [
+    {
+     "name": "Lost City of Mayda",
+     "difficulty": "both",
+     "lv": 5,
+     "zone": "Meridion"
+    }
+   ],
+   "weaponTypes": [
+    "Glider"
+   ]
+  },
+  "Axe_Boomerang": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    }
+   ],
+   "weaponTypes": [
+    "Axe"
+   ]
+  },
+  "Trinket_Kobold": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest",
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    },
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest",
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    },
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest",
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    },
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest",
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Trinket"
+   ]
+  },
+  "Scepter_Flamie": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "classes": [
+      "Priest"
+     ],
+     "lv": 7,
+     "zone": "Primevalley"
+    }
+   ],
+   "weaponTypes": [
+    "Scepter"
+   ]
+  },
+  "Glider_Bat_BlackWhite": {
+   "dungeons": [
+    {
+     "name": "Mine Estrone",
+     "difficulty": "both",
+     "lv": 7,
+     "zone": "Primevalley"
+    }
+   ],
+   "weaponTypes": [
+    "Glider"
+   ]
+  },
+  "Shield_OrbitWater": {
+   "dungeons": [
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    }
+   ],
+   "weaponTypes": [
+    "Shield"
+   ]
+  },
+  "Fists_WaterUppecut": {
+   "dungeons": [
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 8,
+     "zone": "Primevalley"
+    }
+   ],
+   "weaponTypes": [
+    "Fists"
+   ]
+  },
+  "Mount_Crab_Blue": {
+   "dungeons": [
+    {
+     "name": "Crabgantua's Gorge",
+     "difficulty": "both",
+     "lv": 8,
+     "zone": "Primevalley"
+    }
+   ],
+   "weaponTypes": [
+    "Mount"
+   ]
+  },
+  "GA_Craft": {
+   "dungeons": [
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Warrior"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    }
+   ],
+   "weaponTypes": [
+    "Two-Handed Axe"
+   ]
+  },
+  "Daggers_DuplicatePoison": {
+   "dungeons": [
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "classes": [
+      "Rogue"
+     ],
+     "lv": 10,
+     "zone": "Enripit"
+    }
+   ],
+   "weaponTypes": [
+    "Daggers"
+   ]
+  },
+  "Glider_Bat_WhiteBlack": {
+   "dungeons": [
+    {
+     "name": "Ratsar's Lair",
+     "difficulty": "both",
+     "lv": 10,
+     "zone": "Enripit"
+    }
+   ],
+   "weaponTypes": [
+    "Glider"
+   ]
+  },
+  "Trinket_Bee": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest",
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest",
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest",
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Trinket"
+   ]
+  },
+  "Spear_Goo": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    }
+   ],
+   "weaponTypes": [
+    "Spear"
+   ]
+  },
+  "Crescent_FlowerSpiral": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 12,
+     "zone": "Honeywoods"
+    }
+   ],
+   "weaponTypes": [
+    "Crescent"
+   ]
+  },
+  "Glider_Butterfly_Yellow": {
+   "dungeons": [
+    {
+     "name": "Trunk of the Hivetree",
+     "difficulty": "both",
+     "lv": 12,
+     "zone": "Honeywoods"
+    }
+   ],
+   "weaponTypes": [
+    "Glider"
+   ]
+  },
+  "Thrown_Seeds": {
+   "dungeons": [
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    },
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Thrown"
+   ]
+  },
+  "Sword_Swarm": {
+   "dungeons": [
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 13,
+     "zone": "Honeywoods"
+    }
+   ],
+   "weaponTypes": [
+    "Sword"
+   ]
+  },
+  "Mount_Ladybug_Red": {
+   "dungeons": [
+    {
+     "name": "Lady Bee's Palace",
+     "difficulty": "both",
+     "lv": 13,
+     "zone": "Honeywoods"
+    }
+   ],
+   "weaponTypes": [
+    "Mount"
+   ]
+  },
+  "Shield_Firebreath": {
+   "dungeons": [
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    }
+   ],
+   "weaponTypes": [
+    "Shield"
+   ]
+  },
+  "Spear_Eruption": {
+   "dungeons": [
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Rogue"
+     ],
+     "lv": 15,
+     "zone": "Azuram"
+    }
+   ],
+   "weaponTypes": [
+    "Spear"
+   ]
+  },
+  "Glider_Dragon_Lava": {
+   "dungeons": [
+    {
+     "name": "Ruins of Gorgon's Hollow",
+     "difficulty": "both",
+     "lv": 15,
+     "zone": "Azuram"
+    }
+   ],
+   "weaponTypes": [
+    "Glider"
+   ]
+  },
+  "Bow_BigGame": {
+   "dungeons": [
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Rogue"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Bow"
+   ]
+  },
+  "Book_WaterOrbs": {
+   "dungeons": [
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Priest"
+     ],
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Spellbook"
+   ]
+  },
+  "Glider_FlyingFish_Acid": {
+   "dungeons": [
+    {
+     "name": "Abyss of New Atlaan",
+     "difficulty": "both",
+     "lv": 16,
+     "zone": "Krisomal"
+    }
+   ],
+   "weaponTypes": [
+    "Glider"
+   ]
+  },
+  "GM_MassGrab": {
+   "dungeons": [
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Two-Handed Mace"
+   ]
+  },
+  "DS_Z1RBee_AssWiz": {
+   "dungeons": [
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "classes": [
+      "Mage",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Dual Sword"
+   ]
+  },
+  "Mount_Ladybug_Purple": {
+   "dungeons": [
+    {
+     "name": "Honeyzabeth's Hivetrunk",
+     "difficulty": "both",
+     "lv": 19,
+     "zone": "Nescent"
+    }
+   ],
+   "weaponTypes": [
+    "Mount"
+   ]
+  },
+  "Mace_Benediction": {
+   "dungeons": [
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Priest",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Mace"
+   ]
+  },
+  "DM_Multispin": {
+   "dungeons": [
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "classes": [
+      "Rogue",
+      "Warrior"
+     ],
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Dual Maces"
+   ]
+  },
+  "Mount_Skunk_04": {
+   "dungeons": [
+    {
+     "name": "Cheese Station",
+     "difficulty": "both",
+     "lv": 19,
+     "zone": "Eksod"
+    }
+   ],
+   "weaponTypes": [
+    "Mount"
+   ]
+  }
+ },
+ "unresolvedNames": [
+  "Fins of the First Fish Delicate Marine",
+  "Veil of the Royal Nymph"
+ ]
+}

@@ -70,6 +70,8 @@ GitHub Pages cannot enforce project-specific response headers. Use static HTML p
 - `gear-planner.js` and `gear-planner.css` contain the planner UI and behavior.
 - `game-data/extracted/res.light/data.cdb` is the main game data source.
 - `game-data/foe_defenses.json`, `game-data/dungeon_regions.json`, and `game-data/loot_tables.json` power combat previews and boss drop hints.
+- `game-data/wiki/item_sources.json` powers the **Find items** tab and the "where to get it" hints in the item picker. Regenerate it with `npm run build:item-sources` after updating the wiki exports.
+- `game-data/wiki/` also holds the raw community wiki exports (`farever_wiki_drops.json`, `farever_data.json`, unit names, talents, bestiary, maps, and item card art under `cards/`). Only `item_sources.json` is fetched at runtime.
 - `game-data/generated/cdb_pngs/` contains generated item, skill, unit, and UI icons.
 - `game-data/extracted/res/UI/` contains the few original UI atlas images still referenced directly.
 
