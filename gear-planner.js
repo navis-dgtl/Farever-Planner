@@ -174,6 +174,8 @@
   let lootTableItemExpansionMemo = null;
   /** `itemId` → `{ unitId, label }[]` from **`loot_tables.json`** × **`dungeonBossByUnitId`** (pre-filter). */
   let itemDungeonBossDropsByItemId = null;
+  /** `itemId` → `{ unitId, chance }[]` (chance 0..1, sorted desc) from walking **`loot_tables.json`** unit tables. */
+  let itemDropChancesByItemId = null;
   /** `faction` id (CDB / **`dungeon_regions`**) → sorted **dungeon display names** for every dungeon boss of that faction. */
   let dungeonBossLabelsByFactionId = null;
   /** `itemId` → wiki source payload (`game-data/wiki/item_sources.json`); null until loaded. */
@@ -1233,8 +1235,12 @@
   let itemTypeRowsById = null;
   /** `job` sheet rows by **`id`** — display names for craft subtitles. */
   let jobById = {};
-  /** `craft` sheet: **`item`** id → **`{ job, level }`** (one row per crafted gear item in CDB). */
+  /** `craft` sheet: **`item`** id → **`{ job, level, input?, cost?, slots? }`** (one row per crafted gear item in CDB). */
   let craftRecipeByItemId = {};
+  /** Reverse of {@link craftRecipeByItemId}: **material** item id → **`{ craftedItemId, count }[]`** ("used to craft"). */
+  let craftUsesByMaterialItemId = {};
+  /** Display names for craft **materials** (many are `CraftingComponent` rows excluded from **`itemById`**) — id → name. */
+  let craftMaterialNameById = {};
 
   /** `aptitude` sheet rows by id — used to simulate `generateItemAffixes` when `item.affixes` is empty. */
   /** @type {Record<string, object>} */
@@ -2918,6 +2924,18 @@
     }
 
     craftRecipeByItemId = {};
+    craftUsesByMaterialItemId = {};
+    craftMaterialNameById = {};
+    // Materials (`input[].item`) are frequently `CraftingComponent`/`Consumable` rows that the
+    // planner filters out of `itemById`, so resolve their names from the raw item sheet here.
+    const rawItemNameById = Object.create(null);
+    const rawItemSheet = sheetByName(cdb, "item");
+    if (rawItemSheet && rawItemSheet.lines) {
+      for (let ii = 0; ii < rawItemSheet.lines.length; ii++) {
+        const r = rawItemSheet.lines[ii];
+        if (r && typeof r.id === "string" && r.id) rawItemNameById[r.id] = itemDisplayName(r);
+      }
+    }
     const craftSheet = sheetByName(cdb, "craft");
     if (craftSheet && craftSheet.lines) {
       for (let ci = 0; ci < craftSheet.lines.length; ci++) {
@@ -2927,7 +2945,34 @@
         const jobId = typeof row.job === "string" && row.job.trim() ? row.job.trim() : "";
         const lv = row.level;
         if (!jobId || lv == null || !Number.isFinite(Number(lv))) continue;
-        craftRecipeByItemId[iid] = { job: jobId, level: Math.round(Number(lv)) };
+        const rec = { job: jobId, level: Math.round(Number(lv)) };
+        if (Array.isArray(row.input)) {
+          const inputs = [];
+          for (let ni = 0; ni < row.input.length; ni++) {
+            const inp = row.input[ni];
+            const mat = inp && typeof inp.item === "string" ? inp.item.trim() : "";
+            const cnt = inp ? Number(inp.count) : NaN;
+            if (!mat || !Number.isFinite(cnt) || cnt <= 0) continue;
+            inputs.push({ item: mat, count: Math.round(cnt) });
+          }
+          if (inputs.length) rec.input = inputs;
+        }
+        const cost = Number(row.cost);
+        if (Number.isFinite(cost) && cost > 0) rec.cost = Math.round(cost);
+        const slots = Number(row.slots);
+        if (Number.isFinite(slots) && slots > 0) rec.slots = Math.round(slots);
+        craftRecipeByItemId[iid] = rec;
+        if (rec.input) {
+          for (let ni = 0; ni < rec.input.length; ni++) {
+            const inp = rec.input[ni];
+            if (!craftUsesByMaterialItemId[inp.item]) craftUsesByMaterialItemId[inp.item] = [];
+            craftUsesByMaterialItemId[inp.item].push({ craftedItemId: iid, count: inp.count });
+            if (craftMaterialNameById[inp.item] == null) {
+              craftMaterialNameById[inp.item] =
+                rawItemNameById[inp.item] != null ? rawItemNameById[inp.item] : inp.item;
+            }
+          }
+        }
       }
     }
   }
@@ -3251,14 +3296,47 @@
     return jobId;
   }
 
-  /** Craft row from **`craft`** sheet — e.g. **`Level 1 Outfitter craft`**. */
-  function itemCraftRecipeSubtitle(item) {
-    if (!item || typeof item.id !== "string" || !itemFactionIsCraft(item)) return "";
-    const rec = craftRecipeByItemId[item.id];
+  /** Display name for a craft **material** — planner item, else raw-sheet name, else the id. */
+  function craftMaterialDisplayName(materialId) {
+    if (typeof materialId !== "string" || !materialId) return "";
+    const it = itemById[materialId];
+    if (it) return itemDisplayName(it);
+    if (craftMaterialNameById && craftMaterialNameById[materialId] != null) {
+      return craftMaterialNameById[materialId];
+    }
+    return materialId;
+  }
+
+  /** `8× Copper Ingot, 15× Sticky Fin, 1× Fragment of Water · 75 gold` — materials + gold for a recipe, or `""`. */
+  function craftRecipeMaterialsSuffix(rec) {
+    if (!rec || !Array.isArray(rec.input) || !rec.input.length) return "";
+    const parts = [];
+    for (let i = 0; i < rec.input.length; i++) {
+      const inp = rec.input[i];
+      if (!inp || typeof inp.item !== "string" || !Number.isFinite(inp.count)) continue;
+      parts.push(`${inp.count}× ${craftMaterialDisplayName(inp.item)}`);
+    }
+    if (!parts.length) return "";
+    let s = parts.join(", ");
+    if (Number.isFinite(rec.cost) && rec.cost > 0) s += ` · ${rec.cost} gold`;
+    return s;
+  }
+
+  /** `Level 1 Blacksmith craft — 8× Copper Ingot, … · 75 gold` for a recipe object, independent of item faction. */
+  function craftRecipeSubtitleText(rec) {
     if (!rec || rec.level == null || !Number.isFinite(rec.level)) return "";
     const jn = jobDisplayName(rec.job);
     if (!jn) return "";
-    return `Level ${Math.round(rec.level)} ${jn} craft`;
+    let s = `Level ${Math.round(rec.level)} ${jn} craft`;
+    const mats = craftRecipeMaterialsSuffix(rec);
+    if (mats) s += ` — ${mats}`;
+    return s;
+  }
+
+  /** Craft subtitle for the **item modal / slot tooltip** — gated to Craft-faction gear (weapons excluded). */
+  function itemCraftRecipeSubtitle(item) {
+    if (!item || typeof item.id !== "string" || !itemFactionIsCraft(item)) return "";
+    return craftRecipeSubtitleText(craftRecipeByItemId[item.id]);
   }
 
   /** Item modal / grid: dungeon drop line **or** craft job line (mutually exclusive for craft vs non-craft). */
@@ -3680,6 +3758,120 @@
     itemDungeonBossDropsByItemId = out;
   }
 
+  /** Max nested-`lootTable` recursion depth when accumulating drop chances (guards pathological data). */
+  const DROP_CHANCE_MAX_DEPTH = 4;
+
+  /**
+   * Accumulate per-item drop chances reachable from one loot table into **`chanceByItem`** (item id → 0..1).
+   * `visited` is a DFS-stack cycle guard (added on enter, removed on leave) so diamond re-entry still counts.
+   */
+  function accumulateLootTableChances(tableId, multiplier, depth, lootTables, chanceByItem, visited) {
+    const tid = typeof tableId === "string" ? tableId.trim() : "";
+    if (!tid || depth > DROP_CHANCE_MAX_DEPTH || visited.has(tid)) return;
+    const row = lootTables[tid];
+    if (!row || typeof row !== "object" || !Array.isArray(row.entries)) return;
+    visited.add(tid);
+    const entries = row.entries;
+    for (let ei = 0; ei < entries.length; ei++) {
+      const e = entries[ei];
+      if (!e || typeof e !== "object") continue;
+      const p = Number(e.proba);
+      const proba = Number.isFinite(p) && p > 0 ? p : 0;
+      if (!proba) continue;
+      const chance = multiplier * proba;
+      const iid = typeof e.item === "string" && e.item.trim() ? e.item.trim() : "";
+      if (iid) {
+        const prev = chanceByItem[iid] || 0;
+        chanceByItem[iid] = Math.min(1, prev + chance);
+      }
+      const nlt = typeof e.lootTable === "string" && e.lootTable.trim() ? e.lootTable.trim() : "";
+      if (nlt && depth < DROP_CHANCE_MAX_DEPTH) {
+        accumulateLootTableChances(nlt, chance, depth + 1, lootTables, chanceByItem, visited);
+      }
+    }
+    visited.delete(tid);
+  }
+
+  /**
+   * Builds **`itemDropChancesByItemId`** by walking every unit's `lootTableId` root in **`loot_tables.json`**.
+   * Parallel to {@link hydrateItemBossDropIndexFromLootTables} but keeps the per-unit **`proba`** product
+   * (approximate; ignores `conds`). Each item maps to **`{ unitId, chance }[]`** sorted by chance descending.
+   */
+  function hydrateItemDropChancesFromLootTables(payload) {
+    itemDropChancesByItemId = null;
+    if (!payload || typeof payload !== "object") return;
+    const lootTables = payload.lootTables;
+    const units = payload.units;
+    if (!lootTables || typeof lootTables !== "object" || !units || typeof units !== "object") return;
+    const byItem = Object.create(null);
+    const unitIds = Object.keys(units);
+    for (let ui = 0; ui < unitIds.length; ui++) {
+      const unitId = unitIds[ui];
+      const u = units[unitId];
+      const rootId =
+        u && typeof u.lootTableId === "string" && u.lootTableId.trim() ? u.lootTableId.trim() : "";
+      if (!rootId) continue;
+      const perUnit = Object.create(null);
+      accumulateLootTableChances(rootId, 1, 0, lootTables, perUnit, new Set());
+      const iids = Object.keys(perUnit);
+      for (let ii = 0; ii < iids.length; ii++) {
+        const iid = iids[ii];
+        if (!byItem[iid]) byItem[iid] = [];
+        byItem[iid].push({ unitId, chance: perUnit[iid] });
+      }
+    }
+    const keys = Object.keys(byItem);
+    for (let ki = 0; ki < keys.length; ki++) {
+      byItem[keys[ki]].sort((a, b) => b.chance - a.chance);
+    }
+    itemDropChancesByItemId = byItem;
+  }
+
+  /**
+   * Human-readable label for a drop-source unit: dungeon label for bosses, else the foe display name.
+   * Returns `""` when only an internal id is known (caller skips it).
+   */
+  function itemDropChanceUnitLabel(unitId) {
+    const id = String(unitId || "");
+    if (!id) return "";
+    if (dungeonBossByUnitId[id]) {
+      const lbl = foePlannerItemBossDropLabel(id);
+      if (lbl && lbl !== id) return lbl;
+    }
+    const lbl = foePlannerDisplayLabel(id);
+    return lbl && lbl !== id ? lbl : "";
+  }
+
+  /** `~35%` for a 0..1 chance; `<1%` for tiny-but-nonzero. */
+  function formatDropChancePercent(chance) {
+    const pct = chance * 100;
+    if (pct >= 1) return `~${Math.round(pct)}%`;
+    return "<1%";
+  }
+
+  /**
+   * Up to `limit` best drop sources for an item as display strings (`~35% from Nepsid Fighter`).
+   * Aggregates units sharing a label (keeps the highest chance for that label).
+   */
+  function itemDropChanceLines(item, limit) {
+    const cap = Number.isFinite(limit) && limit > 0 ? limit : 4;
+    if (!item || typeof item.id !== "string" || !itemDropChancesByItemId) return [];
+    const entries = itemDropChancesByItemId[item.id];
+    if (!Array.isArray(entries) || !entries.length) return [];
+    const byLabel = new Map();
+    for (let i = 0; i < entries.length; i++) {
+      const e = entries[i];
+      if (!e || typeof e.unitId !== "string" || !Number.isFinite(e.chance) || e.chance <= 0) continue;
+      const label = itemDropChanceUnitLabel(e.unitId);
+      if (!label) continue;
+      if (!byLabel.has(label) || byLabel.get(label) < e.chance) byLabel.set(label, e.chance);
+    }
+    return [...byLabel.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, cap)
+      .map(([label, chance]) => `${formatDropChancePercent(chance)} from ${label}`);
+  }
+
   /**
    * Comma-separated **dungeon names** (`dungeon_regions.dungeonName`) for drops: loot-table reachability when the item id
    * appears as **`item`** in exported tables, else **faction fallback** when the sheet has **`faction`** other than **`World`**.
@@ -3753,11 +3945,38 @@
    * difficulty, world activities) with the planner's own loot-table / craft hints.
    * @returns {{ label: string, text: string }[]}
    */
+  /** `Manfish Waistguard, Manfish Legguards` — crafted items that consume this item as a material (deduped, capped). */
+  function itemUsedToCraftText(item) {
+    if (!item || typeof item.id !== "string") return "";
+    const uses = craftUsesByMaterialItemId[item.id];
+    if (!Array.isArray(uses) || !uses.length) return "";
+    const seen = new Set();
+    const names = [];
+    for (let i = 0; i < uses.length; i++) {
+      const cid = uses[i] && uses[i].craftedItemId;
+      if (typeof cid !== "string" || !cid) continue;
+      const it = itemById[cid];
+      const nm = it ? itemDisplayName(it) : craftMaterialDisplayName(cid);
+      if (!nm || seen.has(nm)) continue;
+      seen.add(nm);
+      names.push(nm);
+    }
+    if (!names.length) return "";
+    const CAP = 6;
+    if (names.length <= CAP) return names.join(", ");
+    return `${names.slice(0, CAP).join(", ")} +${names.length - CAP} more`;
+  }
+
   function itemObtainLines(item) {
     const lines = [];
     if (!item) return lines;
-    const craftSub = itemCraftRecipeSubtitle(item);
+    // Not `itemCraftRecipeSubtitle` — the finder surfaces every recipe (potions, augments, trinkets,
+    // …), not just Craft-faction gear, matching the "Craftable" type-group filter.
+    const craftSub =
+      typeof item.id === "string" ? craftRecipeSubtitleText(craftRecipeByItemId[item.id]) : "";
     if (craftSub) lines.push({ label: "Craft", text: craftSub });
+    const usedToCraft = itemUsedToCraftText(item);
+    if (usedToCraft) lines.push({ label: "Material", text: `Used to craft: ${usedToCraft}` });
     const wiki = itemWikiSources(item);
     if (wiki && Array.isArray(wiki.dungeons) && wiki.dungeons.length) {
       const parts = wiki.dungeons.map((d) => {
@@ -3782,6 +4001,8 @@
       const sub = itemDungeonBossDropSubtitle(item);
       if (sub) lines.push({ label: "Dungeons", text: sub });
     }
+    const drops = itemDropChanceLines(item, 4);
+    if (drops.length) lines.push({ label: "Drops", text: drops.join(" · ") });
     return lines;
   }
 
@@ -10897,7 +11118,13 @@
     { key: "weapon", label: "Weapons" },
     { key: "enchant", label: "Enchants & augments" },
     { key: "consumable", label: "Consumables" },
+    { key: "craftable", label: "Craftable" },
   ];
+
+  /** `true` when the item has a craft recipe (used by the "Craftable" item-finder group). */
+  function itemIsCraftable(it) {
+    return !!(it && typeof it.id === "string" && craftRecipeByItemId[it.id]);
+  }
 
   function itemFinderGroupForItem(it) {
     const t = typeof it.type === "string" ? it.type : "";
@@ -10988,7 +11215,11 @@
       let totalMatches = 0;
       for (const it of itemLines) {
         if (!it || it.id == null || !itemHasDisplayName(it)) continue;
-        if (group !== "all" && itemFinderGroupForItem(it) !== group) continue;
+        if (group === "craftable") {
+          if (!itemIsCraftable(it)) continue;
+        } else if (group !== "all" && itemFinderGroupForItem(it) !== group) {
+          continue;
+        }
         const lines = itemObtainLines(it);
         if (onlySourced && !lines.length) continue;
         if (!itemMatchesQuery(it, q)) continue;
@@ -15997,6 +16228,26 @@
     get itemByIdRef() {
       return itemById;
     },
+    /** Craft recipe (`{ job, level, input?, cost?, slots? }`) for an item id, or `undefined`. */
+    craftRecipeForItemId(itemId) {
+      return craftRecipeByItemId[itemId];
+    },
+    /** Crafted items that consume this material id: `[{ craftedItemId, count }]` or `undefined`. */
+    craftUsesForMaterialId(materialId) {
+      return craftUsesByMaterialItemId[materialId];
+    },
+    /** Obtainability lines (`{ label, text }[]`) shown on item finder cards for an item id. */
+    itemObtainLinesForItemId(itemId) {
+      return itemObtainLines(itemById[itemId] || null);
+    },
+    /** Rebuild {@link itemDropChancesByItemId} from a loot payload (mirrors `main()` hydration). */
+    hydrateItemDropChancesForTest(payload) {
+      hydrateItemDropChancesFromLootTables(payload);
+    },
+    /** Drop sources (`[{ unitId, chance }]`, sorted desc) for an item id, or `undefined`. */
+    itemDropChancesForItemId(itemId) {
+      return itemDropChancesByItemId ? itemDropChancesByItemId[itemId] : undefined;
+    },
     /** Auditing: count of distinct skill ids surfaced by **`collectPlannerSurfaceSkillIds`** (gear grants + class + talents). */
     plannerSurfaceSkillCount() {
       return collectPlannerSurfaceSkillIds().size;
@@ -16215,9 +16466,11 @@
         validateLootTablesPayload(lootPayload)
       );
       hydrateItemBossDropIndexFromLootTables(lootPayload);
+      hydrateItemDropChancesFromLootTables(lootPayload);
     } catch (e) {
       lootTableItemExpansionMemo = null;
       itemDungeonBossDropsByItemId = null;
+      itemDropChancesByItemId = null;
       recordPlannerDiagnostic(
         "warning",
         "Loot table data unavailable",
